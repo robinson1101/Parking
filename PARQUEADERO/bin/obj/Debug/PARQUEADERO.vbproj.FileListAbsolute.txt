@@ -1,0 +1,798 @@
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\COPIA DE PROGRAMA PARQUEADER\con plena  moto\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\version def. parqueadero\19 NOV\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\Nueva carpeta\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO 192168029\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO 192168029\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO 192168029\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero 7 nov\ultima copia lavadero doña helena\PARQUEADERO 192168029\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojResolveAssemblyReference.cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.Cache
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\uno\Documents\software skynet 2016\PROGRAMA TURNOS\lavadero suba\19 enero suba\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\17 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\19 de marzo\18 MARZO NOCHE\18 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\23 de marzo\22 de marzo\20 de marzo\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\user\Documents\lavaderos\lavadero calle 94 fredy\LAVADERO 27 DE MARZO\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\CVR\Desktop\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\CVR\Desktop\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+D:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+H:\mio de todo\codigo ferney\JUNIO 6\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.COBRAR.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Form8.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Google.Protobuf.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\Renci.SshNet.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\MySql.Data.xml
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\DESKTOP\Desktop\PARQUEADEROlocalhost\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
