@@ -40,13 +40,36 @@ Public Class Form6
         Try
 
             Form1.TextBox1.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(1).Value
-            Form1.TextBox2.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(2).Value
-            Form1.TextBox4.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(3).Value
-            Form1.TextBox5.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(4).Value
-            Form1.TextBox11.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(7).Value
+            TextBox2.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(2).Value
+            TextBox4.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(3).Value
+            TextBox5.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(4).Value
+            TextBox11.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(7).Value
             Me.Close()
         Catch ex As NullReferenceException
 
         End Try
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim conexion As New class_int
+        Dim datos As New class_datos
+
+        datos.placas = TextBox1.Text
+        datos.documento = TextBox4.Text
+        datos.cliente = TextBox2.Text
+        datos.telefono = TextBox5.Text
+
+
+
+        If conexion.insertardatos3(datos) Then
+            _dtsdatos.Reset()
+            consulta_datos()
+            DataGridView1.DataSource = _dtvdatos
+            MessageBox.Show(" Cliente guardado")
+        Else
+            MessageBox.Show("no se realizo registro")
+        End If
+
+
     End Sub
 End Class
