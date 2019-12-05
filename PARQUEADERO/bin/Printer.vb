@@ -1,4 +1,0 @@
-﻿
-Class Printer
-
-End Class
