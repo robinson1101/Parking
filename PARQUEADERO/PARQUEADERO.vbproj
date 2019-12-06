@@ -138,6 +138,11 @@
     <Compile Include="CIERRE_CAJA2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CIERRE_CAJA_AZ.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CIERRE_CAJA_AZ.resx</DependentUpon>
+    </Compile>
     <Compile Include="Class1.vb" />
     <Compile Include="class_datos.vb" />
     <Compile Include="class_int.vb" />
@@ -276,7 +281,10 @@
     <EmbeddedResource Include="CIERRE_CAJA2.resx">
       <DependentUpon>CIERRE_CAJA2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIERRE_CAJA_AZ.resx" />
+    <EmbeddedResource Include="CIERRE_CAJA_AZ.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CIERRE_CAJA_AZ.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="COBRAR.resx">
       <DependentUpon>COBRAR.vb</DependentUpon>
     </EmbeddedResource>
@@ -430,7 +438,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\automobile.png" />
     <Content Include="Resources\boton_inicio.png" />
+    <None Include="Resources\car.png" />
+    <None Include="Resources\van.png" />
+    <None Include="Resources\motocicleta-96.png" />
     <None Include="Resources\LOGO SKYNET.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -32,6 +32,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer4.Start()
 
+
         If conexion_global() Then
             'MessageBox.Show("conectado")
         Else
@@ -412,13 +413,6 @@ Public Class Form1
 
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label19_Click(sender As Object, e As EventArgs)
-
-    End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Close()
@@ -734,24 +728,6 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Label19_Click_1(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-
-    End Sub
-
-    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged
-
-
-
-    End Sub
-
-    Private Sub Timer4_Tick(sender As Object, e As EventArgs) Handles Timer4.Tick
-
-    End Sub
-
     Private Sub CheckBox13_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox13.CheckedChanged
         If CheckBox13.Checked = True Then
             CheckBox13.BackColor = Color.DarkRed
@@ -806,6 +782,23 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub TextBox8_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox8.KeyPress
+
+        If (Char.IsDigit(e.KeyChar)) Then
+
+            e.Handled = False
+
+        ElseIf (Char.IsControl(e.KeyChar)) Then
+
+            e.Handled = False
+
+        Else
+
+            e.Handled = True
+
+        End If
+    End Sub
+
     Private Sub CheckBox15_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox15.CheckedChanged
         If CheckBox15.Checked = True Then
             CheckBox15.BackColor = Color.DarkRed
@@ -850,41 +843,6 @@ Public Class Form1
         Me.Hide()
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
-    Private Sub Label25_Click(sender As Object, e As EventArgs) Handles Label25.Click
-
-    End Sub
-
-    Private Sub Label29_Click(sender As Object, e As EventArgs) Handles Label29.Click
-
-    End Sub
-
-    Private Sub Label30_Click(sender As Object, e As EventArgs) Handles Label30.Click
-
-    End Sub
-
-    Private Sub Label31_Click(sender As Object, e As EventArgs) Handles Label31.Click
-
-    End Sub
-
-    Private Sub ComboBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ComboBox1.SelectedIndexChanged
-
-    End Sub
-
-    Private Sub Label32_Click(sender As Object, e As EventArgs) Handles Label32.Click
-
-    End Sub
-
-    Private Sub GroupBox4_Enter(sender As Object, e As EventArgs) Handles GroupBox4.Enter
-
-    End Sub
-
-    Private Sub Label3_Click(sender As Object, e As EventArgs)
-
-    End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
 
