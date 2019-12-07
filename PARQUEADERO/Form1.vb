@@ -874,13 +874,6 @@ Public Class Form1
 
     End Sub
 
-    Private Sub DataGridView1_CellEnter(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellEnter
-
-    End Sub
-
-    Private Sub DataGridView1_Enter(sender As Object, e As EventArgs) Handles DataGridView1.Enter
-
-    End Sub
 
     Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs)
         MessageBox.Show("hola")

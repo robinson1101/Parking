@@ -23,11 +23,12 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.Label38 = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -35,7 +36,6 @@ Partial Class Form1
         Me.CheckBox23 = New System.Windows.Forms.CheckBox()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.CheckBox22 = New System.Windows.Forms.CheckBox()
-        Me.Label38 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button8 = New System.Windows.Forms.Button()
@@ -119,6 +119,7 @@ Partial Class Form1
         Me.LabelTitulo = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -148,7 +149,7 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.PowderBlue
-        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.PictureBox4)
         Me.GroupBox1.Controls.Add(Me.PictureBox3)
         Me.GroupBox1.Controls.Add(Me.PictureBox2)
@@ -156,7 +157,6 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.CheckBox23)
         Me.GroupBox1.Controls.Add(Me.Label39)
         Me.GroupBox1.Controls.Add(Me.CheckBox22)
-        Me.GroupBox1.Controls.Add(Me.Label38)
         Me.GroupBox1.Controls.Add(Me.Label37)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Button8)
@@ -184,14 +184,29 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
-        'Label3
+        'GroupBox2
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(909, 317)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(121, 13)
-        Me.Label3.TabIndex = 69
-        Me.Label3.Text = "CANT DE ARTICULOS:"
+        Me.GroupBox2.BackColor = System.Drawing.Color.MediumTurquoise
+        Me.GroupBox2.Controls.Add(Me.Label38)
+        Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox2.Location = New System.Drawing.Point(840, 260)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(178, 117)
+        Me.GroupBox2.TabIndex = 70
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "SELECCIONADOS"
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 48.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.Red
+        Me.Label38.Location = New System.Drawing.Point(59, 29)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(68, 73)
+        Me.Label38.TabIndex = 65
+        Me.Label38.Text = "0"
         '
         'PictureBox4
         '
@@ -276,16 +291,6 @@ Partial Class Form1
         Me.CheckBox22.Text = "AUTOMOVIL"
         Me.CheckBox22.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         Me.CheckBox22.UseVisualStyleBackColor = False
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(950, 337)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(39, 42)
-        Me.Label38.TabIndex = 65
-        Me.Label38.Text = "0"
         '
         'Label37
         '
@@ -423,7 +428,7 @@ Partial Class Form1
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(585, 308)
+        Me.Label27.Location = New System.Drawing.Point(585, 304)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(238, 29)
         Me.Label27.TabIndex = 46
@@ -431,11 +436,12 @@ Partial Class Form1
         '
         'TextBox10
         '
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.BackColor = System.Drawing.Color.Black
+        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox10.ForeColor = System.Drawing.Color.Red
-        Me.TextBox10.Location = New System.Drawing.Point(590, 337)
+        Me.TextBox10.Location = New System.Drawing.Point(590, 333)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(340, 44)
+        Me.TextBox10.Size = New System.Drawing.Size(244, 47)
         Me.TextBox10.TabIndex = 45
         '
         'Label20
@@ -450,19 +456,19 @@ Partial Class Form1
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(585, 232)
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(586, 237)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(340, 29)
+        Me.Label28.Size = New System.Drawing.Size(242, 20)
         Me.Label28.TabIndex = 46
         Me.Label28.Text = "SERVICIOS ADICIONALES :"
         '
         'TextBox8
         '
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(590, 264)
+        Me.TextBox8.Location = New System.Drawing.Point(590, 260)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(426, 44)
+        Me.TextBox8.Size = New System.Drawing.Size(244, 44)
         Me.TextBox8.TabIndex = 42
         '
         'Button6
@@ -515,7 +521,7 @@ Partial Class Form1
         Me.ComboBox1.Location = New System.Drawing.Point(40, 271)
         Me.ComboBox1.MaxDropDownItems = 50
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(422, 41)
+        Me.ComboBox1.Size = New System.Drawing.Size(381, 41)
         Me.ComboBox1.TabIndex = 7
         Me.ComboBox1.Text = "SELECCIONE OPERARIO"
         '
@@ -910,8 +916,8 @@ Partial Class Form1
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
@@ -1196,10 +1202,13 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckBox12)
         Me.Name = "Form1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1305,5 +1314,5 @@ Partial Class Form1
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents GroupBox2 As GroupBox
 End Class
