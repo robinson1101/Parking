@@ -1,5 +1,5 @@
 ﻿Public Class class_datos
-    Private Factura As Integer
+    Private _Factura As Integer
     Private _placa As String
     Private _placas As String
     Private _marca As String
