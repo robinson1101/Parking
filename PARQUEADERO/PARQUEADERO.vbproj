@@ -125,6 +125,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormActualizar.Designer.vb">
+      <DependentUpon>FormActualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormActualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="cierre.vb" />
     <Compile Include="CIERRE_CAJA.Designer.vb">
       <DependentUpon>CIERRE_CAJA.vb</DependentUpon>
@@ -275,6 +281,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormActualizar.resx">
+      <DependentUpon>FormActualizar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CIERRE_CAJA.resx">
       <DependentUpon>CIERRE_CAJA.vb</DependentUpon>
     </EmbeddedResource>
@@ -438,6 +447,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\izquierdo20.png" />
     <None Include="Resources\automobile.png" />
     <Content Include="Resources\boton_inicio.png" />
     <None Include="Resources\car.png" />

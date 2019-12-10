@@ -838,3 +838,4 @@ C:\Users\ROBINSON\Documents\GitHub\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.vbp
 C:\Users\ROBINSON\Documents\GitHub\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.exe
 C:\Users\ROBINSON\Documents\GitHub\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.xml
 C:\Users\ROBINSON\Documents\GitHub\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\ROBINSON\Documents\GitHub\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form_actualizar.resources

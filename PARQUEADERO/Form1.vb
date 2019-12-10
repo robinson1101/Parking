@@ -48,7 +48,7 @@ Public Class Form1
         consulta_datos()
         consulta_datos1()
         DataGridView1.DataSource = _dtvdatos
-
+        DataGridView1.Columns(1).MinimumWidth = 5
         ComboBox1.DataSource = _dtsoperario.Tables("operarios")
         ComboBox1.DisplayMember = "nombre"
         Try
@@ -415,7 +415,15 @@ Public Class Form1
 
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        Close()
+        'Me.Close()
+        Dim Msg As MsgBoxResult
+        Msg = MsgBox("         ESTA A PUNTO DE CERRAR EL PROGRAMA" & vbCrLf & "" & vbCrLf & "         ¿Desea salir?..", vbYesNo, "DETENER APLICATIVO")
+        If Msg = MsgBoxResult.Yes Then
+            Application.ExitThread()
+        Else
+            Exit Sub
+        End If
+
     End Sub
 
     Private num As Integer = 0
@@ -774,6 +782,10 @@ Public Class Form1
         If CheckBox18.Checked = True Then
             CheckBox18.BackColor = Color.DarkRed
         End If
+    End Sub
+
+    Private Sub ClickAquiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClickAquiToolStripMenuItem.Click
+        Form_actualizar.ShowDialog()
     End Sub
 
     Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged

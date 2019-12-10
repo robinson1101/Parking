@@ -28,7 +28,10 @@ Module mod_consulta
     Public Sub consulta_datos()
         Try
             conexion_global()
-            _adaptador.SelectCommand = New MySqlCommand("select `Factura` as 'FACTURA', `placa` AS 'PLACA', `hora_ingreso` AS 'HORA DE INGRESO', `tipo` AS 'TIPO', `tarifa` AS 'TARIFA', `hora_salida` AS 'HORA DE SALIDA', `tiempo` AS 'TIEMPO', `total` AS 'TOTAL', `estado` AS 'ESTADO', `servicio` AS 'SERVICIO', `nombre_cliente` AS 'NOMBRE DE CLIENTE', `cedula` AS 'CEDULA', `telefono` AS 'TELEFONO', `operario` AS 'OPERARIO', `liquidado` AS 'LIQUIDADO', `liq_vendedor` AS 'LIQ VENDEDOR' from ingreso_vehiculos where hora_salida =0 and estado=0 ", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("select `Factura` as 'FACTURA', `placa` AS 'PLACA', `hora_ingreso` AS 'HORA DE INGRESO',
+`tipo` AS 'TIPO', `tarifa` AS 'TARIFA', `hora_salida` AS 'HORA DE SALIDA', `tiempo` AS 'TIEMPO', `total` AS 'TOTAL', `estado` AS 'ESTADO', `servicio` AS 'SERVICIO',
+`nombre_cliente` AS 'NOMBRE DE CLIENTE', `cedula` AS 'CEDULA', `telefono` AS 'TELEFONO', `operario` AS 'OPERARIO', `liquidado` AS 'LIQUIDADO',
+`liq_vendedor` AS 'LIQ VENDEDOR' from ingreso_vehiculos where hora_salida =0 and estado=0 ", _conexion)
             _adaptador.Fill(_dtsdatos)
             _dtvdatos.Table = _dtsdatos.Tables(0)
             _conexion.Open()
