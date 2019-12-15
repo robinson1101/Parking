@@ -30,6 +30,8 @@ Public Class Form1
     Public verdata, verSdata, comArtdata, codata, solidata, endata, sadata, candata, datostotal, datositem As New DataSet
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Label18.Text = consulta_empresa()
         Timer4.Start()
 
 

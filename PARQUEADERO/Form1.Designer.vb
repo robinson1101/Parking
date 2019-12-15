@@ -977,16 +977,15 @@ Partial Class Form1
         '
         'Label18
         '
-        Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Chocolate
         Me.Label18.Location = New System.Drawing.Point(-6, 5)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(737, 42)
+        Me.Label18.Size = New System.Drawing.Size(722, 42)
         Me.Label18.TabIndex = 16
-        Me.Label18.Text = "PARQUEADERO Y LAVADERO MOMPY"
+        Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ContextMenuStrip1
         '

@@ -25,6 +25,7 @@ Module mod_consulta
     Public _dtvdatosp As New DataView
 
 
+
     Public Sub consulta_datos()
         Try
             conexion_global()
@@ -167,5 +168,26 @@ Module mod_consulta
             cerrar()
         End Try
     End Sub
+
+    Public Function consulta_empresa()
+        Dim empresa As String = ""
+        Try
+
+            conexion_global()
+            Dim cmd As New MySqlCommand("SELECT company_title from title", _conexion)
+            _conexion.Open()
+            Dim leer As MySqlDataReader = cmd.ExecuteReader()
+            If leer.Read Then
+                empresa = leer(0)
+            End If
+
+        Catch ex As MySqlException
+            MessageBox.Show(ex.Message)
+        Finally
+            cerrar()
+        End Try
+        Return empresa
+    End Function
+
 
 End Module

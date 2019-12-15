@@ -1,18 +1,28 @@
 ﻿Imports System.Configuration
+Imports MySql
 Imports MySql.Data.MySqlClient
 
 Public Class Form_actualizar
-    Dim cadena As String = ConfigurationManager.ConnectionStrings("cadenaMysql").ToString
-    Dim varconex, conexion, conexion2, conexion3, conexionIns As New MySqlConnection(cadena)
+    Dim _adaptador As New MySqlDataAdapter
 
-    Private Sub TextBoxNombreEmpresa_TextChanged(sender As Object, e As EventArgs) Handles TextBoxNombreEmpresa.TextChanged
+    Private Sub _TextChanged(sender As Object, e As EventArgs) Handles TextBoxNombreEmpresa.TextChanged
         Form1.Label18.Text = TextBoxNombreEmpresa.Text
     End Sub
 
     Private Sub ButtonNuevo_Click(sender As Object, e As EventArgs) Handles ButtonNuevo.Click
-        Dim insercion As String
-        insercion = "INSERT INTO `title`(`id_Title`, `company_title`) VALUES (null,'" & TextBoxNombreEmpresa.Text & "')"
+        If TextBoxNombreEmpresa.Text <> "" Then
 
 
+            conexion_global()
+            _adaptador.InsertCommand = New MySqlCommand("update title set company_title=@empresa")
+            _adaptador.InsertCommand.Parameters.Add("@empresa", MySqlDbType.VarChar, 50).Value = TextBoxNombreEmpresa.Text
+            _conexion.Open()
+            _adaptador.InsertCommand.Connection = _conexion
+            _adaptador.InsertCommand.ExecuteNonQuery()
+
+            MsgBox("NOMBRE MODIFICADO CORRECTAMENTE")
+        Else
+            MsgBox("PORFAVOR INGRESE UN VALOR VALIDO")
+        End If
     End Sub
 End Class
