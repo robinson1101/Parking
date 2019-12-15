@@ -32,6 +32,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Label18.Text = consulta_empresa()
+        inicio.Label3.Text = consulta_empresa()
         Timer4.Start()
 
 

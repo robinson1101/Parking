@@ -21,8 +21,10 @@ Public Class Form_actualizar
             _adaptador.InsertCommand.ExecuteNonQuery()
 
             MsgBox("NOMBRE MODIFICADO CORRECTAMENTE")
+            Me.Close()
         Else
             MsgBox("PORFAVOR INGRESE UN VALOR VALIDO")
         End If
+
     End Sub
 End Class

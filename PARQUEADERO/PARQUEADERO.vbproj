@@ -449,6 +449,7 @@
     <Content Include="manz.ico" />
     <None Include="Resources\izquierdo20.png" />
     <None Include="Resources\automobile.png" />
+    <None Include="Resources\atomo.gif" />
     <Content Include="Resources\boton_inicio.png" />
     <None Include="Resources\car.png" />
     <None Include="Resources\van.png" />
