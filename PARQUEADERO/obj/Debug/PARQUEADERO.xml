@@ -57,6 +57,31 @@ PARQUEADERO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:PARQUEADERO.My.Resources.Resources.repairing_service">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.Sequenza_Ingranaggi">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.settings">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.source">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.stricted">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:PARQUEADERO.My.Resources.Resources.van">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.

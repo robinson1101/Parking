@@ -447,6 +447,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\stricted.gif" />
+    <None Include="Resources\source.gif" />
+    <None Include="Resources\Sequenza-Ingranaggi.gif" />
+    <None Include="Resources\repairing-service.png" />
+    <None Include="Resources\settings.png" />
     <None Include="Resources\izquierdo20.png" />
     <None Include="Resources\automobile.png" />
     <None Include="Resources\atomo.gif" />

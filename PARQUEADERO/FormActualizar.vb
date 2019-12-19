@@ -27,4 +27,24 @@ Public Class Form_actualizar
         End If
 
     End Sub
+    Private Sub ButtonNombreEmp_Click_1(sender As Object, e As EventArgs) Handles ButtonNombreEmp.Click
+        TextBoxNombreEmpresa.Focus()
+        PanelPrincipal.Visible = True
+        PanelDos.Visible = False
+
+    End Sub
+
+    Private Sub ButtonDos_Click(sender As Object, e As EventArgs) Handles ButtonDos.Click
+        PanelPrincipal.Visible = False
+        PanelDos.Visible = True
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        PanelPrincipal.Visible = False
+        PanelDos.Visible = False
+    End Sub
+
+    Private Sub Form_actualizar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

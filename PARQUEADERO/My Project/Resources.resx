@@ -130,8 +130,14 @@
   <data name="van" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\van.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="atomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="motocicleta-96" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motocicleta-96.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="source" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\source.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGO SKYNET" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO SKYNET.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,7 +145,16 @@
   <data name="boton_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton_inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="atomo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\atomo.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Sequenza-Ingranaggi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sequenza-Ingranaggi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="repairing-service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\repairing-service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

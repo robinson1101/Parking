@@ -31,6 +31,8 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+
+
         Label18.Text = consulta_empresa()
         inicio.Label3.Text = consulta_empresa()
         Timer4.Start()
@@ -787,8 +789,11 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub ClickAquiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClickAquiToolStripMenuItem.Click
-        Form_actualizar.ShowDialog()
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+
+        Form_actualizar.Show()
+
     End Sub
 
     Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged
