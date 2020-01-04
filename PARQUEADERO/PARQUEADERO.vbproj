@@ -447,6 +447,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\settings1.png" />
+    <None Include="Resources\repairing2.png" />
     <None Include="Resources\stricted.gif" />
     <None Include="Resources\source.gif" />
     <None Include="Resources\Sequenza-Ingranaggi.gif" />

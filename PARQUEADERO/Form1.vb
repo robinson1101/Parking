@@ -796,6 +796,25 @@ Public Class Form1
 
     End Sub
 
+    Private Sub PictureBox5_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox5.MouseMove
+        'CODIGO PARA PONER EFECTO AL PASAR EL MOUSE POR LA IMAGEN
+
+        ' PictureBox5.BackColor = Color.Blue
+        'PictureBox5.ForeColor = Color.Transparent
+
+        Me.PictureBox5.Image = My.Resources.settings1
+        Label3.Visible = True
+    End Sub
+
+    Private Sub PictureBox5_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox5.MouseLeave
+        'CODIGO PARA QUITAR EFECTO AL PASAR EL MOUSE POR LA IMAGEN
+
+        ' PictureBox5.BackColor = DefaultBackColor
+        ' PictureBox5.ForeColor = DefaultBackColor
+        Me.PictureBox5.Image = My.Resources.repairing_service
+        Label3.Visible = False
+    End Sub
+
     Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged
         If CheckBox19.Checked = True Then
             CheckBox19.BackColor = Color.DarkRed
