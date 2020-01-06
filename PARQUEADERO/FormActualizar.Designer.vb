@@ -38,6 +38,7 @@ Partial Class Form_actualizar
         Me.PanelDos = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.PanelPrincipal.SuspendLayout()
         Me.PanelContenedor.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -147,6 +148,7 @@ Partial Class Form_actualizar
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.PanelPrincipal)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(330, 3)
@@ -186,6 +188,16 @@ Partial Class Form_actualizar
         Me.ToolTip1.SetToolTip(Me.Button1, "Mostrar fondo")
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(20, 338)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(448, 25)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "SISTEMA DE PARQUEADERO Y LAVADERO"
+        '
         'Form_actualizar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -209,6 +221,7 @@ Partial Class Form_actualizar
         Me.PanelPrincipal.PerformLayout()
         Me.PanelContenedor.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -229,4 +242,5 @@ Partial Class Form_actualizar
     Friend WithEvents PanelDos As Panel
     Friend WithEvents Button1 As Button
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents Label2 As Label
 End Class

@@ -420,7 +420,7 @@ Public Class Form1
 
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        'Me.Close()
+
         Dim Msg As MsgBoxResult
         Msg = MsgBox("         ESTA A PUNTO DE CERRAR EL PROGRAMA" & vbCrLf & "" & vbCrLf & "         ¿Desea salir?..", vbYesNo, "DETENER APLICATIVO")
         If Msg = MsgBoxResult.Yes Then
@@ -813,6 +813,62 @@ Public Class Form1
         ' PictureBox5.ForeColor = DefaultBackColor
         Me.PictureBox5.Image = My.Resources.repairing_service
         Label3.Visible = False
+    End Sub
+
+    Private Sub PictureBox4_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox4.MouseLeave
+        Me.PictureBox4.Image = My.Resources.automobile
+        CheckBox22.ForeColor = Color.White
+    End Sub
+
+    Private Sub PictureBox4_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox4.MouseMove
+        Me.PictureBox4.Image = My.Resources.automobile3
+        CheckBox22.ForeColor = Color.Red
+    End Sub
+
+    Private Sub PictureBox3_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox3.MouseLeave
+        Me.PictureBox3.Image = My.Resources.suv
+        CheckBox23.ForeColor = Color.White
+    End Sub
+
+    Private Sub PictureBox3_MouseMove(sender As Object, e As MouseEventArgs) Handles PictureBox3.MouseMove
+        Me.PictureBox3.Image = My.Resources.suv1
+        CheckBox23.ForeColor = Color.Red
+    End Sub
+
+
+    Private Sub PictureBox2_MouseLeave_1(sender As Object, e As EventArgs) Handles PictureBox2.MouseLeave
+        Me.PictureBox2.Image = My.Resources.motorcycle0
+        CheckBox2.ForeColor = Color.White
+    End Sub
+
+    Private Sub PictureBox2_MouseMove_1(sender As Object, e As MouseEventArgs) Handles PictureBox2.MouseMove
+        Me.PictureBox2.Image = My.Resources.motorcycle
+        CheckBox2.ForeColor = Color.Red
+    End Sub
+
+    Private Sub CheckBox22_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox22.CheckedChanged
+        If CheckBox22.Checked = True Then
+            Me.PictureBox4.BorderStyle = BorderStyle.Fixed3D
+        Else
+            Me.PictureBox4.BorderStyle = BorderStyle.None
+        End If
+
+    End Sub
+
+    Private Sub CheckBox23_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox23.CheckedChanged
+        If CheckBox23.Checked = True Then
+            Me.PictureBox3.BorderStyle = BorderStyle.Fixed3D
+        Else
+            Me.PictureBox3.BorderStyle = BorderStyle.None
+        End If
+    End Sub
+
+    Private Sub CheckBox2_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox2.CheckedChanged
+        If CheckBox2.Checked = True Then
+            Me.PictureBox2.BorderStyle = BorderStyle.Fixed3D
+        Else
+            Me.PictureBox2.BorderStyle = BorderStyle.None
+        End If
     End Sub
 
     Private Sub CheckBox19_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox19.CheckedChanged

@@ -32,6 +32,16 @@ PARQUEADERO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:PARQUEADERO.My.Resources.Resources.automobile2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.automobile3">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:PARQUEADERO.My.Resources.Resources.boton_inicio">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -53,6 +63,26 @@ PARQUEADERO
 </summary>
 </member>
 <member name="P:PARQUEADERO.My.Resources.Resources.motocicleta_96">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.motocicleta_961">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.motorcycle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.motorcycle0">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.PRUEBA">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -88,6 +118,21 @@ PARQUEADERO
 </summary>
 </member>
 <member name="P:PARQUEADERO.My.Resources.Resources.stricted">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.suv">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.suv__1_">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.suv1">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

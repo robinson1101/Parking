@@ -447,6 +447,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\motocicleta-96.png" />
+    <None Include="Resources\motorcycle.png" />
+    <None Include="Resources\motorcycle0.png" />
+    <None Include="Resources\suv1.png" />
+    <None Include="Resources\suv %281%29.png" />
+    <None Include="Resources\suv.png" />
+    <None Include="Resources\PRUEBA.png" />
     <None Include="Resources\settings1.png" />
     <None Include="Resources\repairing2.png" />
     <None Include="Resources\stricted.gif" />
@@ -457,10 +464,11 @@
     <None Include="Resources\izquierdo20.png" />
     <None Include="Resources\automobile.png" />
     <None Include="Resources\atomo.gif" />
+    <None Include="Resources\automobile2.png" />
+    <None Include="Resources\automobile3.png" />
     <Content Include="Resources\boton_inicio.png" />
     <None Include="Resources\car.png" />
     <None Include="Resources\van.png" />
-    <None Include="Resources\motocicleta-96.png" />
     <None Include="Resources\LOGO SKYNET.jpg" />
   </ItemGroup>
   <ItemGroup>
