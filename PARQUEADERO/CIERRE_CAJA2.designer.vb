@@ -49,7 +49,6 @@ Partial Class CIERRE_CAJA2
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
@@ -308,11 +307,12 @@ Partial Class CIERRE_CAJA2
         Me.StatusStrip1.Size = New System.Drawing.Size(677, 22)
         Me.StatusStrip1.TabIndex = 27
         Me.StatusStrip1.Text = "StatusStrip1"
+        Me.StatusStrip1.Visible = False
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(120, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(119, 17)
         Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
         '
         'Label49
@@ -325,16 +325,6 @@ Partial Class CIERRE_CAJA2
         Me.Label49.Size = New System.Drawing.Size(83, 20)
         Me.Label49.TabIndex = 60
         Me.Label49.Text = "SKYNET "
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 5.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(546, 536)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(119, 7)
-        Me.Label19.TabIndex = 62
-        Me.Label19.Text = "ING. FERNEY GOMEZ RODRIGUEZ"
         '
         'Label20
         '
@@ -414,7 +404,7 @@ Partial Class CIERRE_CAJA2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkKhaki
+        Me.BackColor = System.Drawing.SystemColors.GrayText
         Me.ClientSize = New System.Drawing.Size(677, 571)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label23)
@@ -424,7 +414,6 @@ Partial Class CIERRE_CAJA2
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label49)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.Label18)
@@ -483,7 +472,6 @@ Partial Class CIERRE_CAJA2
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents Label49 As System.Windows.Forms.Label
-    Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As System.Windows.Forms.Label

@@ -31,8 +31,7 @@ Module mod_consulta
             conexion_global()
             _adaptador.SelectCommand = New MySqlCommand("select `Factura` as 'FACTURA', `placa` AS 'PLACA', `hora_ingreso` AS 'HORA DE INGRESO',
 `tipo` AS 'TIPO', `tarifa` AS 'TARIFA', `hora_salida` AS 'HORA DE SALIDA', `tiempo` AS 'TIEMPO', `total` AS 'TOTAL', `estado` AS 'ESTADO', `servicio` AS 'SERVICIO',
-`nombre_cliente` AS 'NOMBRE DE CLIENTE', `cedula` AS 'CEDULA', `telefono` AS 'TELEFONO', `operario` AS 'OPERARIO', `liquidado` AS 'LIQUIDADO',
-`liq_vendedor` AS 'LIQ VENDEDOR' from ingreso_vehiculos where hora_salida =0 and estado=0 ", _conexion)
+`nombre_cliente` AS 'NOMBRE DE CLIENTE', `cedula` AS 'CEDULA', `telefono` AS 'TELEFONO', `operario` AS 'OPERARIO' from ingreso_vehiculos where hora_salida =0 and estado=0 ", _conexion)
             _adaptador.Fill(_dtsdatos)
             _dtvdatos.Table = _dtsdatos.Tables(0)
             _conexion.Open()
@@ -49,7 +48,7 @@ Module mod_consulta
     Public Sub consulta_datosreimprimirentrada()
         Try
             conexion_global()
-            _adaptador.SelectCommand = New MySqlCommand("select Factura,placa,hora_ingreso,servicio,tarifa from ingreso_vehiculos where hora_salida =0 and estado=0 ", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("select Factura,placa,hora_ingreso,servicio,tarifa from ingreso_vehiculos where placa= '" & REIMPRIMIR.TextBox1.Text & "' ", _conexion)
             _adaptador.Fill(_dtsdatosreimprimirentrada)
             _dtvdatosreimprimirentrada.Table = _dtsdatosreimprimirentrada.Tables(0)
             _conexion.Open()
@@ -102,7 +101,7 @@ Module mod_consulta
         Try
             conexion_global()
 
-            _adaptador.SelectCommand = New MySqlCommand("select * from clientes ", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("select id_cliente as 'ID',placas as 'PLACA',cliente as 'CLIENTE',documento as 'DOCUMENTO',telefono as 'TELEFONO',color as 'COLOR',marca as 'MARCA',SERVICIOS from clientes ", _conexion)
             _adaptador.Fill(_dtsclientes)
             _adaptador.Fill(_dtsclientes, "clientes")
             _dtvclientes.Table = _dtsclientes.Tables(0)
@@ -120,7 +119,7 @@ Module mod_consulta
     Public Sub consulta_datos3()
         Try
             conexion_global()
-            _adaptador.SelectCommand = New MySqlCommand("SELECT ingreso_vehiculos.Factura,ingreso_vehiculos.hora_ingreso, ingreso_vehiculos.servicio, ingreso_vehiculos.operario from ingreso_vehiculos where operario ='" & liquidar.TextBox2.Text & "'  and liquidado =0 ", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("SELECT ingreso_vehiculos.Factura as 'FACTURA',ingreso_vehiculos.hora_ingreso as 'HORA INGRESO', ingreso_vehiculos.servicioReal as 'SERVICIO',ingreso_vehiculos.servicioRealOp as '%', ingreso_vehiculos.operario as 'OPERARIO' from ingreso_vehiculos where servicio > 0 and operario ='" & liquidar.TextBox2.Text & "'  and liquidado =0 and hora_salida <> ''", _conexion)
             _adaptador.Fill(_dtsliquidado)
             _dtvdatos3.Table = _dtsliquidado.Tables(0)
             _conexion.Open()
@@ -155,7 +154,7 @@ Module mod_consulta
     Public Sub consulta_datos4()
         Try
             conexion_global()
-            _adaptador.SelectCommand = New MySqlCommand("SELECT operarios.nombre, operarios.documento from operarios", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("SELECT operarios.nombre as 'NOMBRE', operarios.documento as 'DOCUMENTO'from operarios", _conexion)
             _adaptador.Fill(_dtslistaoperarios)
             _dtvdatos4.Table = _dtslistaoperarios.Tables(0)
             _conexion.Open()

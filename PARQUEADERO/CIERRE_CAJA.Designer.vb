@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CIERRE_CAJA
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class CIERRE_CAJA
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(CIERRE_CAJA))
         Me.ListBox1 = New System.Windows.Forms.ListBox()
@@ -48,13 +48,10 @@ Partial Class CIERRE_CAJA
         Me.Label18 = New System.Windows.Forms.Label()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -90,6 +87,7 @@ Partial Class CIERRE_CAJA
         Me.PrintPreviewDialog1.AutoScrollMargin = New System.Drawing.Size(0, 0)
         Me.PrintPreviewDialog1.AutoScrollMinSize = New System.Drawing.Size(0, 0)
         Me.PrintPreviewDialog1.ClientSize = New System.Drawing.Size(400, 300)
+        Me.PrintPreviewDialog1.Document = Me.PrintDocument1
         Me.PrintPreviewDialog1.Enabled = True
         Me.PrintPreviewDialog1.Icon = CType(resources.GetObject("PrintPreviewDialog1.Icon"), System.Drawing.Icon)
         Me.PrintPreviewDialog1.Name = "PrintPreviewDialog1"
@@ -152,7 +150,7 @@ Partial Class CIERRE_CAJA
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(333, 119)
+        Me.Label6.Location = New System.Drawing.Point(339, 119)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(149, 18)
         Me.Label6.TabIndex = 11
@@ -162,7 +160,7 @@ Partial Class CIERRE_CAJA
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(376, 230)
+        Me.Label7.Location = New System.Drawing.Point(339, 230)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(102, 18)
         Me.Label7.TabIndex = 12
@@ -258,7 +256,7 @@ Partial Class CIERRE_CAJA
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label15.Location = New System.Drawing.Point(488, 261)
+        Me.Label15.Location = New System.Drawing.Point(485, 261)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(16, 18)
         Me.Label15.TabIndex = 22
@@ -269,7 +267,7 @@ Partial Class CIERRE_CAJA
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(368, 261)
+        Me.Label16.Location = New System.Drawing.Point(339, 261)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(110, 18)
         Me.Label16.TabIndex = 23
@@ -280,7 +278,7 @@ Partial Class CIERRE_CAJA
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.Location = New System.Drawing.Point(376, 348)
+        Me.Label17.Location = New System.Drawing.Point(339, 338)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(96, 18)
         Me.Label17.TabIndex = 24
@@ -291,7 +289,7 @@ Partial Class CIERRE_CAJA
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label18.Location = New System.Drawing.Point(488, 348)
+        Me.Label18.Location = New System.Drawing.Point(485, 338)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(16, 18)
         Me.Label18.TabIndex = 25
@@ -306,39 +304,19 @@ Partial Class CIERRE_CAJA
         Me.StatusStrip1.Size = New System.Drawing.Size(677, 22)
         Me.StatusStrip1.TabIndex = 27
         Me.StatusStrip1.Text = "StatusStrip1"
+        Me.StatusStrip1.Visible = False
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(120, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(119, 17)
         Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label49.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label49.Location = New System.Drawing.Point(275, 56)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(83, 20)
-        Me.Label49.TabIndex = 60
-        Me.Label49.Text = "SKYNET "
-        '
-        'Label19
-        '
-        Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 5.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(546, 536)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(119, 7)
-        Me.Label19.TabIndex = 62
-        Me.Label19.Text = "ING. FERNEY GOMEZ RODRIGUEZ"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(399, 303)
+        Me.Label20.Location = New System.Drawing.Point(339, 299)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(61, 18)
         Me.Label20.TabIndex = 63
@@ -379,33 +357,17 @@ Partial Class CIERRE_CAJA
         Me.CheckBox1.UseVisualStyleBackColor = True
         Me.CheckBox1.Visible = False
         '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Checked = True
-        Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox2.Location = New System.Drawing.Point(51, 63)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(97, 17)
-        Me.CheckBox2.TabIndex = 67
-        Me.CheckBox2.Text = "Imprimir Ventas"
-        Me.CheckBox2.UseVisualStyleBackColor = True
-        Me.CheckBox2.Visible = False
-        '
         'CIERRE_CAJA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.DarkKhaki
+        Me.BackColor = System.Drawing.SystemColors.GrayText
         Me.ClientSize = New System.Drawing.Size(677, 571)
         Me.ControlBox = False
-        Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Label49)
         Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label17)
@@ -462,12 +424,9 @@ Partial Class CIERRE_CAJA
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
-    Friend WithEvents Label49 As System.Windows.Forms.Label
-    Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label22 As Label
     Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
 End Class

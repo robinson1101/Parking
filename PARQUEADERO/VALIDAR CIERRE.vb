@@ -18,7 +18,5 @@
         Close()
     End Sub
 
-    Private Sub VALIDAR_CIERRE_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class

@@ -11,7 +11,7 @@ Public Class Form6
         Try
 
 
-            _dtvclientes.RowFilter = "placas like '%" & TextBox1.Text & "%'"
+            _dtvclientes.RowFilter = "PLACA like '%" & TextBox1.Text & "%' OR DOCUMENTO like '%" & TextBox1.Text & "%'"
 
         Catch ex As Exception
 
@@ -26,6 +26,10 @@ Public Class Form6
 
         consulta_datos2()
         DataGridView1.DataSource = _dtvclientes
+        DataGridView1.Columns(0).Width = 60
+        DataGridView1.Columns(1).Width = 90
+        DataGridView1.Columns(2).Width = 180
+        DataGridView1.Columns(7).Width = 60
     End Sub
 
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
@@ -38,19 +42,25 @@ Public Class Form6
 
     Private Sub DataGridView1_DoubleClick(sender As Object, e As EventArgs) Handles DataGridView1.DoubleClick
         Try
+            Dim placa As String = Nothing
+            placa = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(1).Value
+            If placa = "X" Then
+                Form1.TextBox1.Text = ""
+            Else
+                Form1.TextBox1.Text = placa
+            End If
 
-            Form1.TextBox1.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(1).Value
-            TextBox2.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(2).Value
-            TextBox4.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(3).Value
-            TextBox5.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(4).Value
-            TextBox11.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(7).Value
+            Form1.TextBox2.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(2).Value
+            Form1.TextBox4.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(3).Value
+            Form1.TextBox5.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(4).Value
+            Form1.TextBox11.Text = DataGridView1.Rows(DataGridView1.CurrentRow.Index).Cells(7).Value
             Me.Close()
         Catch ex As NullReferenceException
 
         End Try
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
         Dim conexion As New class_int
         Dim datos As New class_datos
 
@@ -70,6 +80,64 @@ Public Class Form6
             MessageBox.Show("no se realizo registro")
         End If
 
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim conexion As New class_int
+        Dim datos As New class_datos
+        If TextBox2.Text.Trim = "" Then
+
+            MsgBox("DEBE INGRESAR EL NÚMERO DE DOCUMENTO DEL CLIENTE", vbExclamation, "")
+
+        Else
+
+            If TextBox2.Text.Trim = "" Then
+                datos.documento = "X"
+            Else
+                datos.documento = TextBox2.Text
+            End If
+
+            If TextBox7.Text.Trim = "" Then
+                datos.cliente = "X"
+            Else
+                datos.cliente = TextBox7.Text
+            End If
+
+            If TextBox4.Text.Trim = "" Then
+                datos.telefono = "X"
+            Else
+                datos.telefono = TextBox4.Text
+            End If
+
+            If TextBox5.Text.Trim = "" Then
+                datos.placas = "X"
+            Else
+                datos.placas = TextBox5.Text
+            End If
+
+            If TextBox3.Text.Trim = "" Then
+                datos.marca = "X"
+            Else
+                datos.marca = TextBox3.Text
+            End If
+
+            If TextBox6.Text.Trim = "" Then
+                datos.color = "X"
+            Else
+                datos.color = TextBox6.Text
+            End If
+
+            If conexion.insertardatos3(datos) Then
+                _dtsclientes.Reset()
+                consulta_datos2()
+                DataGridView1.DataSource = _dtvclientes
+                MessageBox.Show("CLIENTE CREADO")
+            Else
+                ' MessageBox.Show("no se realizo registro")
+            End If
+
+        End If
 
     End Sub
 End Class

@@ -10,7 +10,7 @@ Public Class REPORTES
     Dim total, gasto1 As Integer
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Me.Hide()
+        Me.Close()
         Form1.Show()
     End Sub
 
@@ -51,7 +51,8 @@ Public Class REPORTES
 
 
         Catch ex As Exception
-            MsgBox(ex.Message + ex.StackTrace)
+            Label4.Text = "0"
+            MessageBox.Show(" No hay facturas en ese lapso de tiempo")
         End Try
     End Sub
 End Class

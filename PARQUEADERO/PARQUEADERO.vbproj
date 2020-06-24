@@ -125,6 +125,33 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BUSCAR_CIERRE.Designer.vb">
+      <DependentUpon>BUSCAR_CIERRE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BUSCAR_CIERRE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conversorMoneda.vb" />
+    <Compile Include="costos.Designer.vb">
+      <DependentUpon>costos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="costos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELIMINAR.Designer.VB">
+      <DependentUpon>ELIMINAR.VB</DependentUpon>
+    </Compile>
+    <Compile Include="ELIMINAR.VB">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ELIMINAR2.Designer.vb">
+      <DependentUpon>ELIMINAR2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ELIMINAR2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="factura_cobrar.vb" />
+    <Compile Include="factura_liquidar.vb" />
     <Compile Include="FormActualizar.Designer.vb">
       <DependentUpon>FormActualizar.vb</DependentUpon>
     </Compile>
@@ -152,12 +179,6 @@
     <Compile Include="Class1.vb" />
     <Compile Include="class_datos.vb" />
     <Compile Include="class_int.vb" />
-    <Compile Include="COBRAR.Designer.vb">
-      <DependentUpon>COBRAR.vb</DependentUpon>
-    </Compile>
-    <Compile Include="COBRAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="codigos.vb" />
     <Compile Include="Form4.Designer.vb">
       <DependentUpon>Form4.vb</DependentUpon>
@@ -181,12 +202,6 @@
       <DependentUpon>Form7.vb</DependentUpon>
     </Compile>
     <Compile Include="Form7.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form8.Designer.vb">
-      <DependentUpon>Form8.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form8.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inicio.Designer.vb">
@@ -279,8 +294,32 @@
     <Compile Include="VALIDAR CIERRE.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VALIDAR REPORTE ADMIN.Designer.vb">
+      <DependentUpon>VALIDAR REPORTE ADMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VALIDAR REPORTE ADMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WELCOME.Designer.vb">
+      <DependentUpon>WELCOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WELCOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BUSCAR_CIERRE.resx">
+      <DependentUpon>BUSCAR_CIERRE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="costos.resx">
+      <DependentUpon>costos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELIMINAR.resx">
+      <DependentUpon>ELIMINAR.VB</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ELIMINAR2.resx">
+      <DependentUpon>ELIMINAR2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormActualizar.resx">
       <DependentUpon>FormActualizar.vb</DependentUpon>
     </EmbeddedResource>
@@ -293,9 +332,6 @@
     <EmbeddedResource Include="CIERRE_CAJA_AZ.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CIERRE_CAJA_AZ.Designer.vb</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="COBRAR.resx">
-      <DependentUpon>COBRAR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
@@ -317,9 +353,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form7.resx">
       <DependentUpon>Form7.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.vb</DependentUpon>
@@ -355,6 +388,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VALIDAR CIERRE.resx">
       <DependentUpon>VALIDAR CIERRE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VALIDAR REPORTE ADMIN.resx">
+      <DependentUpon>VALIDAR REPORTE ADMIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WELCOME.resx">
+      <DependentUpon>WELCOME.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -447,6 +486,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\LOGO SICOVEH.png" />
+    <None Include="Resources\newlogo2intento.png" />
+    <None Include="Resources\mas21.png" />
+    <None Include="Resources\parquear22.png" />
+    <None Include="Resources\lavado21.png" />
+    <None Include="Resources\parquear21.png" />
+    <None Include="Resources\parquear2.png" />
+    <None Include="Resources\mas2.png" />
+    <None Include="Resources\lavado2.png" />
+    <None Include="Resources\mas11.png" />
+    <None Include="Resources\mas1.png" />
+    <None Include="Resources\lavado11.png" />
+    <None Include="Resources\parquear11.png" />
+    <None Include="Resources\lavado1.png" />
+    <None Include="Resources\parquear1.png" />
     <None Include="Resources\motocicleta-96.png" />
     <None Include="Resources\motorcycle.png" />
     <None Include="Resources\motorcycle0.png" />
@@ -466,6 +520,7 @@
     <None Include="Resources\atomo.gif" />
     <None Include="Resources\automobile2.png" />
     <None Include="Resources\automobile3.png" />
+    <None Include="Resources\%24this.Icon.ico" />
     <Content Include="Resources\boton_inicio.png" />
     <None Include="Resources\car.png" />
     <None Include="Resources\van.png" />

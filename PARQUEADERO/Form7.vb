@@ -6,8 +6,9 @@
         contraseña = ""
 
         If ((TextBox1.Text = usuario) And (TextBox2.Text = contraseña)) Then
-            liquidar.Show()
-            Close()
+            Me.Close()
+            liquidar.ShowDialog()
+
         Else
             MessageBox.Show(" los datos ingresados no son correctos")
         End If
@@ -15,5 +16,9 @@
 
     Private Sub Form7_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Close()
     End Sub
 End Class

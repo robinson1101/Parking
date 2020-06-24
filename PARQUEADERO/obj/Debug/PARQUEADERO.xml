@@ -57,7 +57,52 @@ PARQUEADERO
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:PARQUEADERO.My.Resources.Resources.lavado1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.lavado11">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.lavado2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.lavado21">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.LOGO_SICOVEH">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:PARQUEADERO.My.Resources.Resources.LOGO_SKYNET">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.mas1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.mas11">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.mas2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.mas21">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -78,6 +123,36 @@ PARQUEADERO
 </summary>
 </member>
 <member name="P:PARQUEADERO.My.Resources.Resources.motorcycle0">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.newlogo2intento">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.parquear1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.parquear11">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.parquear2">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.parquear21">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PARQUEADERO.My.Resources.Resources.parquear22">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

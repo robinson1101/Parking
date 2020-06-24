@@ -23,40 +23,59 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.checkDescServicios = New System.Windows.Forms.CheckBox()
+        Me.lblVehiculo = New System.Windows.Forms.Label()
+        Me.checkDescParqueadero = New System.Windows.Forms.CheckBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.Label19 = New System.Windows.Forms.Label()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.CheckPesos = New System.Windows.Forms.CheckBox()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.CheckPorcentaje = New System.Windows.Forms.CheckBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.txtDescuento = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox22 = New System.Windows.Forms.CheckBox()
         Me.CheckBox23 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label38 = New System.Windows.Forms.Label()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.CheckBox22 = New System.Windows.Forms.CheckBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Label24 = New System.Windows.Forms.Label()
-        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox24 = New System.Windows.Forms.CheckBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label28 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.checkMas = New System.Windows.Forms.CheckBox()
+        Me.checkLavado = New System.Windows.Forms.CheckBox()
+        Me.checkParking = New System.Windows.Forms.CheckBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.CheckBox25 = New System.Windows.Forms.CheckBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
@@ -97,14 +116,10 @@ Partial Class Form1
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
-        Me.Button7 = New System.Windows.Forms.Button()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.TextBox9 = New System.Windows.Forms.TextBox()
         Me.Timer4 = New System.Windows.Forms.Timer(Me.components)
@@ -115,32 +130,75 @@ Partial Class Form1
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label36 = New System.Windows.Forms.Label()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.LabelTitulo = New System.Windows.Forms.Label()
         Me.ToolTipPrincipal = New System.Windows.Forms.ToolTip(Me.components)
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.TimerHora = New System.Windows.Forms.Timer(Me.components)
+        Me.txtServicioValidar = New System.Windows.Forms.TextBox()
+        Me.Label41 = New System.Windows.Forms.Label()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ITEMLIQUIDAR = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OperariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMCIERRES = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RealizarCierreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarCierreToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMREPORTES = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TotalFacturadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AdministradorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMREIMPRIMIR = New System.Windows.Forms.ToolStripMenuItem()
+        Me.REntradaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RSalidaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMCONFIGURAR = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMUSUARIO = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ITEMHORA = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AbrirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator = New System.Windows.Forms.ToolStripSeparator()
+        Me.GuardarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GuardarcomoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ImprimirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VistapreviadeimpresiónToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DeshacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RehacerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.CortarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopiarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PegarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SeleccionartodoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HerramientasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PersonalizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContenidoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÍndiceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
+        Me.AcercadeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(51, 22)
+        Me.Label1.Location = New System.Drawing.Point(25, 164)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(101, 29)
         Me.Label1.TabIndex = 0
@@ -148,110 +206,258 @@ Partial Class Form1
         '
         'TextBox1
         '
+        Me.TextBox1.Enabled = False
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 28.0!, System.Drawing.FontStyle.Bold)
-        Me.TextBox1.Location = New System.Drawing.Point(163, 17)
+        Me.TextBox1.Location = New System.Drawing.Point(124, 158)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(258, 50)
+        Me.TextBox1.Size = New System.Drawing.Size(257, 50)
         Me.TextBox1.TabIndex = 1
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.Color.PowderBlue
-        Me.GroupBox1.Controls.Add(Me.CheckBox2)
-        Me.GroupBox1.Controls.Add(Me.PictureBox2)
-        Me.GroupBox1.Controls.Add(Me.CheckBox22)
-        Me.GroupBox1.Controls.Add(Me.CheckBox23)
+        Me.GroupBox1.BackColor = System.Drawing.Color.White
+        Me.GroupBox1.Controls.Add(Me.checkDescServicios)
+        Me.GroupBox1.Controls.Add(Me.lblVehiculo)
+        Me.GroupBox1.Controls.Add(Me.checkDescParqueadero)
+        Me.GroupBox1.Controls.Add(Me.GroupBox3)
+        Me.GroupBox1.Controls.Add(Me.Label19)
+        Me.GroupBox1.Controls.Add(Me.Label40)
+        Me.GroupBox1.Controls.Add(Me.CheckPesos)
+        Me.GroupBox1.Controls.Add(Me.Label21)
+        Me.GroupBox1.Controls.Add(Me.TextBox10)
+        Me.GroupBox1.Controls.Add(Me.CheckPorcentaje)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
-        Me.GroupBox1.Controls.Add(Me.PictureBox4)
-        Me.GroupBox1.Controls.Add(Me.PictureBox3)
         Me.GroupBox1.Controls.Add(Me.Button8)
+        Me.GroupBox1.Controls.Add(Me.TextBox8)
         Me.GroupBox1.Controls.Add(Me.Label24)
-        Me.GroupBox1.Controls.Add(Me.CheckBox25)
-        Me.GroupBox1.Controls.Add(Me.CheckBox24)
+        Me.GroupBox1.Controls.Add(Me.txtDescuento)
         Me.GroupBox1.Controls.Add(Me.GroupBox4)
         Me.GroupBox1.Controls.Add(Me.Label27)
-        Me.GroupBox1.Controls.Add(Me.TextBox10)
-        Me.GroupBox1.Controls.Add(Me.Label28)
-        Me.GroupBox1.Controls.Add(Me.TextBox8)
-        Me.GroupBox1.Controls.Add(Me.Button6)
         Me.GroupBox1.Controls.Add(Me.Button1)
         Me.GroupBox1.Controls.Add(Me.Label23)
         Me.GroupBox1.Controls.Add(Me.Button5)
+        Me.GroupBox1.Controls.Add(Me.Label28)
         Me.GroupBox1.Controls.Add(Me.ComboBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.checkMas)
+        Me.GroupBox1.Controls.Add(Me.checkLavado)
+        Me.GroupBox1.Controls.Add(Me.checkParking)
+        Me.GroupBox1.Controls.Add(Me.PictureBox7)
+        Me.GroupBox1.Controls.Add(Me.PictureBox6)
+        Me.GroupBox1.Controls.Add(Me.PictureBox1)
+        Me.GroupBox1.Controls.Add(Me.CheckBox25)
         Me.GroupBox1.Location = New System.Drawing.Point(1, 51)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1027, 410)
+        Me.GroupBox1.Size = New System.Drawing.Size(1027, 416)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
-        'CheckBox2
+        'checkDescServicios
         '
-        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox2.ForeColor = System.Drawing.Color.White
-        Me.CheckBox2.Location = New System.Drawing.Point(883, 109)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(131, 27)
-        Me.CheckBox2.TabIndex = 10
-        Me.CheckBox2.Text = "MOTO"
-        Me.CheckBox2.UseVisualStyleBackColor = False
+        Me.checkDescServicios.AutoSize = True
+        Me.checkDescServicios.Enabled = False
+        Me.checkDescServicios.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkDescServicios.Location = New System.Drawing.Point(878, 318)
+        Me.checkDescServicios.Name = "checkDescServicios"
+        Me.checkDescServicios.Size = New System.Drawing.Size(98, 20)
+        Me.checkDescServicios.TabIndex = 79
+        Me.checkDescServicios.Text = "SERVICIOS"
+        Me.checkDescServicios.UseVisualStyleBackColor = True
         '
-        'PictureBox2
+        'lblVehiculo
         '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Image = Global.PARQUEADERO.My.Resources.Resources.motorcycle0
-        Me.PictureBox2.Location = New System.Drawing.Point(883, 9)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(131, 100)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox2.TabIndex = 71
-        Me.PictureBox2.TabStop = False
+        Me.lblVehiculo.AutoSize = True
+        Me.lblVehiculo.BackColor = System.Drawing.Color.Transparent
+        Me.lblVehiculo.ForeColor = System.Drawing.Color.Red
+        Me.lblVehiculo.Location = New System.Drawing.Point(258, 216)
+        Me.lblVehiculo.Name = "lblVehiculo"
+        Me.lblVehiculo.Size = New System.Drawing.Size(58, 13)
+        Me.lblVehiculo.TabIndex = 74
+        Me.lblVehiculo.Text = "NINGUNO"
         '
-        'CheckBox22
+        'checkDescParqueadero
         '
-        Me.CheckBox22.AutoSize = True
-        Me.CheckBox22.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox22.ForeColor = System.Drawing.Color.White
-        Me.CheckBox22.Location = New System.Drawing.Point(502, 109)
-        Me.CheckBox22.Name = "CheckBox22"
-        Me.CheckBox22.Size = New System.Drawing.Size(140, 28)
-        Me.CheckBox22.TabIndex = 54
-        Me.CheckBox22.Text = "AUTOMOVIL"
-        Me.CheckBox22.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        Me.CheckBox22.UseVisualStyleBackColor = False
+        Me.checkDescParqueadero.AutoSize = True
+        Me.checkDescParqueadero.Enabled = False
+        Me.checkDescParqueadero.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkDescParqueadero.Location = New System.Drawing.Point(724, 318)
+        Me.checkDescParqueadero.Name = "checkDescParqueadero"
+        Me.checkDescParqueadero.Size = New System.Drawing.Size(132, 20)
+        Me.checkDescParqueadero.TabIndex = 78
+        Me.checkDescParqueadero.Text = "PARQUEADERO"
+        Me.checkDescParqueadero.UseVisualStyleBackColor = True
         '
-        'CheckBox23
+        'GroupBox3
         '
-        Me.CheckBox23.AutoSize = True
-        Me.CheckBox23.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox23.ForeColor = System.Drawing.Color.White
-        Me.CheckBox23.Location = New System.Drawing.Point(692, 109)
-        Me.CheckBox23.Name = "CheckBox23"
-        Me.CheckBox23.Size = New System.Drawing.Size(142, 28)
-        Me.CheckBox23.TabIndex = 55
-        Me.CheckBox23.Text = "CAMIONETA"
-        Me.CheckBox23.UseVisualStyleBackColor = False
+        Me.GroupBox3.Controls.Add(Me.CheckBox7)
+        Me.GroupBox3.Controls.Add(Me.CheckBox11)
+        Me.GroupBox3.Controls.Add(Me.CheckBox9)
+        Me.GroupBox3.Controls.Add(Me.CheckBox8)
+        Me.GroupBox3.Controls.Add(Me.CheckBox1)
+        Me.GroupBox3.FlatStyle = System.Windows.Forms.FlatStyle.System
+        Me.GroupBox3.Location = New System.Drawing.Point(445, 158)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(573, 101)
+        Me.GroupBox3.TabIndex = 80
+        Me.GroupBox3.TabStop = False
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.BackColor = System.Drawing.Color.White
+        Me.CheckBox7.Enabled = False
+        Me.CheckBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox7.Location = New System.Drawing.Point(11, 20)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(163, 29)
+        Me.CheckBox7.TabIndex = 13
+        Me.CheckBox7.Text = "1.ENJUAGUE"
+        Me.CheckBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.CheckBox7.UseVisualStyleBackColor = False
+        '
+        'CheckBox11
+        '
+        Me.CheckBox11.AutoSize = True
+        Me.CheckBox11.BackColor = System.Drawing.Color.White
+        Me.CheckBox11.Enabled = False
+        Me.CheckBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox11.Location = New System.Drawing.Point(219, 20)
+        Me.CheckBox11.Name = "CheckBox11"
+        Me.CheckBox11.Size = New System.Drawing.Size(158, 29)
+        Me.CheckBox11.TabIndex = 17
+        Me.CheckBox11.Text = "3.TAPICERIA"
+        Me.CheckBox11.UseVisualStyleBackColor = False
+        '
+        'CheckBox9
+        '
+        Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.BackColor = System.Drawing.Color.White
+        Me.CheckBox9.Enabled = False
+        Me.CheckBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox9.Location = New System.Drawing.Point(219, 63)
+        Me.CheckBox9.Name = "CheckBox9"
+        Me.CheckBox9.Size = New System.Drawing.Size(133, 29)
+        Me.CheckBox9.TabIndex = 15
+        Me.CheckBox9.Text = "4. MOTOR"
+        Me.CheckBox9.UseVisualStyleBackColor = False
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.BackColor = System.Drawing.Color.White
+        Me.CheckBox8.Enabled = False
+        Me.CheckBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox8.Location = New System.Drawing.Point(11, 63)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(149, 29)
+        Me.CheckBox8.TabIndex = 14
+        Me.CheckBox8.Text = "2.GENERAL"
+        Me.CheckBox8.UseVisualStyleBackColor = False
+        '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Enabled = False
+        Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(425, 43)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(109, 29)
+        Me.CheckBox1.TabIndex = 72
+        Me.CheckBox1.Text = "5.OTRO"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Location = New System.Drawing.Point(720, 259)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(118, 20)
+        Me.Label19.TabIndex = 75
+        Me.Label19.Text = "DESCUENTO"
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.BackColor = System.Drawing.Color.Transparent
+        Me.Label40.ForeColor = System.Drawing.Color.Red
+        Me.Label40.Location = New System.Drawing.Point(187, 216)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(64, 13)
+        Me.Label40.TabIndex = 73
+        Me.Label40.Text = "VEHICULO:"
+        '
+        'CheckPesos
+        '
+        Me.CheckPesos.AutoSize = True
+        Me.CheckPesos.Enabled = False
+        Me.CheckPesos.Location = New System.Drawing.Point(972, 304)
+        Me.CheckPesos.Name = "CheckPesos"
+        Me.CheckPesos.Size = New System.Drawing.Size(32, 17)
+        Me.CheckPesos.TabIndex = 77
+        Me.CheckPesos.Text = "$"
+        Me.CheckPesos.UseVisualStyleBackColor = True
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(72, 14)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(258, 24)
+        Me.Label21.TabIndex = 72
+        Me.Label21.Text = "SELECCIONAR INGRESO:"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.BackColor = System.Drawing.Color.Black
+        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox10.ForeColor = System.Drawing.Color.Red
+        Me.TextBox10.Location = New System.Drawing.Point(726, 360)
+        Me.TextBox10.Multiline = True
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(292, 51)
+        Me.TextBox10.TabIndex = 45
+        '
+        'CheckPorcentaje
+        '
+        Me.CheckPorcentaje.AutoSize = True
+        Me.CheckPorcentaje.Enabled = False
+        Me.CheckPorcentaje.Location = New System.Drawing.Point(972, 279)
+        Me.CheckPorcentaje.Name = "CheckPorcentaje"
+        Me.CheckPorcentaje.Size = New System.Drawing.Size(34, 17)
+        Me.CheckPorcentaje.TabIndex = 76
+        Me.CheckPorcentaje.Text = "%"
+        Me.CheckPorcentaje.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox2.Controls.Add(Me.CheckBox24)
         Me.GroupBox2.Controls.Add(Me.Label38)
         Me.GroupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(502, 345)
+        Me.GroupBox2.Location = New System.Drawing.Point(445, 355)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(176, 57)
+        Me.GroupBox2.Size = New System.Drawing.Size(163, 57)
         Me.GroupBox2.TabIndex = 70
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "SELECCIONADOS"
+        Me.GroupBox2.Text = "    PROCESOS"
+        '
+        'CheckBox24
+        '
+        Me.CheckBox24.AutoSize = True
+        Me.CheckBox24.Checked = True
+        Me.CheckBox24.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox24.Location = New System.Drawing.Point(-168, 26)
+        Me.CheckBox24.Name = "CheckBox24"
+        Me.CheckBox24.Size = New System.Drawing.Size(216, 33)
+        Me.CheckBox24.TabIndex = 56
+        Me.CheckBox24.Text = "PARQUEADERO"
+        Me.CheckBox24.UseVisualStyleBackColor = True
+        Me.CheckBox24.Visible = False
         '
         'Label38
         '
@@ -264,40 +470,28 @@ Partial Class Form1
         Me.Label38.TabIndex = 65
         Me.Label38.Text = "0"
         '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBox4.Image = Global.PARQUEADERO.My.Resources.Resources.automobile
-        Me.PictureBox4.ImageLocation = ""
-        Me.PictureBox4.Location = New System.Drawing.Point(503, 10)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(140, 99)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox4.TabIndex = 68
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Image = Global.PARQUEADERO.My.Resources.Resources.suv
-        Me.PictureBox3.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
-        Me.PictureBox3.Location = New System.Drawing.Point(692, 9)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(142, 100)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox3.TabIndex = 67
-        Me.PictureBox3.TabStop = False
-        '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(56, 262)
+        Me.Button8.BackColor = System.Drawing.Color.Black
+        Me.Button8.Enabled = False
+        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.White
+        Me.Button8.Location = New System.Drawing.Point(266, 303)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(105, 63)
+        Me.Button8.Size = New System.Drawing.Size(115, 34)
         Me.Button8.TabIndex = 62
         Me.Button8.Text = "CAMBIAR OPERARIO"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Enabled = False
+        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox8.Location = New System.Drawing.Point(445, 280)
+        Me.TextBox8.Multiline = True
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(238, 57)
+        Me.TextBox8.TabIndex = 42
         '
         'Label24
         '
@@ -307,151 +501,167 @@ Partial Class Form1
         Me.Label24.Size = New System.Drawing.Size(45, 13)
         Me.Label24.TabIndex = 61
         Me.Label24.Text = "Label24"
+        Me.Label24.Visible = False
         '
-        'CheckBox25
+        'txtDescuento
         '
-        Me.CheckBox25.AutoSize = True
-        Me.CheckBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox25.Location = New System.Drawing.Point(163, 76)
-        Me.CheckBox25.Name = "CheckBox25"
-        Me.CheckBox25.Size = New System.Drawing.Size(200, 33)
-        Me.CheckBox25.TabIndex = 59
-        Me.CheckBox25.Text = "TARIFA PLENA"
-        Me.CheckBox25.UseVisualStyleBackColor = True
-        '
-        'CheckBox24
-        '
-        Me.CheckBox24.AutoSize = True
-        Me.CheckBox24.Checked = True
-        Me.CheckBox24.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox24.Location = New System.Drawing.Point(811, 380)
-        Me.CheckBox24.Name = "CheckBox24"
-        Me.CheckBox24.Size = New System.Drawing.Size(216, 33)
-        Me.CheckBox24.TabIndex = 56
-        Me.CheckBox24.Text = "PARQUEADERO"
-        Me.CheckBox24.UseVisualStyleBackColor = True
-        Me.CheckBox24.Visible = False
+        Me.txtDescuento.Enabled = False
+        Me.txtDescuento.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtDescuento.Location = New System.Drawing.Point(724, 279)
+        Me.txtDescuento.Multiline = True
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(244, 39)
+        Me.txtDescuento.TabIndex = 74
         '
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
-        Me.GroupBox4.Controls.Add(Me.CheckBox8)
-        Me.GroupBox4.Controls.Add(Me.CheckBox7)
-        Me.GroupBox4.Controls.Add(Me.CheckBox9)
-        Me.GroupBox4.Controls.Add(Me.CheckBox11)
+        Me.GroupBox4.Controls.Add(Me.CheckBox3)
+        Me.GroupBox4.Controls.Add(Me.CheckBox2)
+        Me.GroupBox4.Controls.Add(Me.PictureBox2)
+        Me.GroupBox4.Controls.Add(Me.CheckBox23)
+        Me.GroupBox4.Controls.Add(Me.PictureBox4)
+        Me.GroupBox4.Controls.Add(Me.CheckBox22)
+        Me.GroupBox4.Controls.Add(Me.PictureBox3)
+        Me.GroupBox4.Controls.Add(Me.DateTimePicker1)
+        Me.GroupBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.ForeColor = System.Drawing.Color.Navy
-        Me.GroupBox4.Location = New System.Drawing.Point(502, 150)
+        Me.GroupBox4.Location = New System.Drawing.Point(445, 7)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(516, 99)
+        Me.GroupBox4.Size = New System.Drawing.Size(573, 146)
         Me.GroupBox4.TabIndex = 57
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "SERVICIOS"
         '
-        'CheckBox8
+        'CheckBox3
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox8.Location = New System.Drawing.Point(320, 19)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(131, 29)
-        Me.CheckBox8.TabIndex = 14
-        Me.CheckBox8.Text = "GENERAL"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CheckBox3.Enabled = False
+        Me.CheckBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox3.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox3.Location = New System.Drawing.Point(428, 118)
+        Me.CheckBox3.Name = "CheckBox3"
+        Me.CheckBox3.Size = New System.Drawing.Size(131, 27)
+        Me.CheckBox3.TabIndex = 73
+        Me.CheckBox3.Text = "OTRO"
+        Me.CheckBox3.UseVisualStyleBackColor = False
         '
-        'CheckBox7
+        'CheckBox2
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox7.Location = New System.Drawing.Point(11, 19)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(145, 29)
-        Me.CheckBox7.TabIndex = 13
-        Me.CheckBox7.Text = "ENJUAGUE"
-        Me.CheckBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CheckBox2.Enabled = False
+        Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox2.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox2.Location = New System.Drawing.Point(291, 118)
+        Me.CheckBox2.Name = "CheckBox2"
+        Me.CheckBox2.Size = New System.Drawing.Size(131, 27)
+        Me.CheckBox2.TabIndex = 10
+        Me.CheckBox2.Text = "MOTO"
+        Me.CheckBox2.UseVisualStyleBackColor = False
         '
-        'CheckBox9
+        'PictureBox2
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox9.Location = New System.Drawing.Point(11, 59)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(233, 29)
-        Me.CheckBox9.TabIndex = 15
-        Me.CheckBox9.Text = "GENERAL + MOTOR"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Enabled = False
+        Me.PictureBox2.Image = Global.PARQUEADERO.My.Resources.Resources.motorcycle0
+        Me.PictureBox2.Location = New System.Drawing.Point(291, 18)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(131, 100)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox2.TabIndex = 71
+        Me.PictureBox2.TabStop = False
         '
-        'CheckBox11
+        'CheckBox23
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox11.Location = New System.Drawing.Point(321, 58)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(135, 29)
-        Me.CheckBox11.TabIndex = 17
-        Me.CheckBox11.Text = "TAPIZADO"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.CheckBox23.AutoSize = True
+        Me.CheckBox23.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CheckBox23.Enabled = False
+        Me.CheckBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox23.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox23.Location = New System.Drawing.Point(146, 118)
+        Me.CheckBox23.Name = "CheckBox23"
+        Me.CheckBox23.Size = New System.Drawing.Size(142, 28)
+        Me.CheckBox23.TabIndex = 55
+        Me.CheckBox23.Text = "CAMIONETA"
+        Me.CheckBox23.UseVisualStyleBackColor = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox4.Enabled = False
+        Me.PictureBox4.Image = Global.PARQUEADERO.My.Resources.Resources.automobile
+        Me.PictureBox4.ImageLocation = ""
+        Me.PictureBox4.Location = New System.Drawing.Point(4, 19)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(140, 99)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox4.TabIndex = 68
+        Me.PictureBox4.TabStop = False
+        '
+        'CheckBox22
+        '
+        Me.CheckBox22.AutoSize = True
+        Me.CheckBox22.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CheckBox22.Enabled = False
+        Me.CheckBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox22.ForeColor = System.Drawing.Color.Black
+        Me.CheckBox22.Location = New System.Drawing.Point(3, 118)
+        Me.CheckBox22.Name = "CheckBox22"
+        Me.CheckBox22.Size = New System.Drawing.Size(140, 28)
+        Me.CheckBox22.TabIndex = 54
+        Me.CheckBox22.Text = "AUTOMOVIL"
+        Me.CheckBox22.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        Me.CheckBox22.UseVisualStyleBackColor = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.Enabled = False
+        Me.PictureBox3.Image = Global.PARQUEADERO.My.Resources.Resources.suv
+        Me.PictureBox3.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
+        Me.PictureBox3.Location = New System.Drawing.Point(146, 18)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(142, 100)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox3.TabIndex = 67
+        Me.PictureBox3.TabStop = False
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.DateTimePicker1.Enabled = False
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Location = New System.Drawing.Point(421, 29)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(10, 29)
+        Me.DateTimePicker1.TabIndex = 7
+        Me.DateTimePicker1.Visible = False
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(751, 250)
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(720, 337)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(238, 29)
+        Me.Label27.Size = New System.Drawing.Size(190, 24)
         Me.Label27.TabIndex = 46
         Me.Label27.Text = "TOTAL SERVICIO :"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.BackColor = System.Drawing.Color.Black
-        Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.ForeColor = System.Drawing.Color.Red
-        Me.TextBox10.Location = New System.Drawing.Point(752, 280)
-        Me.TextBox10.Multiline = True
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(266, 59)
-        Me.TextBox10.TabIndex = 45
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(498, 257)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(242, 20)
-        Me.Label28.TabIndex = 46
-        Me.Label28.Text = "SERVICIOS ADICIONALES :"
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(502, 280)
-        Me.TextBox8.Multiline = True
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(244, 59)
-        Me.TextBox8.TabIndex = 42
-        '
-        'Button6
-        '
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(287, 113)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(134, 64)
-        Me.Button6.TabIndex = 8
-        Me.Button6.Text = "INGRESAR NUEVO CLIENTE"
-        Me.Button6.UseVisualStyleBackColor = True
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.MediumBlue
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(164, 262)
+        Me.Button1.Location = New System.Drawing.Point(30, 351)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(257, 63)
+        Me.Button1.Size = New System.Drawing.Size(352, 61)
         Me.Button1.TabIndex = 23
         Me.Button1.Text = "REGISTRAR SERVICIO"
         Me.Button1.UseVisualStyleBackColor = False
@@ -460,7 +670,7 @@ Partial Class Form1
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(52, 182)
+        Me.Label23.Location = New System.Drawing.Point(27, 280)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(122, 24)
         Me.Label23.TabIndex = 33
@@ -468,31 +678,142 @@ Partial Class Form1
         '
         'Button5
         '
+        Me.Button5.Enabled = False
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(163, 113)
+        Me.Button5.Location = New System.Drawing.Point(124, 235)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(117, 64)
+        Me.Button5.Size = New System.Drawing.Size(258, 43)
         Me.Button5.TabIndex = 34
         Me.Button5.Text = "BUSCAR CLIENTE"
         Me.Button5.UseVisualStyleBackColor = True
         '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(441, 261)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(242, 20)
+        Me.Label28.TabIndex = 46
+        Me.Label28.Text = "SERVICIOS ADICIONALES :"
+        '
         'ComboBox1
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.Gainsboro
+        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.Enabled = False
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(56, 208)
+        Me.ComboBox1.Location = New System.Drawing.Point(30, 304)
         Me.ComboBox1.MaxDropDownItems = 50
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(365, 40)
+        Me.ComboBox1.Size = New System.Drawing.Size(230, 32)
         Me.ComboBox1.TabIndex = 7
+        '
+        'checkMas
+        '
+        Me.checkMas.BackColor = System.Drawing.Color.Transparent
+        Me.checkMas.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.checkMas.Enabled = False
+        Me.checkMas.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkMas.ForeColor = System.Drawing.Color.DarkRed
+        Me.checkMas.Location = New System.Drawing.Point(237, 100)
+        Me.checkMas.Name = "checkMas"
+        Me.checkMas.Size = New System.Drawing.Size(144, 20)
+        Me.checkMas.TabIndex = 80
+        Me.checkMas.Text = "parking+lavado"
+        Me.checkMas.UseVisualStyleBackColor = False
+        Me.checkMas.Visible = False
+        '
+        'checkLavado
+        '
+        Me.checkLavado.BackColor = System.Drawing.Color.Transparent
+        Me.checkLavado.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.checkLavado.Enabled = False
+        Me.checkLavado.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkLavado.ForeColor = System.Drawing.Color.DarkRed
+        Me.checkLavado.Location = New System.Drawing.Point(132, 100)
+        Me.checkLavado.Name = "checkLavado"
+        Me.checkLavado.Size = New System.Drawing.Size(93, 20)
+        Me.checkLavado.TabIndex = 76
+        Me.checkLavado.Text = "lavado"
+        Me.checkLavado.UseVisualStyleBackColor = False
+        Me.checkLavado.Visible = False
+        '
+        'checkParking
+        '
+        Me.checkParking.BackColor = System.Drawing.Color.Transparent
+        Me.checkParking.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.checkParking.Enabled = False
+        Me.checkParking.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkParking.ForeColor = System.Drawing.Color.DarkRed
+        Me.checkParking.Location = New System.Drawing.Point(31, 100)
+        Me.checkParking.Name = "checkParking"
+        Me.checkParking.Size = New System.Drawing.Size(93, 20)
+        Me.checkParking.TabIndex = 79
+        Me.checkParking.Text = "parking"
+        Me.checkParking.UseVisualStyleBackColor = False
+        Me.checkParking.Visible = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox7.Image = Global.PARQUEADERO.My.Resources.Resources.mas11
+        Me.PictureBox7.ImageLocation = ""
+        Me.PictureBox7.Location = New System.Drawing.Point(229, 43)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(151, 90)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox7.TabIndex = 81
+        Me.PictureBox7.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox7, "PARQUEADERO Y LAVADERO")
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox6.Image = Global.PARQUEADERO.My.Resources.Resources.lavado11
+        Me.PictureBox6.ImageLocation = ""
+        Me.PictureBox6.Location = New System.Drawing.Point(128, 43)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(96, 90)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox6.TabIndex = 77
+        Me.PictureBox6.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox6, "LAVADERO")
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.parquear11
+        Me.PictureBox1.ImageLocation = ""
+        Me.PictureBox1.Location = New System.Drawing.Point(30, 44)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(94, 89)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox1.TabIndex = 76
+        Me.PictureBox1.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox1, "PARQUEADERO")
+        '
+        'CheckBox25
+        '
+        Me.CheckBox25.AutoSize = True
+        Me.CheckBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox25.Location = New System.Drawing.Point(250, 378)
+        Me.CheckBox25.Name = "CheckBox25"
+        Me.CheckBox25.Size = New System.Drawing.Size(200, 33)
+        Me.CheckBox25.TabIndex = 59
+        Me.CheckBox25.Text = "TARIFA PLENA"
+        Me.CheckBox25.UseVisualStyleBackColor = True
+        Me.CheckBox25.Visible = False
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(948, -10)
+        Me.Label6.Location = New System.Drawing.Point(199, 13)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(30, 42)
         Me.Label6.TabIndex = 6
@@ -507,6 +828,7 @@ Partial Class Form1
         Me.Label39.Size = New System.Drawing.Size(45, 13)
         Me.Label39.TabIndex = 66
         Me.Label39.Text = "Label39"
+        Me.Label39.Visible = False
         '
         'Label37
         '
@@ -516,6 +838,7 @@ Partial Class Form1
         Me.Label37.Size = New System.Drawing.Size(45, 13)
         Me.Label37.TabIndex = 64
         Me.Label37.Text = "Label37"
+        Me.Label37.Visible = False
         '
         'Label5
         '
@@ -525,6 +848,7 @@ Partial Class Form1
         Me.Label5.Size = New System.Drawing.Size(39, 13)
         Me.Label5.TabIndex = 63
         Me.Label5.Text = "Label5"
+        Me.Label5.Visible = False
         '
         'Label17
         '
@@ -544,6 +868,7 @@ Partial Class Form1
         Me.Label20.Size = New System.Drawing.Size(45, 13)
         Me.Label20.TabIndex = 19
         Me.Label20.Text = "Label20"
+        Me.Label20.Visible = False
         '
         'TextBox5
         '
@@ -842,7 +1167,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(-2, 9)
+        Me.Label7.Location = New System.Drawing.Point(-2, 13)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(39, 13)
         Me.Label7.TabIndex = 8
@@ -915,92 +1240,65 @@ Partial Class Form1
         'Timer1
         '
         '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(737, 9)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(291, 29)
-        Me.DateTimePicker1.TabIndex = 7
-        '
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.AllowUserToResizeColumns = False
         Me.DataGridView1.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Gray
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Gray
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
-        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkGray
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Lime
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.Black
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkGray
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle8
+        Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView1.GridColor = System.Drawing.Color.White
-        Me.DataGridView1.Location = New System.Drawing.Point(1, 467)
+        Me.DataGridView1.Location = New System.Drawing.Point(1, 473)
+        Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.DimGray
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle5
-        Me.DataGridView1.Size = New System.Drawing.Size(1361, 326)
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        Me.DataGridView1.RowHeadersVisible = False
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.DimGray
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle10
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView1.Size = New System.Drawing.Size(1361, 236)
         Me.DataGridView1.TabIndex = 12
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Yellow
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(1143, 58)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(117, 66)
-        Me.Button3.TabIndex = 7
-        Me.Button3.Text = "CIERRE DE DIA"
-        Me.Button3.UseVisualStyleBackColor = False
         '
         'Label18
         '
-        Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Chocolate
-        Me.Label18.Location = New System.Drawing.Point(-6, 5)
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.Red
+        Me.Label18.Location = New System.Drawing.Point(1, 22)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(0, 37)
+        Me.Label18.Size = New System.Drawing.Size(1268, 37)
         Me.Label18.TabIndex = 16
         Me.Label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.Red
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(1289, 7)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(73, 41)
-        Me.Button4.TabIndex = 18
-        Me.Button4.Text = "SALIR"
-        Me.Button4.UseVisualStyleBackColor = False
         '
         'Timer2
         '
@@ -1009,15 +1307,6 @@ Partial Class Form1
         'Timer3
         '
         Me.Timer3.Enabled = True
-        '
-        'Button7
-        '
-        Me.Button7.Location = New System.Drawing.Point(1037, 58)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(101, 66)
-        Me.Button7.TabIndex = 21
-        Me.Button7.Text = "PAGOS"
-        Me.Button7.UseVisualStyleBackColor = True
         '
         'Label26
         '
@@ -1033,11 +1322,15 @@ Partial Class Form1
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(1034, 370)
+        Me.TextBox9.Location = New System.Drawing.Point(1038, 370)
+        Me.TextBox9.MaxLength = 30
         Me.TextBox9.Multiline = True
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(328, 86)
+        Me.TextBox9.Size = New System.Drawing.Size(324, 63)
         Me.TextBox9.TabIndex = 44
+        '
+        'Timer4
+        '
         '
         'CheckBox6
         '
@@ -1114,46 +1407,6 @@ Partial Class Form1
         Me.Label36.Text = "Label36"
         Me.Label36.Visible = False
         '
-        'Button9
-        '
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(1037, 130)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(167, 57)
-        Me.Button9.TabIndex = 57
-        Me.Button9.Text = "REIMPRIMIR  ENTRADA"
-        Me.Button9.UseVisualStyleBackColor = True
-        '
-        'Button10
-        '
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(1210, 132)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(152, 55)
-        Me.Button10.TabIndex = 58
-        Me.Button10.Text = "REIMPRIMIR  SALIDA"
-        Me.Button10.UseVisualStyleBackColor = True
-        '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(1037, 193)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(325, 41)
-        Me.Button11.TabIndex = 59
-        Me.Button11.Text = "BUSCAR CIERRES"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.Color.Yellow
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(1265, 58)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(97, 66)
-        Me.Button12.TabIndex = 60
-        Me.Button12.Text = "REPORTES"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1174,56 +1427,353 @@ Partial Class Form1
         Me.LabelTitulo.TabIndex = 61
         Me.LabelTitulo.Text = "DIJITE LA PLACA"
         '
-        'PictureBox5
+        'ToolTipPrincipal
         '
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.PARQUEADERO.My.Resources.Resources.repairing_service
-        Me.PictureBox5.Location = New System.Drawing.Point(1251, 9)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox5.TabIndex = 67
-        Me.PictureBox5.TabStop = False
-        Me.PictureBox5.Tag = "FTUFYUTYU"
-        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox5, "Configuraciones")
         '
-        'Label3
+        'TimerHora
         '
-        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Label3.Location = New System.Drawing.Point(1248, 31)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(43, 19)
-        Me.Label3.TabIndex = 68
-        Me.Label3.Text = "_________"
-        Me.Label3.Visible = False
         '
-        'PictureBox1
+        'txtServicioValidar
         '
-        Me.PictureBox1.BackgroundImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.atomo
-        Me.PictureBox1.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
-        Me.PictureBox1.Location = New System.Drawing.Point(1038, 7)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(60, 43)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 14
-        Me.PictureBox1.TabStop = False
+        Me.txtServicioValidar.Location = New System.Drawing.Point(1034, 328)
+        Me.txtServicioValidar.Name = "txtServicioValidar"
+        Me.txtServicioValidar.Size = New System.Drawing.Size(34, 20)
+        Me.txtServicioValidar.TabIndex = 70
+        Me.txtServicioValidar.Visible = False
+        '
+        'Label41
+        '
+        Me.Label41.AutoSize = True
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.ForeColor = System.Drawing.Color.Red
+        Me.Label41.Location = New System.Drawing.Point(1033, 442)
+        Me.Label41.Name = "Label41"
+        Me.Label41.Size = New System.Drawing.Size(297, 20)
+        Me.Label41.TabIndex = 72
+        Me.Label41.Text = "*No ecceder el maximo de 30 caracteres."
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ITEMLIQUIDAR, Me.ITEMCIERRES, Me.ITEMREPORTES, Me.ITEMREIMPRIMIR, Me.ITEMCONFIGURAR, Me.ITEMUSUARIO, Me.ITEMHORA, Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1364, 25)
+        Me.MenuStrip1.TabIndex = 73
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'ITEMLIQUIDAR
+        '
+        Me.ITEMLIQUIDAR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OperariosToolStripMenuItem})
+        Me.ITEMLIQUIDAR.Name = "ITEMLIQUIDAR"
+        Me.ITEMLIQUIDAR.Size = New System.Drawing.Size(71, 21)
+        Me.ITEMLIQUIDAR.Text = "LIQUIDAR"
+        '
+        'OperariosToolStripMenuItem
+        '
+        Me.OperariosToolStripMenuItem.Name = "OperariosToolStripMenuItem"
+        Me.OperariosToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
+        Me.OperariosToolStripMenuItem.Text = "Operarios"
+        '
+        'ITEMCIERRES
+        '
+        Me.ITEMCIERRES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarCierreToolStripMenuItem, Me.BuscarCierreToolStripMenuItem})
+        Me.ITEMCIERRES.Name = "ITEMCIERRES"
+        Me.ITEMCIERRES.Size = New System.Drawing.Size(62, 21)
+        Me.ITEMCIERRES.Text = "CIERRES"
+        '
+        'RealizarCierreToolStripMenuItem
+        '
+        Me.RealizarCierreToolStripMenuItem.Name = "RealizarCierreToolStripMenuItem"
+        Me.RealizarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.RealizarCierreToolStripMenuItem.Text = "Realizar cierre"
+        '
+        'BuscarCierreToolStripMenuItem
+        '
+        Me.BuscarCierreToolStripMenuItem.Name = "BuscarCierreToolStripMenuItem"
+        Me.BuscarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.BuscarCierreToolStripMenuItem.Text = "Buscar cierre"
+        '
+        'ITEMREPORTES
+        '
+        Me.ITEMREPORTES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TotalFacturadoToolStripMenuItem, Me.AdministradorToolStripMenuItem})
+        Me.ITEMREPORTES.Name = "ITEMREPORTES"
+        Me.ITEMREPORTES.Size = New System.Drawing.Size(74, 21)
+        Me.ITEMREPORTES.Text = "REPORTES"
+        '
+        'TotalFacturadoToolStripMenuItem
+        '
+        Me.TotalFacturadoToolStripMenuItem.Name = "TotalFacturadoToolStripMenuItem"
+        Me.TotalFacturadoToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.TotalFacturadoToolStripMenuItem.Text = "Total facturado"
+        '
+        'AdministradorToolStripMenuItem
+        '
+        Me.AdministradorToolStripMenuItem.Name = "AdministradorToolStripMenuItem"
+        Me.AdministradorToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.AdministradorToolStripMenuItem.Text = "Administrador"
+        '
+        'ITEMREIMPRIMIR
+        '
+        Me.ITEMREIMPRIMIR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.REntradaToolStripMenuItem, Me.RSalidaToolStripMenuItem})
+        Me.ITEMREIMPRIMIR.Name = "ITEMREIMPRIMIR"
+        Me.ITEMREIMPRIMIR.Size = New System.Drawing.Size(84, 21)
+        Me.ITEMREIMPRIMIR.Text = "REIMPRIMIR"
+        '
+        'REntradaToolStripMenuItem
+        '
+        Me.REntradaToolStripMenuItem.Name = "REntradaToolStripMenuItem"
+        Me.REntradaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.REntradaToolStripMenuItem.Text = "R. Entrada"
+        '
+        'RSalidaToolStripMenuItem
+        '
+        Me.RSalidaToolStripMenuItem.Name = "RSalidaToolStripMenuItem"
+        Me.RSalidaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.RSalidaToolStripMenuItem.Text = "R. Salida"
+        '
+        'ITEMCONFIGURAR
+        '
+        Me.ITEMCONFIGURAR.Name = "ITEMCONFIGURAR"
+        Me.ITEMCONFIGURAR.Size = New System.Drawing.Size(92, 21)
+        Me.ITEMCONFIGURAR.Text = "CONFIGURAR"
+        '
+        'ITEMUSUARIO
+        '
+        Me.ITEMUSUARIO.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ITEMUSUARIO.Name = "ITEMUSUARIO"
+        Me.ITEMUSUARIO.Size = New System.Drawing.Size(68, 21)
+        Me.ITEMUSUARIO.Text = "USUARIO"
+        '
+        'ITEMHORA
+        '
+        Me.ITEMHORA.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ITEMHORA.Checked = True
+        Me.ITEMHORA.CheckState = System.Windows.Forms.CheckState.Indeterminate
+        Me.ITEMHORA.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
+        Me.ITEMHORA.Enabled = False
+        Me.ITEMHORA.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ITEMHORA.Name = "ITEMHORA"
+        Me.ITEMHORA.Size = New System.Drawing.Size(57, 21)
+        Me.ITEMHORA.Text = "HORA"
+        '
+        'ArchivoToolStripMenuItem
+        '
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem, Me.AbrirToolStripMenuItem, Me.toolStripSeparator, Me.GuardarToolStripMenuItem, Me.GuardarcomoToolStripMenuItem, Me.toolStripSeparator1, Me.ImprimirToolStripMenuItem, Me.VistapreviadeimpresiónToolStripMenuItem, Me.toolStripSeparator2, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 21)
+        Me.ArchivoToolStripMenuItem.Text = "&Archivo"
+        '
+        'NuevoToolStripMenuItem
+        '
+        Me.NuevoToolStripMenuItem.Image = CType(resources.GetObject("NuevoToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.NuevoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
+        Me.NuevoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.NuevoToolStripMenuItem.Text = "&Nuevo"
+        '
+        'AbrirToolStripMenuItem
+        '
+        Me.AbrirToolStripMenuItem.Image = CType(resources.GetObject("AbrirToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.AbrirToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.AbrirToolStripMenuItem.Name = "AbrirToolStripMenuItem"
+        Me.AbrirToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
+        Me.AbrirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.AbrirToolStripMenuItem.Text = "&Abrir"
+        '
+        'toolStripSeparator
+        '
+        Me.toolStripSeparator.Name = "toolStripSeparator"
+        Me.toolStripSeparator.Size = New System.Drawing.Size(6, 6)
+        '
+        'GuardarToolStripMenuItem
+        '
+        Me.GuardarToolStripMenuItem.Image = CType(resources.GetObject("GuardarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.GuardarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.GuardarToolStripMenuItem.Name = "GuardarToolStripMenuItem"
+        Me.GuardarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
+        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarToolStripMenuItem.Text = "&Guardar"
+        '
+        'GuardarcomoToolStripMenuItem
+        '
+        Me.GuardarcomoToolStripMenuItem.Name = "GuardarcomoToolStripMenuItem"
+        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarcomoToolStripMenuItem.Text = "G&uardar como"
+        '
+        'toolStripSeparator1
+        '
+        Me.toolStripSeparator1.Name = "toolStripSeparator1"
+        Me.toolStripSeparator1.Size = New System.Drawing.Size(6, 6)
+        '
+        'ImprimirToolStripMenuItem
+        '
+        Me.ImprimirToolStripMenuItem.Image = CType(resources.GetObject("ImprimirToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ImprimirToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ImprimirToolStripMenuItem.Name = "ImprimirToolStripMenuItem"
+        Me.ImprimirToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
+        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ImprimirToolStripMenuItem.Text = "&Imprimir"
+        '
+        'VistapreviadeimpresiónToolStripMenuItem
+        '
+        Me.VistapreviadeimpresiónToolStripMenuItem.Image = CType(resources.GetObject("VistapreviadeimpresiónToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.VistapreviadeimpresiónToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.VistapreviadeimpresiónToolStripMenuItem.Name = "VistapreviadeimpresiónToolStripMenuItem"
+        Me.VistapreviadeimpresiónToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.VistapreviadeimpresiónToolStripMenuItem.Text = "&Vista previa de impresión"
+        '
+        'toolStripSeparator2
+        '
+        Me.toolStripSeparator2.Name = "toolStripSeparator2"
+        Me.toolStripSeparator2.Size = New System.Drawing.Size(6, 6)
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.SalirToolStripMenuItem.Text = "&Salir"
+        '
+        'EditarToolStripMenuItem
+        '
+        Me.EditarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeshacerToolStripMenuItem, Me.RehacerToolStripMenuItem, Me.toolStripSeparator3, Me.CortarToolStripMenuItem, Me.CopiarToolStripMenuItem, Me.PegarToolStripMenuItem, Me.toolStripSeparator4, Me.SeleccionartodoToolStripMenuItem})
+        Me.EditarToolStripMenuItem.Name = "EditarToolStripMenuItem"
+        Me.EditarToolStripMenuItem.Size = New System.Drawing.Size(49, 21)
+        Me.EditarToolStripMenuItem.Text = "&Editar"
+        '
+        'DeshacerToolStripMenuItem
+        '
+        Me.DeshacerToolStripMenuItem.Name = "DeshacerToolStripMenuItem"
+        Me.DeshacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
+        Me.DeshacerToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.DeshacerToolStripMenuItem.Text = "&Deshacer"
+        '
+        'RehacerToolStripMenuItem
+        '
+        Me.RehacerToolStripMenuItem.Name = "RehacerToolStripMenuItem"
+        Me.RehacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
+        Me.RehacerToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.RehacerToolStripMenuItem.Text = "&Rehacer"
+        '
+        'toolStripSeparator3
+        '
+        Me.toolStripSeparator3.Name = "toolStripSeparator3"
+        Me.toolStripSeparator3.Size = New System.Drawing.Size(6, 6)
+        '
+        'CortarToolStripMenuItem
+        '
+        Me.CortarToolStripMenuItem.Image = CType(resources.GetObject("CortarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.CortarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CortarToolStripMenuItem.Name = "CortarToolStripMenuItem"
+        Me.CortarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
+        Me.CortarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.CortarToolStripMenuItem.Text = "Cor&tar"
+        '
+        'CopiarToolStripMenuItem
+        '
+        Me.CopiarToolStripMenuItem.Image = CType(resources.GetObject("CopiarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.CopiarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CopiarToolStripMenuItem.Name = "CopiarToolStripMenuItem"
+        Me.CopiarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
+        Me.CopiarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.CopiarToolStripMenuItem.Text = "&Copiar"
+        '
+        'PegarToolStripMenuItem
+        '
+        Me.PegarToolStripMenuItem.Image = CType(resources.GetObject("PegarToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PegarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.PegarToolStripMenuItem.Name = "PegarToolStripMenuItem"
+        Me.PegarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
+        Me.PegarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.PegarToolStripMenuItem.Text = "&Pegar"
+        '
+        'toolStripSeparator4
+        '
+        Me.toolStripSeparator4.Name = "toolStripSeparator4"
+        Me.toolStripSeparator4.Size = New System.Drawing.Size(6, 6)
+        '
+        'SeleccionartodoToolStripMenuItem
+        '
+        Me.SeleccionartodoToolStripMenuItem.Name = "SeleccionartodoToolStripMenuItem"
+        Me.SeleccionartodoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.SeleccionartodoToolStripMenuItem.Text = "&Seleccionar todo"
+        '
+        'HerramientasToolStripMenuItem
+        '
+        Me.HerramientasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonalizarToolStripMenuItem, Me.OpcionesToolStripMenuItem})
+        Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
+        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 21)
+        Me.HerramientasToolStripMenuItem.Text = "&Herramientas"
+        '
+        'PersonalizarToolStripMenuItem
+        '
+        Me.PersonalizarToolStripMenuItem.Name = "PersonalizarToolStripMenuItem"
+        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.PersonalizarToolStripMenuItem.Text = "&Personalizar"
+        '
+        'OpcionesToolStripMenuItem
+        '
+        Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.OpcionesToolStripMenuItem.Text = "&Opciones"
+        '
+        'AyudaToolStripMenuItem
+        '
+        Me.AyudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContenidoToolStripMenuItem, Me.ÍndiceToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.toolStripSeparator5, Me.AcercadeToolStripMenuItem})
+        Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 21)
+        Me.AyudaToolStripMenuItem.Text = "Ay&uda"
+        '
+        'ContenidoToolStripMenuItem
+        '
+        Me.ContenidoToolStripMenuItem.Name = "ContenidoToolStripMenuItem"
+        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ContenidoToolStripMenuItem.Text = "&Contenido"
+        '
+        'ÍndiceToolStripMenuItem
+        '
+        Me.ÍndiceToolStripMenuItem.Name = "ÍndiceToolStripMenuItem"
+        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ÍndiceToolStripMenuItem.Text = "Índic&e"
+        '
+        'BuscarToolStripMenuItem
+        '
+        Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.BuscarToolStripMenuItem.Text = "&Buscar"
+        '
+        'toolStripSeparator5
+        '
+        Me.toolStripSeparator5.Name = "toolStripSeparator5"
+        Me.toolStripSeparator5.Size = New System.Drawing.Size(6, 6)
+        '
+        'AcercadeToolStripMenuItem
+        '
+        Me.AcercadeToolStripMenuItem.Name = "AcercadeToolStripMenuItem"
+        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.AcercadeToolStripMenuItem.Text = "&Acerca de..."
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.LightBlue
-        Me.ClientSize = New System.Drawing.Size(1364, 848)
-        Me.Controls.Add(Me.PictureBox5)
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(1364, 717)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label16)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label14)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.LabelTitulo)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Label41)
+        Me.Controls.Add(Me.txtServicioValidar)
         Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Label35)
@@ -1238,49 +1788,34 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox9)
         Me.Controls.Add(Me.Label26)
         Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label32)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label31)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label30)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label29)
-        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.CheckBox21)
         Me.Controls.Add(Me.CheckBox19)
         Me.Controls.Add(Me.CheckBox20)
-        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.CheckBox17)
         Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.CheckBox16)
         Me.Controls.Add(Me.CheckBox13)
         Me.Controls.Add(Me.CheckBox15)
         Me.Controls.Add(Me.CheckBox18)
-        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.CheckBox14)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.CheckBox10)
         Me.Controls.Add(Me.CheckBox12)
-        Me.Controls.Add(Me.Label3)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -1288,16 +1823,21 @@ Partial Class Form1
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1323,10 +1863,7 @@ Partial Class Form1
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label18 As Label
-    Friend WithEvents Button4 As Button
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Label20 As Label
@@ -1340,8 +1877,6 @@ Partial Class Form1
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label23 As Label
     Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
     Friend WithEvents CheckBox13 As CheckBox
     Friend WithEvents CheckBox14 As CheckBox
     Friend WithEvents TextBox8 As TextBox
@@ -1385,19 +1920,78 @@ Partial Class Form1
     Friend WithEvents Label35 As Label
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
     Friend WithEvents Label38 As Label
-    Friend WithEvents Button11 As Button
     Friend WithEvents Label39 As Label
-    Friend WithEvents Button12 As Button
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents LabelTitulo As Label
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents PictureBox5 As PictureBox
     Friend WithEvents ToolTipPrincipal As ToolTip
-    Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label19 As Label
+    Friend WithEvents txtDescuento As TextBox
+    Friend WithEvents CheckBox3 As CheckBox
+    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents TimerHora As Timer
+    Friend WithEvents lblVehiculo As Label
+    Friend WithEvents Label40 As Label
+    Friend WithEvents txtServicioValidar As TextBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents checkMas As CheckBox
+    Friend WithEvents checkParking As CheckBox
+    Friend WithEvents checkLavado As CheckBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents CheckPesos As CheckBox
+    Friend WithEvents CheckPorcentaje As CheckBox
+    Friend WithEvents checkDescServicios As CheckBox
+    Friend WithEvents checkDescParqueadero As CheckBox
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents Label41 As Label
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents ITEMHORA As ToolStripMenuItem
+    Friend WithEvents ITEMLIQUIDAR As ToolStripMenuItem
+    Friend WithEvents OperariosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ITEMCIERRES As ToolStripMenuItem
+    Friend WithEvents RealizarCierreToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BuscarCierreToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ITEMREPORTES As ToolStripMenuItem
+    Friend WithEvents TotalFacturadoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AdministradorToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ITEMREIMPRIMIR As ToolStripMenuItem
+    Friend WithEvents REntradaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RSalidaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ITEMCONFIGURAR As ToolStripMenuItem
+    Friend WithEvents ITEMUSUARIO As ToolStripMenuItem
+    Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents NuevoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AbrirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator As ToolStripSeparator
+    Friend WithEvents GuardarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents GuardarcomoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ImprimirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents VistapreviadeimpresiónToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator2 As ToolStripSeparator
+    Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents EditarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents DeshacerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RehacerToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator3 As ToolStripSeparator
+    Friend WithEvents CortarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CopiarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PegarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator4 As ToolStripSeparator
+    Friend WithEvents SeleccionartodoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents HerramientasToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PersonalizarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents OpcionesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ContenidoToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ÍndiceToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents BuscarToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator5 As ToolStripSeparator
+    Friend WithEvents AcercadeToolStripMenuItem As ToolStripMenuItem
 End Class
