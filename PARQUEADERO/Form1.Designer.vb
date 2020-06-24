@@ -23,11 +23,11 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle61 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle62 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle63 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle64 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle65 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -180,6 +180,37 @@ Partial Class Form1
         Me.BuscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolStripSeparator5 = New System.Windows.Forms.ToolStripSeparator()
         Me.AcercadeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ArchivoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AbrirToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator6 = New System.Windows.Forms.ToolStripSeparator()
+        Me.GuardarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GuardarcomoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator7 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ImprimirToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VistapreviadeimpresiónToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator8 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SalirToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DeshacerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RehacerToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator9 = New System.Windows.Forms.ToolStripSeparator()
+        Me.CortarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CopiarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PegarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator10 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SeleccionartodoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HerramientasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PersonalizarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpcionesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AyudaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContenidoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ÍndiceToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BuscarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolStripSeparator11 = New System.Windows.Forms.ToolStripSeparator()
+        Me.AcercadeToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -192,6 +223,7 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -247,9 +279,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.PictureBox6)
         Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.CheckBox25)
-        Me.GroupBox1.Location = New System.Drawing.Point(1, 51)
+        Me.GroupBox1.Location = New System.Drawing.Point(1, 58)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1027, 416)
+        Me.GroupBox1.Size = New System.Drawing.Size(1027, 409)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
         '
@@ -1246,45 +1278,45 @@ Partial Class Form1
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.AllowUserToResizeColumns = False
         Me.DataGridView1.AllowUserToResizeRows = False
-        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Gray
-        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle61.BackColor = System.Drawing.Color.Gray
+        DataGridViewCellStyle61.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle61
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.Black
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkGray
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Lime
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
+        DataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle62.BackColor = System.Drawing.Color.DarkGray
+        DataGridViewCellStyle62.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle62.ForeColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle62
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle63.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle63.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle63.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle63.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle63.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle63.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle63
         Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.DataGridView1.GridColor = System.Drawing.Color.White
         Me.DataGridView1.Location = New System.Drawing.Point(1, 473)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle9.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle64.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle64.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle64.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle64
         Me.DataGridView1.RowHeadersVisible = False
-        DataGridViewCellStyle10.BackColor = System.Drawing.Color.DimGray
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle65.BackColor = System.Drawing.Color.DimGray
+        DataGridViewCellStyle65.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle65
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(1361, 236)
         Me.DataGridView1.TabIndex = 12
@@ -1454,7 +1486,7 @@ Partial Class Form1
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ITEMLIQUIDAR, Me.ITEMCIERRES, Me.ITEMREPORTES, Me.ITEMREIMPRIMIR, Me.ITEMCONFIGURAR, Me.ITEMUSUARIO, Me.ITEMHORA, Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ITEMLIQUIDAR, Me.ITEMCIERRES, Me.ITEMREPORTES, Me.ITEMREIMPRIMIR, Me.ITEMCONFIGURAR, Me.ArchivoToolStripMenuItem, Me.EditarToolStripMenuItem, Me.HerramientasToolStripMenuItem, Me.AyudaToolStripMenuItem, Me.ArchivoToolStripMenuItem1, Me.EditarToolStripMenuItem1, Me.HerramientasToolStripMenuItem1, Me.AyudaToolStripMenuItem1, Me.ITEMUSUARIO, Me.ITEMHORA})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1364, 25)
@@ -1465,7 +1497,7 @@ Partial Class Form1
         '
         Me.ITEMLIQUIDAR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OperariosToolStripMenuItem})
         Me.ITEMLIQUIDAR.Name = "ITEMLIQUIDAR"
-        Me.ITEMLIQUIDAR.Size = New System.Drawing.Size(71, 21)
+        Me.ITEMLIQUIDAR.Size = New System.Drawing.Size(71, 23)
         Me.ITEMLIQUIDAR.Text = "LIQUIDAR"
         '
         'OperariosToolStripMenuItem
@@ -1478,7 +1510,7 @@ Partial Class Form1
         '
         Me.ITEMCIERRES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarCierreToolStripMenuItem, Me.BuscarCierreToolStripMenuItem})
         Me.ITEMCIERRES.Name = "ITEMCIERRES"
-        Me.ITEMCIERRES.Size = New System.Drawing.Size(62, 21)
+        Me.ITEMCIERRES.Size = New System.Drawing.Size(62, 23)
         Me.ITEMCIERRES.Text = "CIERRES"
         '
         'RealizarCierreToolStripMenuItem
@@ -1497,7 +1529,7 @@ Partial Class Form1
         '
         Me.ITEMREPORTES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TotalFacturadoToolStripMenuItem, Me.AdministradorToolStripMenuItem})
         Me.ITEMREPORTES.Name = "ITEMREPORTES"
-        Me.ITEMREPORTES.Size = New System.Drawing.Size(74, 21)
+        Me.ITEMREPORTES.Size = New System.Drawing.Size(74, 23)
         Me.ITEMREPORTES.Text = "REPORTES"
         '
         'TotalFacturadoToolStripMenuItem
@@ -1516,7 +1548,7 @@ Partial Class Form1
         '
         Me.ITEMREIMPRIMIR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.REntradaToolStripMenuItem, Me.RSalidaToolStripMenuItem})
         Me.ITEMREIMPRIMIR.Name = "ITEMREIMPRIMIR"
-        Me.ITEMREIMPRIMIR.Size = New System.Drawing.Size(84, 21)
+        Me.ITEMREIMPRIMIR.Size = New System.Drawing.Size(84, 23)
         Me.ITEMREIMPRIMIR.Text = "REIMPRIMIR"
         '
         'REntradaToolStripMenuItem
@@ -1534,14 +1566,14 @@ Partial Class Form1
         'ITEMCONFIGURAR
         '
         Me.ITEMCONFIGURAR.Name = "ITEMCONFIGURAR"
-        Me.ITEMCONFIGURAR.Size = New System.Drawing.Size(92, 21)
+        Me.ITEMCONFIGURAR.Size = New System.Drawing.Size(92, 23)
         Me.ITEMCONFIGURAR.Text = "CONFIGURAR"
         '
         'ITEMUSUARIO
         '
         Me.ITEMUSUARIO.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
         Me.ITEMUSUARIO.Name = "ITEMUSUARIO"
-        Me.ITEMUSUARIO.Size = New System.Drawing.Size(68, 21)
+        Me.ITEMUSUARIO.Size = New System.Drawing.Size(68, 23)
         Me.ITEMUSUARIO.Text = "USUARIO"
         '
         'ITEMHORA
@@ -1553,14 +1585,14 @@ Partial Class Form1
         Me.ITEMHORA.Enabled = False
         Me.ITEMHORA.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ITEMHORA.Name = "ITEMHORA"
-        Me.ITEMHORA.Size = New System.Drawing.Size(57, 21)
+        Me.ITEMHORA.Size = New System.Drawing.Size(57, 23)
         Me.ITEMHORA.Text = "HORA"
         '
         'ArchivoToolStripMenuItem
         '
         Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem, Me.AbrirToolStripMenuItem, Me.toolStripSeparator, Me.GuardarToolStripMenuItem, Me.GuardarcomoToolStripMenuItem, Me.toolStripSeparator1, Me.ImprimirToolStripMenuItem, Me.VistapreviadeimpresiónToolStripMenuItem, Me.toolStripSeparator2, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
-        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 21)
+        Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 23)
         Me.ArchivoToolStripMenuItem.Text = "&Archivo"
         '
         'NuevoToolStripMenuItem
@@ -1569,7 +1601,7 @@ Partial Class Form1
         Me.NuevoToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
         Me.NuevoToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.N), System.Windows.Forms.Keys)
-        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.NuevoToolStripMenuItem.Text = "&Nuevo"
         '
         'AbrirToolStripMenuItem
@@ -1578,13 +1610,13 @@ Partial Class Form1
         Me.AbrirToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.AbrirToolStripMenuItem.Name = "AbrirToolStripMenuItem"
         Me.AbrirToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.O), System.Windows.Forms.Keys)
-        Me.AbrirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.AbrirToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.AbrirToolStripMenuItem.Text = "&Abrir"
         '
         'toolStripSeparator
         '
         Me.toolStripSeparator.Name = "toolStripSeparator"
-        Me.toolStripSeparator.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator.Size = New System.Drawing.Size(203, 6)
         '
         'GuardarToolStripMenuItem
         '
@@ -1592,19 +1624,19 @@ Partial Class Form1
         Me.GuardarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.GuardarToolStripMenuItem.Name = "GuardarToolStripMenuItem"
         Me.GuardarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.S), System.Windows.Forms.Keys)
-        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.GuardarToolStripMenuItem.Text = "&Guardar"
         '
         'GuardarcomoToolStripMenuItem
         '
         Me.GuardarcomoToolStripMenuItem.Name = "GuardarcomoToolStripMenuItem"
-        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarcomoToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.GuardarcomoToolStripMenuItem.Text = "G&uardar como"
         '
         'toolStripSeparator1
         '
         Me.toolStripSeparator1.Name = "toolStripSeparator1"
-        Me.toolStripSeparator1.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator1.Size = New System.Drawing.Size(203, 6)
         '
         'ImprimirToolStripMenuItem
         '
@@ -1612,7 +1644,7 @@ Partial Class Form1
         Me.ImprimirToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ImprimirToolStripMenuItem.Name = "ImprimirToolStripMenuItem"
         Me.ImprimirToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.P), System.Windows.Forms.Keys)
-        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ImprimirToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.ImprimirToolStripMenuItem.Text = "&Imprimir"
         '
         'VistapreviadeimpresiónToolStripMenuItem
@@ -1620,45 +1652,45 @@ Partial Class Form1
         Me.VistapreviadeimpresiónToolStripMenuItem.Image = CType(resources.GetObject("VistapreviadeimpresiónToolStripMenuItem.Image"), System.Drawing.Image)
         Me.VistapreviadeimpresiónToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.VistapreviadeimpresiónToolStripMenuItem.Name = "VistapreviadeimpresiónToolStripMenuItem"
-        Me.VistapreviadeimpresiónToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.VistapreviadeimpresiónToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.VistapreviadeimpresiónToolStripMenuItem.Text = "&Vista previa de impresión"
         '
         'toolStripSeparator2
         '
         Me.toolStripSeparator2.Name = "toolStripSeparator2"
-        Me.toolStripSeparator2.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator2.Size = New System.Drawing.Size(203, 6)
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(206, 22)
         Me.SalirToolStripMenuItem.Text = "&Salir"
         '
         'EditarToolStripMenuItem
         '
         Me.EditarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeshacerToolStripMenuItem, Me.RehacerToolStripMenuItem, Me.toolStripSeparator3, Me.CortarToolStripMenuItem, Me.CopiarToolStripMenuItem, Me.PegarToolStripMenuItem, Me.toolStripSeparator4, Me.SeleccionartodoToolStripMenuItem})
         Me.EditarToolStripMenuItem.Name = "EditarToolStripMenuItem"
-        Me.EditarToolStripMenuItem.Size = New System.Drawing.Size(49, 21)
+        Me.EditarToolStripMenuItem.Size = New System.Drawing.Size(49, 23)
         Me.EditarToolStripMenuItem.Text = "&Editar"
         '
         'DeshacerToolStripMenuItem
         '
         Me.DeshacerToolStripMenuItem.Name = "DeshacerToolStripMenuItem"
         Me.DeshacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Z), System.Windows.Forms.Keys)
-        Me.DeshacerToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.DeshacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.DeshacerToolStripMenuItem.Text = "&Deshacer"
         '
         'RehacerToolStripMenuItem
         '
         Me.RehacerToolStripMenuItem.Name = "RehacerToolStripMenuItem"
         Me.RehacerToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.Y), System.Windows.Forms.Keys)
-        Me.RehacerToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.RehacerToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.RehacerToolStripMenuItem.Text = "&Rehacer"
         '
         'toolStripSeparator3
         '
         Me.toolStripSeparator3.Name = "toolStripSeparator3"
-        Me.toolStripSeparator3.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator3.Size = New System.Drawing.Size(160, 6)
         '
         'CortarToolStripMenuItem
         '
@@ -1666,7 +1698,7 @@ Partial Class Form1
         Me.CortarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CortarToolStripMenuItem.Name = "CortarToolStripMenuItem"
         Me.CortarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.X), System.Windows.Forms.Keys)
-        Me.CortarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.CortarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.CortarToolStripMenuItem.Text = "Cor&tar"
         '
         'CopiarToolStripMenuItem
@@ -1675,7 +1707,7 @@ Partial Class Form1
         Me.CopiarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.CopiarToolStripMenuItem.Name = "CopiarToolStripMenuItem"
         Me.CopiarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.C), System.Windows.Forms.Keys)
-        Me.CopiarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.CopiarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.CopiarToolStripMenuItem.Text = "&Copiar"
         '
         'PegarToolStripMenuItem
@@ -1684,74 +1716,281 @@ Partial Class Form1
         Me.PegarToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.PegarToolStripMenuItem.Name = "PegarToolStripMenuItem"
         Me.PegarToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Control Or System.Windows.Forms.Keys.V), System.Windows.Forms.Keys)
-        Me.PegarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.PegarToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.PegarToolStripMenuItem.Text = "&Pegar"
         '
         'toolStripSeparator4
         '
         Me.toolStripSeparator4.Name = "toolStripSeparator4"
-        Me.toolStripSeparator4.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator4.Size = New System.Drawing.Size(160, 6)
         '
         'SeleccionartodoToolStripMenuItem
         '
         Me.SeleccionartodoToolStripMenuItem.Name = "SeleccionartodoToolStripMenuItem"
-        Me.SeleccionartodoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.SeleccionartodoToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
         Me.SeleccionartodoToolStripMenuItem.Text = "&Seleccionar todo"
         '
         'HerramientasToolStripMenuItem
         '
         Me.HerramientasToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonalizarToolStripMenuItem, Me.OpcionesToolStripMenuItem})
         Me.HerramientasToolStripMenuItem.Name = "HerramientasToolStripMenuItem"
-        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 21)
+        Me.HerramientasToolStripMenuItem.Size = New System.Drawing.Size(90, 23)
         Me.HerramientasToolStripMenuItem.Text = "&Herramientas"
         '
         'PersonalizarToolStripMenuItem
         '
         Me.PersonalizarToolStripMenuItem.Name = "PersonalizarToolStripMenuItem"
-        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.PersonalizarToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.PersonalizarToolStripMenuItem.Text = "&Personalizar"
         '
         'OpcionesToolStripMenuItem
         '
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
-        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(137, 22)
         Me.OpcionesToolStripMenuItem.Text = "&Opciones"
         '
         'AyudaToolStripMenuItem
         '
         Me.AyudaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContenidoToolStripMenuItem, Me.ÍndiceToolStripMenuItem, Me.BuscarToolStripMenuItem, Me.toolStripSeparator5, Me.AcercadeToolStripMenuItem})
         Me.AyudaToolStripMenuItem.Name = "AyudaToolStripMenuItem"
-        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 21)
+        Me.AyudaToolStripMenuItem.Size = New System.Drawing.Size(53, 23)
         Me.AyudaToolStripMenuItem.Text = "Ay&uda"
         '
         'ContenidoToolStripMenuItem
         '
         Me.ContenidoToolStripMenuItem.Name = "ContenidoToolStripMenuItem"
-        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ContenidoToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.ContenidoToolStripMenuItem.Text = "&Contenido"
         '
         'ÍndiceToolStripMenuItem
         '
         Me.ÍndiceToolStripMenuItem.Name = "ÍndiceToolStripMenuItem"
-        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.ÍndiceToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.ÍndiceToolStripMenuItem.Text = "Índic&e"
         '
         'BuscarToolStripMenuItem
         '
         Me.BuscarToolStripMenuItem.Name = "BuscarToolStripMenuItem"
-        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.BuscarToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.BuscarToolStripMenuItem.Text = "&Buscar"
         '
         'toolStripSeparator5
         '
         Me.toolStripSeparator5.Name = "toolStripSeparator5"
-        Me.toolStripSeparator5.Size = New System.Drawing.Size(6, 6)
+        Me.toolStripSeparator5.Size = New System.Drawing.Size(132, 6)
         '
         'AcercadeToolStripMenuItem
         '
         Me.AcercadeToolStripMenuItem.Name = "AcercadeToolStripMenuItem"
-        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(32, 19)
+        Me.AcercadeToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.AcercadeToolStripMenuItem.Text = "&Acerca de..."
+        '
+        'ArchivoToolStripMenuItem1
+        '
+        Me.ArchivoToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem1, Me.AbrirToolStripMenuItem1, Me.toolStripSeparator6, Me.GuardarToolStripMenuItem1, Me.GuardarcomoToolStripMenuItem1, Me.toolStripSeparator7, Me.ImprimirToolStripMenuItem1, Me.VistapreviadeimpresiónToolStripMenuItem1, Me.toolStripSeparator8, Me.SalirToolStripMenuItem1})
+        Me.ArchivoToolStripMenuItem1.Name = "ArchivoToolStripMenuItem1"
+        Me.ArchivoToolStripMenuItem1.Size = New System.Drawing.Size(60, 23)
+        Me.ArchivoToolStripMenuItem1.Text = "&Archivo"
+        '
+        'NuevoToolStripMenuItem1
+        '
+        Me.NuevoToolStripMenuItem1.Image = CType(resources.GetObject("NuevoToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.NuevoToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.NuevoToolStripMenuItem1.Name = "NuevoToolStripMenuItem1"
+        Me.NuevoToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.NuevoToolStripMenuItem1.Text = "&Nuevo"
+        '
+        'AbrirToolStripMenuItem1
+        '
+        Me.AbrirToolStripMenuItem1.Image = CType(resources.GetObject("AbrirToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.AbrirToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.AbrirToolStripMenuItem1.Name = "AbrirToolStripMenuItem1"
+        Me.AbrirToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.AbrirToolStripMenuItem1.Text = "&Abrir"
+        '
+        'toolStripSeparator6
+        '
+        Me.toolStripSeparator6.Name = "toolStripSeparator6"
+        Me.toolStripSeparator6.Size = New System.Drawing.Size(6, 6)
+        '
+        'GuardarToolStripMenuItem1
+        '
+        Me.GuardarToolStripMenuItem1.Image = CType(resources.GetObject("GuardarToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.GuardarToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.GuardarToolStripMenuItem1.Name = "GuardarToolStripMenuItem1"
+        Me.GuardarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarToolStripMenuItem1.Text = "&Guardar"
+        '
+        'GuardarcomoToolStripMenuItem1
+        '
+        Me.GuardarcomoToolStripMenuItem1.Name = "GuardarcomoToolStripMenuItem1"
+        Me.GuardarcomoToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.GuardarcomoToolStripMenuItem1.Text = "G&uardar como"
+        '
+        'toolStripSeparator7
+        '
+        Me.toolStripSeparator7.Name = "toolStripSeparator7"
+        Me.toolStripSeparator7.Size = New System.Drawing.Size(6, 6)
+        '
+        'ImprimirToolStripMenuItem1
+        '
+        Me.ImprimirToolStripMenuItem1.Image = CType(resources.GetObject("ImprimirToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.ImprimirToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ImprimirToolStripMenuItem1.Name = "ImprimirToolStripMenuItem1"
+        Me.ImprimirToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.ImprimirToolStripMenuItem1.Text = "&Imprimir"
+        '
+        'VistapreviadeimpresiónToolStripMenuItem1
+        '
+        Me.VistapreviadeimpresiónToolStripMenuItem1.Image = CType(resources.GetObject("VistapreviadeimpresiónToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.VistapreviadeimpresiónToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.VistapreviadeimpresiónToolStripMenuItem1.Name = "VistapreviadeimpresiónToolStripMenuItem1"
+        Me.VistapreviadeimpresiónToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.VistapreviadeimpresiónToolStripMenuItem1.Text = "&Vista previa de impresión"
+        '
+        'toolStripSeparator8
+        '
+        Me.toolStripSeparator8.Name = "toolStripSeparator8"
+        Me.toolStripSeparator8.Size = New System.Drawing.Size(6, 6)
+        '
+        'SalirToolStripMenuItem1
+        '
+        Me.SalirToolStripMenuItem1.Name = "SalirToolStripMenuItem1"
+        Me.SalirToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.SalirToolStripMenuItem1.Text = "&Salir"
+        '
+        'EditarToolStripMenuItem1
+        '
+        Me.EditarToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeshacerToolStripMenuItem1, Me.RehacerToolStripMenuItem1, Me.toolStripSeparator9, Me.CortarToolStripMenuItem1, Me.CopiarToolStripMenuItem1, Me.PegarToolStripMenuItem1, Me.toolStripSeparator10, Me.SeleccionartodoToolStripMenuItem1})
+        Me.EditarToolStripMenuItem1.Name = "EditarToolStripMenuItem1"
+        Me.EditarToolStripMenuItem1.Size = New System.Drawing.Size(49, 23)
+        Me.EditarToolStripMenuItem1.Text = "&Editar"
+        '
+        'DeshacerToolStripMenuItem1
+        '
+        Me.DeshacerToolStripMenuItem1.Name = "DeshacerToolStripMenuItem1"
+        Me.DeshacerToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.DeshacerToolStripMenuItem1.Text = "&Deshacer"
+        '
+        'RehacerToolStripMenuItem1
+        '
+        Me.RehacerToolStripMenuItem1.Name = "RehacerToolStripMenuItem1"
+        Me.RehacerToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.RehacerToolStripMenuItem1.Text = "&Rehacer"
+        '
+        'toolStripSeparator9
+        '
+        Me.toolStripSeparator9.Name = "toolStripSeparator9"
+        Me.toolStripSeparator9.Size = New System.Drawing.Size(6, 6)
+        '
+        'CortarToolStripMenuItem1
+        '
+        Me.CortarToolStripMenuItem1.Image = CType(resources.GetObject("CortarToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.CortarToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CortarToolStripMenuItem1.Name = "CortarToolStripMenuItem1"
+        Me.CortarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.CortarToolStripMenuItem1.Text = "Cor&tar"
+        '
+        'CopiarToolStripMenuItem1
+        '
+        Me.CopiarToolStripMenuItem1.Image = CType(resources.GetObject("CopiarToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.CopiarToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.CopiarToolStripMenuItem1.Name = "CopiarToolStripMenuItem1"
+        Me.CopiarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.CopiarToolStripMenuItem1.Text = "&Copiar"
+        '
+        'PegarToolStripMenuItem1
+        '
+        Me.PegarToolStripMenuItem1.Image = CType(resources.GetObject("PegarToolStripMenuItem1.Image"), System.Drawing.Image)
+        Me.PegarToolStripMenuItem1.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.PegarToolStripMenuItem1.Name = "PegarToolStripMenuItem1"
+        Me.PegarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.PegarToolStripMenuItem1.Text = "&Pegar"
+        '
+        'toolStripSeparator10
+        '
+        Me.toolStripSeparator10.Name = "toolStripSeparator10"
+        Me.toolStripSeparator10.Size = New System.Drawing.Size(6, 6)
+        '
+        'SeleccionartodoToolStripMenuItem1
+        '
+        Me.SeleccionartodoToolStripMenuItem1.Name = "SeleccionartodoToolStripMenuItem1"
+        Me.SeleccionartodoToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.SeleccionartodoToolStripMenuItem1.Text = "&Seleccionar todo"
+        '
+        'HerramientasToolStripMenuItem1
+        '
+        Me.HerramientasToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PersonalizarToolStripMenuItem1, Me.OpcionesToolStripMenuItem1})
+        Me.HerramientasToolStripMenuItem1.Name = "HerramientasToolStripMenuItem1"
+        Me.HerramientasToolStripMenuItem1.Size = New System.Drawing.Size(90, 23)
+        Me.HerramientasToolStripMenuItem1.Text = "&Herramientas"
+        '
+        'PersonalizarToolStripMenuItem1
+        '
+        Me.PersonalizarToolStripMenuItem1.Name = "PersonalizarToolStripMenuItem1"
+        Me.PersonalizarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.PersonalizarToolStripMenuItem1.Text = "&Personalizar"
+        '
+        'OpcionesToolStripMenuItem1
+        '
+        Me.OpcionesToolStripMenuItem1.Name = "OpcionesToolStripMenuItem1"
+        Me.OpcionesToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.OpcionesToolStripMenuItem1.Text = "&Opciones"
+        '
+        'AyudaToolStripMenuItem1
+        '
+        Me.AyudaToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContenidoToolStripMenuItem1, Me.ÍndiceToolStripMenuItem1, Me.BuscarToolStripMenuItem1, Me.toolStripSeparator11, Me.AcercadeToolStripMenuItem1})
+        Me.AyudaToolStripMenuItem1.Name = "AyudaToolStripMenuItem1"
+        Me.AyudaToolStripMenuItem1.Size = New System.Drawing.Size(53, 23)
+        Me.AyudaToolStripMenuItem1.Text = "Ay&uda"
+        '
+        'ContenidoToolStripMenuItem1
+        '
+        Me.ContenidoToolStripMenuItem1.Name = "ContenidoToolStripMenuItem1"
+        Me.ContenidoToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.ContenidoToolStripMenuItem1.Text = "&Contenido"
+        '
+        'ÍndiceToolStripMenuItem1
+        '
+        Me.ÍndiceToolStripMenuItem1.Name = "ÍndiceToolStripMenuItem1"
+        Me.ÍndiceToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.ÍndiceToolStripMenuItem1.Text = "Índic&e"
+        '
+        'BuscarToolStripMenuItem1
+        '
+        Me.BuscarToolStripMenuItem1.Name = "BuscarToolStripMenuItem1"
+        Me.BuscarToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.BuscarToolStripMenuItem1.Text = "&Buscar"
+        '
+        'toolStripSeparator11
+        '
+        Me.toolStripSeparator11.Name = "toolStripSeparator11"
+        Me.toolStripSeparator11.Size = New System.Drawing.Size(6, 6)
+        '
+        'AcercadeToolStripMenuItem1
+        '
+        Me.AcercadeToolStripMenuItem1.Name = "AcercadeToolStripMenuItem1"
+        Me.AcercadeToolStripMenuItem1.Size = New System.Drawing.Size(32, 19)
+        Me.AcercadeToolStripMenuItem1.Text = "&Acerca de..."
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PictureBox5.Location = New System.Drawing.Point(1035, 65)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(326, 164)
+        Me.PictureBox5.TabIndex = 74
+        Me.PictureBox5.TabStop = False
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.ForeColor = System.Drawing.Color.Red
+        Me.Label3.Location = New System.Drawing.Point(1082, 130)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(261, 13)
+        Me.Label3.TabIndex = 75
+        Me.Label3.Text = "AQUI FOTO DEL USUARIO O LOGO DEL NEGOCIO"
         '
         'Form1
         '
@@ -1759,6 +1998,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1364, 717)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label11)
@@ -1820,7 +2061,6 @@ Partial Class Form1
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PRINCIPAL"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
@@ -1838,6 +2078,7 @@ Partial Class Form1
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1994,4 +2235,35 @@ Partial Class Form1
     Friend WithEvents BuscarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents toolStripSeparator5 As ToolStripSeparator
     Friend WithEvents AcercadeToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ArchivoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents NuevoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents AbrirToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator6 As ToolStripSeparator
+    Friend WithEvents GuardarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents GuardarcomoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator7 As ToolStripSeparator
+    Friend WithEvents ImprimirToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents VistapreviadeimpresiónToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator8 As ToolStripSeparator
+    Friend WithEvents SalirToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents EditarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents DeshacerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents RehacerToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator9 As ToolStripSeparator
+    Friend WithEvents CortarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents CopiarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents PegarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator10 As ToolStripSeparator
+    Friend WithEvents SeleccionartodoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents HerramientasToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents PersonalizarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents OpcionesToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents AyudaToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ContenidoToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ÍndiceToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents BuscarToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents toolStripSeparator11 As ToolStripSeparator
+    Friend WithEvents AcercadeToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents Label3 As Label
 End Class

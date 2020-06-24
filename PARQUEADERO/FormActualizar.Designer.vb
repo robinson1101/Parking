@@ -55,11 +55,6 @@ Partial Class Form_actualizar
         Me.Button3 = New System.Windows.Forms.Button()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.PanelOperarios = New System.Windows.Forms.Panel()
-        Me.PanelDescuento = New System.Windows.Forms.Panel()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.txtDescuento = New System.Windows.Forms.TextBox()
-        Me.DataGridViewDescuento = New System.Windows.Forms.DataGridView()
-        Me.btnGuradarDto = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.TextBoxTelefono = New System.Windows.Forms.TextBox()
         Me.TextBoxDireccion = New System.Windows.Forms.TextBox()
@@ -71,12 +66,17 @@ Partial Class Form_actualizar
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBoxNombre = New System.Windows.Forms.TextBox()
         Me.ButtonGuardar = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.radioPorcentaje = New System.Windows.Forms.RadioButton()
-        Me.radioPesos = New System.Windows.Forms.RadioButton()
-        Me.checkParqueadero = New System.Windows.Forms.CheckBox()
-        Me.checkServicios = New System.Windows.Forms.CheckBox()
+        Me.PanelDescuento = New System.Windows.Forms.Panel()
         Me.checkHabilitar = New System.Windows.Forms.CheckBox()
+        Me.checkServicios = New System.Windows.Forms.CheckBox()
+        Me.checkParqueadero = New System.Windows.Forms.CheckBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.radioPesos = New System.Windows.Forms.RadioButton()
+        Me.radioPorcentaje = New System.Windows.Forms.RadioButton()
+        Me.txtDescuento = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.DataGridViewDescuento = New System.Windows.Forms.DataGridView()
+        Me.btnGuradarDto = New System.Windows.Forms.Button()
         Me.PanelTitulo.SuspendLayout()
         Me.PanelContenedor.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -86,10 +86,10 @@ Partial Class Form_actualizar
         Me.PanelTarifas.SuspendLayout()
         CType(Me.DataGridViewTarifas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelOperarios.SuspendLayout()
-        Me.PanelDescuento.SuspendLayout()
-        CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridViewOperarios, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelDescuento.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -128,9 +128,9 @@ Partial Class Form_actualizar
         Me.PanelTitulo.Controls.Add(Me.ButtonNuevo)
         Me.PanelTitulo.Controls.Add(Me.Label1)
         Me.PanelTitulo.Controls.Add(Me.TextBoxNombreEmpresa)
-        Me.PanelTitulo.Location = New System.Drawing.Point(0, 0)
+        Me.PanelTitulo.Location = New System.Drawing.Point(317, 3)
         Me.PanelTitulo.Name = "PanelTitulo"
-        Me.PanelTitulo.Size = New System.Drawing.Size(489, 364)
+        Me.PanelTitulo.Size = New System.Drawing.Size(500, 364)
         Me.PanelTitulo.TabIndex = 3
         Me.PanelTitulo.Visible = False
         '
@@ -199,7 +199,6 @@ Partial Class Form_actualizar
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.PanelTitulo)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(330, 3)
         Me.Panel1.Name = "Panel1"
@@ -237,9 +236,9 @@ Partial Class Form_actualizar
         Me.PanelServicios.Controls.Add(Me.ComboBox2)
         Me.PanelServicios.Controls.Add(Me.ComboBox1)
         Me.PanelServicios.Controls.Add(Me.DataGridViewServicios)
-        Me.PanelServicios.Location = New System.Drawing.Point(330, 3)
+        Me.PanelServicios.Location = New System.Drawing.Point(330, 37)
         Me.PanelServicios.Name = "PanelServicios"
-        Me.PanelServicios.Size = New System.Drawing.Size(489, 361)
+        Me.PanelServicios.Size = New System.Drawing.Size(489, 327)
         Me.PanelServicios.TabIndex = 3
         Me.PanelServicios.Visible = False
         '
@@ -348,9 +347,9 @@ Partial Class Form_actualizar
         Me.PanelTarifas.Controls.Add(Me.TextBox2)
         Me.PanelTarifas.Controls.Add(Me.Button3)
         Me.PanelTarifas.Controls.Add(Me.ComboBox3)
-        Me.PanelTarifas.Location = New System.Drawing.Point(327, 3)
+        Me.PanelTarifas.Location = New System.Drawing.Point(327, 37)
         Me.PanelTarifas.Name = "PanelTarifas"
-        Me.PanelTarifas.Size = New System.Drawing.Size(492, 361)
+        Me.PanelTarifas.Size = New System.Drawing.Size(492, 327)
         Me.PanelTarifas.TabIndex = 8
         Me.PanelTarifas.Visible = False
         '
@@ -430,70 +429,11 @@ Partial Class Form_actualizar
         Me.PanelOperarios.Controls.Add(Me.Label9)
         Me.PanelOperarios.Controls.Add(Me.TextBoxNombre)
         Me.PanelOperarios.Controls.Add(Me.ButtonGuardar)
-        Me.PanelOperarios.Location = New System.Drawing.Point(325, 3)
+        Me.PanelOperarios.Location = New System.Drawing.Point(325, 43)
         Me.PanelOperarios.Name = "PanelOperarios"
-        Me.PanelOperarios.Size = New System.Drawing.Size(491, 361)
+        Me.PanelOperarios.Size = New System.Drawing.Size(491, 321)
         Me.PanelOperarios.TabIndex = 9
         Me.PanelOperarios.Visible = False
-        '
-        'PanelDescuento
-        '
-        Me.PanelDescuento.BackColor = System.Drawing.Color.Red
-        Me.PanelDescuento.Controls.Add(Me.checkHabilitar)
-        Me.PanelDescuento.Controls.Add(Me.checkServicios)
-        Me.PanelDescuento.Controls.Add(Me.checkParqueadero)
-        Me.PanelDescuento.Controls.Add(Me.GroupBox1)
-        Me.PanelDescuento.Controls.Add(Me.Label13)
-        Me.PanelDescuento.Controls.Add(Me.DataGridViewDescuento)
-        Me.PanelDescuento.Controls.Add(Me.btnGuradarDto)
-        Me.PanelDescuento.Location = New System.Drawing.Point(320, 3)
-        Me.PanelDescuento.Name = "PanelDescuento"
-        Me.PanelDescuento.Size = New System.Drawing.Size(491, 361)
-        Me.PanelDescuento.TabIndex = 14
-        Me.PanelDescuento.Visible = False
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(170, 187)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(143, 25)
-        Me.Label13.TabIndex = 13
-        Me.Label13.Text = "DESCUENTO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
-        '
-        'txtDescuento
-        '
-        Me.txtDescuento.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtDescuento.Location = New System.Drawing.Point(18, 36)
-        Me.txtDescuento.Name = "txtDescuento"
-        Me.txtDescuento.Size = New System.Drawing.Size(179, 20)
-        Me.txtDescuento.TabIndex = 11
-        '
-        'DataGridViewDescuento
-        '
-        Me.DataGridViewDescuento.AllowUserToAddRows = False
-        Me.DataGridViewDescuento.AllowUserToDeleteRows = False
-        Me.DataGridViewDescuento.AllowUserToResizeColumns = False
-        Me.DataGridViewDescuento.AllowUserToResizeRows = False
-        Me.DataGridViewDescuento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridViewDescuento.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.DataGridViewDescuento.Location = New System.Drawing.Point(58, 215)
-        Me.DataGridViewDescuento.MultiSelect = False
-        Me.DataGridViewDescuento.Name = "DataGridViewDescuento"
-        Me.DataGridViewDescuento.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
-        Me.DataGridViewDescuento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridViewDescuento.Size = New System.Drawing.Size(374, 45)
-        Me.DataGridViewDescuento.TabIndex = 7
-        '
-        'btnGuradarDto
-        '
-        Me.btnGuradarDto.Location = New System.Drawing.Point(305, 95)
-        Me.btnGuradarDto.Name = "btnGuradarDto"
-        Me.btnGuradarDto.Size = New System.Drawing.Size(126, 81)
-        Me.btnGuradarDto.TabIndex = 2
-        Me.btnGuradarDto.Text = "GUARDAR DATOS"
-        Me.btnGuradarDto.UseVisualStyleBackColor = True
         '
         'Label12
         '
@@ -598,59 +538,21 @@ Partial Class Form_actualizar
         Me.ButtonGuardar.Text = "GUARDAR DATOS"
         Me.ButtonGuardar.UseVisualStyleBackColor = True
         '
-        'GroupBox1
+        'PanelDescuento
         '
-        Me.GroupBox1.Controls.Add(Me.radioPesos)
-        Me.GroupBox1.Controls.Add(Me.radioPorcentaje)
-        Me.GroupBox1.Controls.Add(Me.txtDescuento)
-        Me.GroupBox1.Location = New System.Drawing.Point(58, 88)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(244, 89)
-        Me.GroupBox1.TabIndex = 14
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "DESCUENTO"
-        '
-        'radioPorcentaje
-        '
-        Me.radioPorcentaje.AutoSize = True
-        Me.radioPorcentaje.Location = New System.Drawing.Point(203, 30)
-        Me.radioPorcentaje.Name = "radioPorcentaje"
-        Me.radioPorcentaje.Size = New System.Drawing.Size(33, 17)
-        Me.radioPorcentaje.TabIndex = 0
-        Me.radioPorcentaje.TabStop = True
-        Me.radioPorcentaje.Text = "%"
-        Me.radioPorcentaje.UseVisualStyleBackColor = True
-        '
-        'radioPesos
-        '
-        Me.radioPesos.AutoSize = True
-        Me.radioPesos.Location = New System.Drawing.Point(203, 46)
-        Me.radioPesos.Name = "radioPesos"
-        Me.radioPesos.Size = New System.Drawing.Size(31, 17)
-        Me.radioPesos.TabIndex = 1
-        Me.radioPesos.TabStop = True
-        Me.radioPesos.Text = "$"
-        Me.radioPesos.UseVisualStyleBackColor = True
-        '
-        'checkParqueadero
-        '
-        Me.checkParqueadero.AutoSize = True
-        Me.checkParqueadero.Location = New System.Drawing.Point(60, 67)
-        Me.checkParqueadero.Name = "checkParqueadero"
-        Me.checkParqueadero.Size = New System.Drawing.Size(109, 17)
-        Me.checkParqueadero.TabIndex = 15
-        Me.checkParqueadero.Text = "PARQUEADERO"
-        Me.checkParqueadero.UseVisualStyleBackColor = True
-        '
-        'checkServicios
-        '
-        Me.checkServicios.AutoSize = True
-        Me.checkServicios.Location = New System.Drawing.Point(219, 67)
-        Me.checkServicios.Name = "checkServicios"
-        Me.checkServicios.Size = New System.Drawing.Size(83, 17)
-        Me.checkServicios.TabIndex = 16
-        Me.checkServicios.Text = "SERVICIOS"
-        Me.checkServicios.UseVisualStyleBackColor = True
+        Me.PanelDescuento.BackColor = System.Drawing.Color.Red
+        Me.PanelDescuento.Controls.Add(Me.checkHabilitar)
+        Me.PanelDescuento.Controls.Add(Me.checkServicios)
+        Me.PanelDescuento.Controls.Add(Me.checkParqueadero)
+        Me.PanelDescuento.Controls.Add(Me.GroupBox1)
+        Me.PanelDescuento.Controls.Add(Me.Label13)
+        Me.PanelDescuento.Controls.Add(Me.DataGridViewDescuento)
+        Me.PanelDescuento.Controls.Add(Me.btnGuradarDto)
+        Me.PanelDescuento.Location = New System.Drawing.Point(320, 37)
+        Me.PanelDescuento.Name = "PanelDescuento"
+        Me.PanelDescuento.Size = New System.Drawing.Size(491, 327)
+        Me.PanelDescuento.TabIndex = 14
+        Me.PanelDescuento.Visible = False
         '
         'checkHabilitar
         '
@@ -664,6 +566,103 @@ Partial Class Form_actualizar
         Me.checkHabilitar.Text = "HABILITAR DTO"
         Me.checkHabilitar.UseVisualStyleBackColor = True
         '
+        'checkServicios
+        '
+        Me.checkServicios.AutoSize = True
+        Me.checkServicios.Location = New System.Drawing.Point(219, 67)
+        Me.checkServicios.Name = "checkServicios"
+        Me.checkServicios.Size = New System.Drawing.Size(83, 17)
+        Me.checkServicios.TabIndex = 16
+        Me.checkServicios.Text = "SERVICIOS"
+        Me.checkServicios.UseVisualStyleBackColor = True
+        '
+        'checkParqueadero
+        '
+        Me.checkParqueadero.AutoSize = True
+        Me.checkParqueadero.Location = New System.Drawing.Point(60, 67)
+        Me.checkParqueadero.Name = "checkParqueadero"
+        Me.checkParqueadero.Size = New System.Drawing.Size(109, 17)
+        Me.checkParqueadero.TabIndex = 15
+        Me.checkParqueadero.Text = "PARQUEADERO"
+        Me.checkParqueadero.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.radioPesos)
+        Me.GroupBox1.Controls.Add(Me.radioPorcentaje)
+        Me.GroupBox1.Controls.Add(Me.txtDescuento)
+        Me.GroupBox1.Location = New System.Drawing.Point(58, 88)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(244, 89)
+        Me.GroupBox1.TabIndex = 14
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "DESCUENTO"
+        '
+        'radioPesos
+        '
+        Me.radioPesos.AutoSize = True
+        Me.radioPesos.Location = New System.Drawing.Point(203, 46)
+        Me.radioPesos.Name = "radioPesos"
+        Me.radioPesos.Size = New System.Drawing.Size(31, 17)
+        Me.radioPesos.TabIndex = 1
+        Me.radioPesos.TabStop = True
+        Me.radioPesos.Text = "$"
+        Me.radioPesos.UseVisualStyleBackColor = True
+        '
+        'radioPorcentaje
+        '
+        Me.radioPorcentaje.AutoSize = True
+        Me.radioPorcentaje.Location = New System.Drawing.Point(203, 30)
+        Me.radioPorcentaje.Name = "radioPorcentaje"
+        Me.radioPorcentaje.Size = New System.Drawing.Size(33, 17)
+        Me.radioPorcentaje.TabIndex = 0
+        Me.radioPorcentaje.TabStop = True
+        Me.radioPorcentaje.Text = "%"
+        Me.radioPorcentaje.UseVisualStyleBackColor = True
+        '
+        'txtDescuento
+        '
+        Me.txtDescuento.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtDescuento.Location = New System.Drawing.Point(18, 36)
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(179, 20)
+        Me.txtDescuento.TabIndex = 11
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(170, 187)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(143, 25)
+        Me.Label13.TabIndex = 13
+        Me.Label13.Text = "DESCUENTO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
+        'DataGridViewDescuento
+        '
+        Me.DataGridViewDescuento.AllowUserToAddRows = False
+        Me.DataGridViewDescuento.AllowUserToDeleteRows = False
+        Me.DataGridViewDescuento.AllowUserToResizeColumns = False
+        Me.DataGridViewDescuento.AllowUserToResizeRows = False
+        Me.DataGridViewDescuento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridViewDescuento.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.DataGridViewDescuento.Location = New System.Drawing.Point(58, 215)
+        Me.DataGridViewDescuento.MultiSelect = False
+        Me.DataGridViewDescuento.Name = "DataGridViewDescuento"
+        Me.DataGridViewDescuento.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing
+        Me.DataGridViewDescuento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridViewDescuento.Size = New System.Drawing.Size(374, 45)
+        Me.DataGridViewDescuento.TabIndex = 7
+        '
+        'btnGuradarDto
+        '
+        Me.btnGuradarDto.Location = New System.Drawing.Point(305, 95)
+        Me.btnGuradarDto.Name = "btnGuradarDto"
+        Me.btnGuradarDto.Size = New System.Drawing.Size(126, 81)
+        Me.btnGuradarDto.TabIndex = 2
+        Me.btnGuradarDto.Text = "GUARDAR DATOS"
+        Me.btnGuradarDto.UseVisualStyleBackColor = True
+        '
         'Form_actualizar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -671,6 +670,7 @@ Partial Class Form_actualizar
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(822, 372)
+        Me.Controls.Add(Me.PanelTitulo)
         Me.Controls.Add(Me.PanelOperarios)
         Me.Controls.Add(Me.PanelDescuento)
         Me.Controls.Add(Me.PanelServicios)
@@ -700,12 +700,12 @@ Partial Class Form_actualizar
         CType(Me.DataGridViewTarifas, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelOperarios.ResumeLayout(False)
         Me.PanelOperarios.PerformLayout()
+        CType(Me.DataGridViewOperarios, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelDescuento.ResumeLayout(False)
         Me.PanelDescuento.PerformLayout()
-        CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridViewOperarios, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

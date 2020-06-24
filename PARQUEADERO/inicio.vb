@@ -28,6 +28,7 @@ Public Class inicio
 
     Private Sub inicio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Label3.Text = consulta_empresa()
+        Form1.ITEMUSUARIO.BackColor = Color.AliceBlue
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click

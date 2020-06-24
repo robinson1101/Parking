@@ -35,7 +35,6 @@ Public Class Form1
 
 
 
-
         Label18.Text = consulta_empresa()
         inicio.Label3.Text = consulta_empresa()
         Timer4.Start()
@@ -1658,15 +1657,19 @@ Public Class Form1
     End Sub
 
 
-    Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
 
         Dim Msg As MsgBoxResult
         Msg = MsgBox("         ESTA A PUNTO DE CERRAR EL PROGRAMA" & vbCrLf & "" & vbCrLf & "         ¿Desea salir?..", vbYesNo, "DETENER APLICATIVO")
         If Msg = MsgBoxResult.Yes Then
             Application.ExitThread()
         Else
-            Exit Sub
+            e.Cancel = True
         End If
+    End Sub
+
+    Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click
+
     End Sub
 
     Private Sub REntradaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles REntradaToolStripMenuItem.Click
