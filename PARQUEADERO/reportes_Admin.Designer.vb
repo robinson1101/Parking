@@ -244,6 +244,7 @@ Partial Class reportes_Admin
         Me.Name = "reportes_Admin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "REPORTES ADMINISTRADOR"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

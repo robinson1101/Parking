@@ -1071,6 +1071,7 @@ Partial Class ELIMINAR
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "ELIMINAR"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ELIMINAR"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

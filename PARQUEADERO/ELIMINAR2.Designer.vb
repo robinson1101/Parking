@@ -30,7 +30,9 @@ Partial Class ELIMINAR2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(798, 446)
         Me.Name = "ELIMINAR2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ELIMINAR2"
+        Me.TopMost = True
         Me.ResumeLayout(False)
 
     End Sub

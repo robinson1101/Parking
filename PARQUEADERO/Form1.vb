@@ -1647,7 +1647,8 @@ Public Class Form1
     End Sub
 
     Private Sub AdministradorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdministradorToolStripMenuItem.Click
-        VALIDAR_REPORTE_ADMIN.ShowDialog()
+        VALIDAR_REPORTE_ADMIN.Show()
+
     End Sub
 
     Private Sub CONFIGURARToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMCONFIGURAR.Click
@@ -1666,6 +1667,10 @@ Public Class Form1
         Else
             e.Cancel = True
         End If
+    End Sub
+
+    Private Sub TotalFacturadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TotalFacturadoToolStripMenuItem.Click
+        REPORTES.Show()
     End Sub
 
     Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click

@@ -131,7 +131,7 @@ Public Class ELIMINAR2
 
         If ELIMINAR.TextBox7.Text.Trim <> "" Then
             yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox7.Text, textFont7, Brushes.BlueViolet, 156, yPos7 + yIncrement, textFormat)
+            e.Graphics.DrawString(ELIMINAR.TextBox7.Text, textFont7, Brushes.Black, 156, yPos7 + yIncrement, textFormat)
 
         End If
 
@@ -182,4 +182,7 @@ Public Class ELIMINAR2
         Controls.Add(ppc)
     End Sub
 
+    Private Sub ELIMINAR2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

@@ -63,8 +63,8 @@ Module factura_cobrar
                 general = Val(lectura2(4)) + Val(lectura2(5)) + Val(lectura2(6)) + Val(lectura2(7))
                 tapiceria = Val(lectura2(8)) + Val(lectura2(9)) + Val(lectura2(10))
                 Motor = Val(lectura2(11)) + Val(lectura2(12)) + Val(lectura2(13))
-                otro = conversorMoneda.ajustar_precio(Convert.ToString(lectura2(14)))
-                parqueadero = conversorMoneda.ajustar_precio(Convert.ToString(lectura2(15)))
+                otro = Val(lectura2(14))
+                parqueadero = Val(lectura2(15))
                 descuento = Val(lectura2(16))
                 tipoDescuento = lectura2(17)
                 aplicable = lectura2(18)
@@ -92,6 +92,14 @@ Module factura_cobrar
                 conexion2.Close()
             End If
 
+            'eliminamos el iva para optener el precio neto
+            enjuague = Convert.ToInt16(Val(enjuague) / (1 + (Val(iva) / 100)))
+            general = Convert.ToInt16(Val(general) / (1 + (Val(iva) / 100)))
+            tapiceria = Convert.ToInt16(Val(tapiceria) / (1 + (Val(iva) / 100)))
+            Motor = Convert.ToInt16(Val(Motor) / (1 + (Val(iva) / 100)))
+            otro = Convert.ToInt16(Val(otro) / (1 + (Val(iva) / 100)))
+            parqueadero = Convert.ToInt16(Val(parqueadero) / (1 + (Val(iva) / 100)))
+
         Catch ex As Exception
 
         End Try
@@ -108,7 +116,7 @@ Module factura_cobrar
 
 
         Catch ex As Exception
-            MsgBox("fallo de actualización", vbExclamation, "Atención      SKYNET")
+            MsgBox("fallo de actualización", vbExclamation, "Atención      SKYSOFT")
 
 
         End Try
@@ -148,15 +156,15 @@ Module factura_cobrar
 
                 If aplicable = "P" Then
 
-                    desParqueadero = (Val(parqueadero) * Val(descuento)) / 100
+                    desParqueadero = Convert.ToInt16((Val(parqueadero) * Val(descuento)) / 100)
 
                 ElseIf aplicable = "S" Then
 
-                    desServicio = ((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100
+                    desServicio = Convert.ToInt16(((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100)
 
                 ElseIf aplicable = "P+S" Then
 
-                    desParqueaderoServicio = (((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento)) / 100)
+                    desParqueaderoServicio = Convert.ToInt16((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento) / 100)
 
                 End If
 
@@ -170,10 +178,10 @@ Module factura_cobrar
         Dim totalDescuento As Double = 0
         totalDescuento = desParqueadero + desServicio + desParqueaderoServicio
 
-        ivaPesos = Convert.ToDouble(conversorMoneda.ajustar_precio(Convert.ToString((Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) / (1 + (Val(iva) / 100)))) * (Val(iva) / 100)))
-        subtotal = Convert.ToDouble(conversorMoneda.ajustar_precio(Convert.ToString(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento)))
+        ivaPesos = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) * (Val(iva) / 100))
+        subtotal = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento)
 
-        total_factura = conversorMoneda.ajustar_precio(Convert.ToString(subtotal + ivaPesos))
+        total_factura = CStr(Math.Round((subtotal + ivaPesos) / 50) * 50)
         iva_bd = ivaPesos
         tiempos = Form1.Label9.Text
 
@@ -458,7 +466,7 @@ Module factura_cobrar
             yIncrement += 15
             e.Graphics.DrawString(" ", textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             yIncrement += 15
-            e.Graphics.DrawString("PARQUEADERO: $" & conversorMoneda.ajustar_precio(Convert.ToString(parqueadero)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+            e.Graphics.DrawString("PARQUEADERO: $" & (parqueadero), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
 
             If descuento <> "0" And tipoDescuento <> "0" And aplicable <> "0" And aplicable = "P" Then
                 If tipoDescuento = "%" Then
@@ -484,23 +492,23 @@ Module factura_cobrar
 
             If enjuague <> 0 Then
                 yIncrement += 15
-                e.Graphics.DrawString("ENJUAGUE: $ " & conversorMoneda.ajustar_precio(Convert.ToString(enjuague)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+                e.Graphics.DrawString("ENJUAGUE: $ " & (enjuague), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             End If
             If general <> 0 Then
                 yIncrement += 15
-                e.Graphics.DrawString("GENERAL: $" & conversorMoneda.ajustar_precio(Convert.ToString(general)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+                e.Graphics.DrawString("GENERAL: $" & (general), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             End If
             If tapiceria <> 0 Then
                 yIncrement += 15
-                e.Graphics.DrawString("TAPICERIA: $" & conversorMoneda.ajustar_precio(Convert.ToString(tapiceria)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+                e.Graphics.DrawString("TAPICERIA: $" & (tapiceria), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             End If
             If Motor <> 0 Then
                 yIncrement += 15
-                e.Graphics.DrawString("MOTOR: $" & conversorMoneda.ajustar_precio(Convert.ToString(Motor)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+                e.Graphics.DrawString("MOTOR: $" & (Motor), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             End If
             If otro <> 0 Then
                 yIncrement += 15
-                e.Graphics.DrawString("OTROS: $" & conversorMoneda.ajustar_precio(Convert.ToString(otro)), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+                e.Graphics.DrawString("OTROS: $" & (otro), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             End If
             yIncrement += 15
             e.Graphics.DrawString(" ", textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
@@ -520,7 +528,7 @@ Module factura_cobrar
 
             If varconex.State = ConnectionState.Open Then varconex.Close()
             Dim Query3 As String
-            Query3 = "update ingreso_vehiculos SET  servicioReal='" & conversorMoneda.ajustar_precio(Convert.ToString(((Val(enjuague) + Val(general) + Val(tapiceria) + Val(Motor) + Val(otro)) - desServicio))) & "' where Factura='" & Form1.Label16.Text & "'"
+            Query3 = "update ingreso_vehiculos SET  servicioReal='" & conversorMoneda.ajustar_precio(Convert.ToString(((Val(enjuague) + Val(general) + Val(tapiceria) + Val(Motor) + Val(otro) + Val(ivaPesos)) - desServicio))) & "' where Factura='" & Form1.Label16.Text & "'"
             varconex.Open()
             Dim cmd3 As MySqlCommand = New MySqlCommand(Query3, varconex)
             cmd3.ExecuteNonQuery()
@@ -608,8 +616,8 @@ Module factura_cobrar
 
 
         Catch ex As Exception
-            MsgBox("fallo de actualización", vbExclamation, "Atención      SKYNET")
 
+            MsgBox("fallo de actualización", vbExclamation, "Atención      SICOVEH")
 
         End Try
 
@@ -622,8 +630,9 @@ Module factura_cobrar
 
         Try
             preview.Visible = False
+            ' preview.Close()
         Catch ex As Exception
-
+            MsgBox(ex.ToString)
         End Try
     End Sub
 

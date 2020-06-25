@@ -27,6 +27,7 @@ Partial Class Form_actualizar
         Me.TextBoxNombreEmpresa = New System.Windows.Forms.TextBox()
         Me.ButtonNuevo = New System.Windows.Forms.Button()
         Me.PanelTitulo = New System.Windows.Forms.Panel()
+        Me.LinkLabelFactura = New System.Windows.Forms.LinkLabel()
         Me.ButtonNombreEmp = New System.Windows.Forms.Button()
         Me.ButtonDos = New System.Windows.Forms.Button()
         Me.ButtonTarifas = New System.Windows.Forms.Button()
@@ -77,6 +78,9 @@ Partial Class Form_actualizar
         Me.Label13 = New System.Windows.Forms.Label()
         Me.DataGridViewDescuento = New System.Windows.Forms.DataGridView()
         Me.btnGuradarDto = New System.Windows.Forms.Button()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.TextBoxClave = New System.Windows.Forms.TextBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.PanelTitulo.SuspendLayout()
         Me.PanelContenedor.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -101,6 +105,7 @@ Partial Class Form_actualizar
         Me.Label1.Size = New System.Drawing.Size(300, 25)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "NOMBRE DE LA EMPRESA"
+        Me.Label1.Visible = False
         '
         'TextBoxNombreEmpresa
         '
@@ -111,6 +116,7 @@ Partial Class Form_actualizar
         Me.TextBoxNombreEmpresa.Name = "TextBoxNombreEmpresa"
         Me.TextBoxNombreEmpresa.Size = New System.Drawing.Size(395, 24)
         Me.TextBoxNombreEmpresa.TabIndex = 1
+        Me.TextBoxNombreEmpresa.Visible = False
         '
         'ButtonNuevo
         '
@@ -120,11 +126,16 @@ Partial Class Form_actualizar
         Me.ButtonNuevo.TabIndex = 2
         Me.ButtonNuevo.Text = "Ingresar"
         Me.ButtonNuevo.UseVisualStyleBackColor = True
+        Me.ButtonNuevo.Visible = False
         '
         'PanelTitulo
         '
         Me.PanelTitulo.AutoScroll = True
         Me.PanelTitulo.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelTitulo.Controls.Add(Me.Button5)
+        Me.PanelTitulo.Controls.Add(Me.TextBoxClave)
+        Me.PanelTitulo.Controls.Add(Me.Label14)
+        Me.PanelTitulo.Controls.Add(Me.LinkLabelFactura)
         Me.PanelTitulo.Controls.Add(Me.ButtonNuevo)
         Me.PanelTitulo.Controls.Add(Me.Label1)
         Me.PanelTitulo.Controls.Add(Me.TextBoxNombreEmpresa)
@@ -133,6 +144,17 @@ Partial Class Form_actualizar
         Me.PanelTitulo.Size = New System.Drawing.Size(500, 364)
         Me.PanelTitulo.TabIndex = 3
         Me.PanelTitulo.Visible = False
+        '
+        'LinkLabelFactura
+        '
+        Me.LinkLabelFactura.AutoSize = True
+        Me.LinkLabelFactura.Location = New System.Drawing.Point(201, 210)
+        Me.LinkLabelFactura.Name = "LinkLabelFactura"
+        Me.LinkLabelFactura.Size = New System.Drawing.Size(94, 13)
+        Me.LinkLabelFactura.TabIndex = 3
+        Me.LinkLabelFactura.TabStop = True
+        Me.LinkLabelFactura.Text = "Configurar Factura"
+        Me.LinkLabelFactura.Visible = False
         '
         'ButtonNombreEmp
         '
@@ -663,6 +685,35 @@ Partial Class Form_actualizar
         Me.btnGuradarDto.Text = "GUARDAR DATOS"
         Me.btnGuradarDto.UseVisualStyleBackColor = True
         '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(61, 127)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(80, 16)
+        Me.Label14.TabIndex = 4
+        Me.Label14.Text = "Contraseña:"
+        '
+        'TextBoxClave
+        '
+        Me.TextBoxClave.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.TextBoxClave.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBoxClave.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxClave.Location = New System.Drawing.Point(139, 122)
+        Me.TextBoxClave.Name = "TextBoxClave"
+        Me.TextBoxClave.Size = New System.Drawing.Size(205, 24)
+        Me.TextBoxClave.TabIndex = 5
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(348, 121)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(59, 26)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "Acceder"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form_actualizar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -764,4 +815,8 @@ Partial Class Form_actualizar
     Friend WithEvents checkServicios As CheckBox
     Friend WithEvents checkParqueadero As CheckBox
     Friend WithEvents checkHabilitar As CheckBox
+    Friend WithEvents LinkLabelFactura As LinkLabel
+    Friend WithEvents Button5 As Button
+    Friend WithEvents TextBoxClave As TextBox
+    Friend WithEvents Label14 As Label
 End Class

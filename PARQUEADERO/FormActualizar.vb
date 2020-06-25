@@ -6,10 +6,11 @@ Public Class Form_actualizar
     Dim _adaptador As New MySqlDataAdapter
     Dim conversorMoneda As New conversorMoneda
     Private Sub _TextChanged(sender As Object, e As EventArgs) Handles TextBoxNombreEmpresa.TextChanged
-        Form1.Label18.Text = TextBoxNombreEmpresa.Text
+
     End Sub
 
     Private Sub ButtonNuevo_Click(sender As Object, e As EventArgs) Handles ButtonNuevo.Click
+
         If TextBoxNombreEmpresa.Text <> "" Then
 
 
@@ -19,6 +20,8 @@ Public Class Form_actualizar
             _conexion.Open()
             _adaptador.InsertCommand.Connection = _conexion
             _adaptador.InsertCommand.ExecuteNonQuery()
+
+            Form1.Label18.Text = TextBoxNombreEmpresa.Text
 
             MsgBox("NOMBRE MODIFICADO CORRECTAMENTE")
             Me.Close()
@@ -413,5 +416,31 @@ Public Class Form_actualizar
             MessageBox.Show(ex.Message)
 
         End Try
+    End Sub
+
+    Private Sub LinkLabelFactura_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabelFactura.LinkClicked
+        ELIMINAR.ShowDialog()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
+        If TextBoxClave.Text.Trim = "contrasena" Then
+            Label1.Visible = True
+            TextBoxNombreEmpresa.Visible = True
+            ButtonNuevo.Visible = True
+            LinkLabelFactura.Visible = True
+
+            Label14.Visible = False
+            TextBoxClave.Visible = False
+            Button5.Visible = False
+
+        Else
+            MsgBox("La contraseña es incorrecta")
+        End If
+
+    End Sub
+
+    Private Sub Form_actualizar_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Me.Dispose()
     End Sub
 End Class
