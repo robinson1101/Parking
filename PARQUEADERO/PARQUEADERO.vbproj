@@ -486,6 +486,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="manz.ico" />
+    <None Include="Resources\img1.png" />
+    <Content Include="Resources\Pictogram_nophoto.svg.png" />
     <None Include="Resources\LOGO SICOVEH.png" />
     <None Include="Resources\newlogo2intento.png" />
     <None Include="Resources\mas21.png" />

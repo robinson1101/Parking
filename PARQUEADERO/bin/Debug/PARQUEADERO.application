@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="PARQUEADERO.exe.manifest" size="10243">
+    <dependentAssembly dependencyType="install" codebase="PARQUEADERO.exe.manifest" size="10657">
       <assemblyIdentity name="PARQUEADERO.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jIK6gITy7BfkbY2QHljtf4piIoOie1pabiLlZXccLfc=</dsig:DigestValue>
+        <dsig:DigestValue>l7iZzI/X8ANSsGk6X+6r3z7/19IOuvAF8E13fSekdtY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

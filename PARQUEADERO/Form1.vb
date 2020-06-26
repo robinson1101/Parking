@@ -30,10 +30,56 @@ Public Class Form1
     Dim varconex, conexion, conexion2, conexion3, conexionIns As New MySqlConnection(cadena)
     Public verdata, verSdata, comArtdata, codata, solidata, endata, sadata, candata, datostotal, datositem As New DataSet
 
+
+    Private Function Bytes_Imagen(ByVal Imagen As Byte()) As Image
+        Try
+            'si hay imagen
+            If Not Imagen Is Nothing Then
+                'caturar array con memorystream hacia Bin
+                Dim Bin As New MemoryStream(Imagen)
+                'con el método FroStream de Image obtenemos imagen
+                Dim Resultado As Image = Image.FromStream(Bin)
+                'y la retornamos
+                Return Resultado
+            Else
+                Return Nothing
+            End If
+        Catch ex As Exception
+            Return Nothing
+        End Try
+    End Function
+    Sub cargarImagen()
+
+        Try
+            Dim valor As Byte() = Nothing
+            Dim almacenar As MySqlDataReader
+            Dim consulta As New MySqlCommand("select img from title", varconex)
+            varconex.Open()
+            almacenar = consulta.ExecuteReader
+
+            If almacenar.Read Then
+                Try
+                    valor = almacenar(0)
+                Catch ex As Exception
+                    valor = Nothing
+                End Try
+
+            End If
+            varconex.Close()
+
+            If valor Is Nothing Then
+                Me.PictureBoxImg.Image = My.Resources.img1
+            Else
+                Me.PictureBoxImg.Image = Bytes_Imagen(valor)
+            End If
+        Catch ex As Exception
+            MsgBox("SICOVEH", ex.ToString)
+        End Try
+
+    End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        cargarImagen()
         TimerHora.Enabled = True
-
-
 
         Label18.Text = consulta_empresa()
         inicio.Label3.Text = consulta_empresa()

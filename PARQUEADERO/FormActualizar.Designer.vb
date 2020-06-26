@@ -27,6 +27,9 @@ Partial Class Form_actualizar
         Me.TextBoxNombreEmpresa = New System.Windows.Forms.TextBox()
         Me.ButtonNuevo = New System.Windows.Forms.Button()
         Me.PanelTitulo = New System.Windows.Forms.Panel()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.TextBoxClave = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.LinkLabelFactura = New System.Windows.Forms.LinkLabel()
         Me.ButtonNombreEmp = New System.Windows.Forms.Button()
         Me.ButtonDos = New System.Windows.Forms.Button()
@@ -36,7 +39,6 @@ Partial Class Form_actualizar
         Me.ButtonOperarios = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelServicios = New System.Windows.Forms.Panel()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -78,13 +80,12 @@ Partial Class Form_actualizar
         Me.Label13 = New System.Windows.Forms.Label()
         Me.DataGridViewDescuento = New System.Windows.Forms.DataGridView()
         Me.btnGuradarDto = New System.Windows.Forms.Button()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.TextBoxClave = New System.Windows.Forms.TextBox()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PanelTitulo.SuspendLayout()
         Me.PanelContenedor.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelServicios.SuspendLayout()
         CType(Me.DataGridViewServicios, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelTarifas.SuspendLayout()
@@ -94,6 +95,7 @@ Partial Class Form_actualizar
         Me.PanelDescuento.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -132,6 +134,8 @@ Partial Class Form_actualizar
         '
         Me.PanelTitulo.AutoScroll = True
         Me.PanelTitulo.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.PanelTitulo.Controls.Add(Me.Button6)
+        Me.PanelTitulo.Controls.Add(Me.LinkLabel1)
         Me.PanelTitulo.Controls.Add(Me.Button5)
         Me.PanelTitulo.Controls.Add(Me.TextBoxClave)
         Me.PanelTitulo.Controls.Add(Me.Label14)
@@ -145,10 +149,39 @@ Partial Class Form_actualizar
         Me.PanelTitulo.TabIndex = 3
         Me.PanelTitulo.Visible = False
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(348, 121)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(59, 26)
+        Me.Button5.TabIndex = 6
+        Me.Button5.Text = "Acceder"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'TextBoxClave
+        '
+        Me.TextBoxClave.BackColor = System.Drawing.SystemColors.InactiveCaption
+        Me.TextBoxClave.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBoxClave.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBoxClave.Location = New System.Drawing.Point(139, 122)
+        Me.TextBoxClave.Name = "TextBoxClave"
+        Me.TextBoxClave.Size = New System.Drawing.Size(205, 24)
+        Me.TextBoxClave.TabIndex = 5
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(61, 127)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(80, 16)
+        Me.Label14.TabIndex = 4
+        Me.Label14.Text = "Contraseña:"
+        '
         'LinkLabelFactura
         '
         Me.LinkLabelFactura.AutoSize = True
-        Me.LinkLabelFactura.Location = New System.Drawing.Point(201, 210)
+        Me.LinkLabelFactura.Location = New System.Drawing.Point(200, 258)
         Me.LinkLabelFactura.Name = "LinkLabelFactura"
         Me.LinkLabelFactura.Size = New System.Drawing.Size(94, 13)
         Me.LinkLabelFactura.TabIndex = 3
@@ -236,16 +269,6 @@ Partial Class Form_actualizar
         Me.Label2.Size = New System.Drawing.Size(448, 25)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "SISTEMA DE PARQUEADERO Y LAVADERO"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.stricted
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(489, 364)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 4
-        Me.PictureBox1.TabStop = False
         '
         'PanelServicios
         '
@@ -685,34 +708,38 @@ Partial Class Form_actualizar
         Me.btnGuradarDto.Text = "GUARDAR DATOS"
         Me.btnGuradarDto.UseVisualStyleBackColor = True
         '
-        'Label14
+        'LinkLabel1
         '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(61, 127)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(80, 16)
-        Me.Label14.TabIndex = 4
-        Me.Label14.Text = "Contraseña:"
+        Me.LinkLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.Red
+        Me.LinkLabel1.Location = New System.Drawing.Point(139, 181)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(205, 39)
+        Me.LinkLabel1.TabIndex = 7
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "cargar imagen"
+        Me.LinkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.LinkLabel1.Visible = False
         '
-        'TextBoxClave
+        'Button6
         '
-        Me.TextBoxClave.BackColor = System.Drawing.SystemColors.InactiveCaption
-        Me.TextBoxClave.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBoxClave.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBoxClave.Location = New System.Drawing.Point(139, 122)
-        Me.TextBoxClave.Name = "TextBoxClave"
-        Me.TextBoxClave.Size = New System.Drawing.Size(205, 24)
-        Me.TextBoxClave.TabIndex = 5
+        Me.Button6.Location = New System.Drawing.Point(139, 220)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(205, 26)
+        Me.Button6.TabIndex = 8
+        Me.Button6.Text = "Guardar imagen en base de datos"
+        Me.Button6.UseVisualStyleBackColor = True
+        Me.Button6.Visible = False
         '
-        'Button5
+        'PictureBox1
         '
-        Me.Button5.Location = New System.Drawing.Point(348, 121)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(59, 26)
-        Me.Button5.TabIndex = 6
-        Me.Button5.Text = "Acceder"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.stricted
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(489, 364)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 4
+        Me.PictureBox1.TabStop = False
         '
         'Form_actualizar
         '
@@ -742,7 +769,6 @@ Partial Class Form_actualizar
         Me.PanelContenedor.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelServicios.ResumeLayout(False)
         Me.PanelServicios.PerformLayout()
         CType(Me.DataGridViewServicios, System.ComponentModel.ISupportInitialize).EndInit()
@@ -757,6 +783,7 @@ Partial Class Form_actualizar
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.DataGridViewDescuento, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -819,4 +846,6 @@ Partial Class Form_actualizar
     Friend WithEvents Button5 As Button
     Friend WithEvents TextBoxClave As TextBox
     Friend WithEvents Label14 As Label
+    Friend WithEvents Button6 As Button
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

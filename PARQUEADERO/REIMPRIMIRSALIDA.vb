@@ -346,6 +346,15 @@ Public Class REIMPRIMIRSALIDA
                 iva = lectura2(19)
             End If
             conexion1.Close()
+
+            'eliminamos el iva para optener el precio neto
+            enjuague = Convert.ToInt16(Val(enjuague) / (1 + (Val(iva) / 100)))
+            general = Convert.ToInt16(Val(general) / (1 + (Val(iva) / 100)))
+            tapiceria = Convert.ToInt16(Val(tapiceria) / (1 + (Val(iva) / 100)))
+            Motor = Convert.ToInt16(Val(Motor) / (1 + (Val(iva) / 100)))
+            otro = Convert.ToInt16(Val(otro) / (1 + (Val(iva) / 100)))
+            parqueadero = Convert.ToInt16(Val(parqueadero) / (1 + (Val(iva) / 100)))
+
         Catch ex As Exception
 
         End Try
@@ -383,15 +392,15 @@ Public Class REIMPRIMIRSALIDA
 
                 If aplicable = "P" Then
 
-                    desParqueadero = (Val(parqueadero) * Val(descuento)) / 100
+                    desParqueadero = Convert.ToInt16(Val(parqueadero) * Val(descuento) / 100)
 
                 ElseIf aplicable = "S" Then
 
-                    desServicio = ((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100
+                    desServicio = Convert.ToInt16(((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100)
 
                 ElseIf aplicable = "P+S" Then
 
-                    desParqueaderoServicio = Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro) - (((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento)) / 100)
+                    desParqueaderoServicio = Convert.ToInt16((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento) / 100)
 
                 End If
 
@@ -401,12 +410,16 @@ Public Class REIMPRIMIRSALIDA
 
         Dim ivaPesos As Double = 0
         Dim totalDescuento As Double = 0
+
         totalDescuento = desParqueadero + desServicio + desParqueaderoServicio
-        ivaPesos = Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) * Val(iva) / 100
-        subtotal = (Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento
+
+        ivaPesos = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) * (Val(iva) / 100))
+        subtotal = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento)
+
 
         Dim lblTotalFactura As String = "0"
-        lblTotalFactura = conversorMoneda.ajustar_precio(Convert.ToString(subtotal))
+
+        lblTotalFactura = CStr(Math.Round((subtotal + ivaPesos) / 50) * 50)
 
 
 
@@ -692,7 +705,7 @@ Public Class REIMPRIMIRSALIDA
             yIncrement += 15
             e.Graphics.DrawString(" ", textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             yIncrement += 15
-            e.Graphics.DrawString("TOTAL PARQUEADERO: " & parqueadero, textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+            e.Graphics.DrawString("PARQUEADERO: $" & parqueadero, textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
 
             If descuento <> "0" And tipoDescuento <> "0" And aplicable <> "0" And aplicable = "P" Then
                 If tipoDescuento = "%" Then
@@ -704,8 +717,6 @@ Public Class REIMPRIMIRSALIDA
                 End If
             End If
 
-            yIncrement += 15
-            e.Graphics.DrawString("SUBTOTAL: $" & parqueadero - desParqueadero, textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
             yIncrement += 15
             e.Graphics.DrawString("----------------------------------------------", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
 
@@ -751,8 +762,7 @@ Public Class REIMPRIMIRSALIDA
                 End If
             End If
 
-            yIncrement += 15
-            e.Graphics.DrawString("SUBTOTAL: $" & (Val(enjuague) + Val(general) + Val(tapiceria) + Val(Motor) + Val(otro) - desServicio), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
+
             yIncrement += 15
             e.Graphics.DrawString("---------------------------------------------- ", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
 
@@ -768,6 +778,9 @@ Public Class REIMPRIMIRSALIDA
             End If
         End If
 
+
+        yIncrement += 15
+        e.Graphics.DrawString("SUBTOTAL: $" & (conversorMoneda.ajustar_precio(Convert.ToString(subtotal))), textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
         yIncrement += 15
         e.Graphics.DrawString("IVA " & iva & "%: $" & ivaPesos, textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
         yIncrement += 15
@@ -776,6 +789,10 @@ Public Class REIMPRIMIRSALIDA
 
         yIncrement += 15
         e.Graphics.DrawString("**********************************************************************", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
+
+        yIncrement += 15
+        e.Graphics.DrawString("COPIA", textFontPred2, Brushes.Black, 156, yPosPred2 + yIncrement, textFormat)
+
         yIncrement += 15
         e.Graphics.DrawString("TARIFAS DE PARQUEO", textFontPred2, Brushes.Black, 156, yPosPred2 + yIncrement, textFormat)
 

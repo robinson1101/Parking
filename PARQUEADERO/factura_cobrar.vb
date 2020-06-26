@@ -156,7 +156,7 @@ Module factura_cobrar
 
                 If aplicable = "P" Then
 
-                    desParqueadero = Convert.ToInt16((Val(parqueadero) * Val(descuento)) / 100)
+                    desParqueadero = Convert.ToInt16(Val(parqueadero) * Val(descuento) / 100)
 
                 ElseIf aplicable = "S" Then
 

@@ -1,10 +1,13 @@
 ﻿Imports System.Configuration
+Imports System.IO
 Imports MySql
 Imports MySql.Data.MySqlClient
 
 Public Class Form_actualizar
     Dim _adaptador As New MySqlDataAdapter
     Dim conversorMoneda As New conversorMoneda
+    Dim cadena As String = ConfigurationManager.ConnectionStrings("cadenaMysql").ToString
+    Dim varconez As New MySqlConnection(cadena)
     Private Sub _TextChanged(sender As Object, e As EventArgs) Handles TextBoxNombreEmpresa.TextChanged
 
     End Sub
@@ -429,6 +432,8 @@ Public Class Form_actualizar
             TextBoxNombreEmpresa.Visible = True
             ButtonNuevo.Visible = True
             LinkLabelFactura.Visible = True
+            LinkLabel1.Visible = True
+            Button6.Visible = True
 
             Label14.Visible = False
             TextBoxClave.Visible = False
@@ -442,5 +447,81 @@ Public Class Form_actualizar
 
     Private Sub Form_actualizar_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         Me.Dispose()
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+
+        abrir_imagen()
+
+    End Sub
+
+    Private Sub abrir_imagen()
+        Dim filename As String
+        Dim openfiler As New OpenFileDialog
+        'Definiendo propiedades al openfiledialog
+        With openfiler
+            'directorio inicial
+            .InitialDirectory = "C:\"
+            'archivos que se pueden abrir
+            .Filter = "Archivos de imágen(*.jpg)|*.jpg|All Files (*.*)|*.*"
+            'indice del archivo de lectura por defecto
+            .FilterIndex = 1
+            'restaurar el directorio al cerrar el dialogo
+            .RestoreDirectory = True
+        End With
+        '
+        'Evalua si el usuario hace click en el boton abrir
+        If openfiler.ShowDialog = System.Windows.Forms.DialogResult.OK Then
+            'Obteniendo la ruta completa del archivo xml
+            filename = openfiler.FileName
+            Try
+                Form1.PictureBoxImg.Image = Image.FromFile(filename)
+                LinkLabel1.Text = openfiler.FileName
+            Catch ex As Exception
+                MsgBox("NO FUE POSIBLE CARGAR LA IMAGEN", vbInformation, "")
+            End Try
+
+
+        Else
+            openfiler.Dispose()
+            LinkLabel1.Text = "Cargar imagen"
+            Form1.PictureBoxImg.Image = Nothing
+        End If
+    End Sub
+
+    'convertir imagen a binario
+    Private Function Imagen_Bytes(ByVal Imagen As Image) As Byte()
+        'si hay imagen
+        If Not Imagen Is Nothing Then
+            'variable de datos binarios en stream(flujo)
+            Dim Bin As New MemoryStream
+            'convertir a bytes
+            Imagen.Save(Bin, Imaging.ImageFormat.Jpeg)
+            'retorna binario
+            Return Bin.GetBuffer
+        Else
+            Return Nothing
+        End If
+    End Function
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
+        Dim img As Byte() = Nothing
+        img = Imagen_Bytes(Form1.PictureBoxImg.Image)
+
+
+        Try
+            varconez.Open()
+            Dim cmd As New MySqlCommand("update title set img=?imagen", varconez)
+            cmd.Parameters.AddWithValue("?imagen", img)
+
+
+            cmd.ExecuteNonQuery()
+            varconez.Close()
+            MsgBox("Imagen guardada correctamente")
+        Catch ex As Exception
+            MsgBox("SICOVEH ", ex.ToString)
+        End Try
+
     End Sub
 End Class
