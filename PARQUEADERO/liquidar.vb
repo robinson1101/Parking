@@ -34,9 +34,11 @@ Public Class liquidar
 
         DataGridView1.Columns(0).Width = 60
         DataGridView1.Columns(1).Width = 130
-        DataGridView1.Columns(2).Width = 70
-        DataGridView1.Columns(4).Width = 175
-        DataGridView1.Columns(3).Width = 28
+        DataGridView1.Columns(2).Width = 60
+        DataGridView1.Columns(4).Width = 28
+        DataGridView1.Columns(3).Width = 60
+        DataGridView1.Columns(5).Width = 155
+
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
@@ -78,7 +80,7 @@ Public Class liquidar
             Dim fila As DataGridViewRow = New DataGridViewRow()
         For Each fila In DataGridView1.Rows
             ' el porcentaje se calcula de acuerdo al valor del servicio no del total de la factura
-            total += Convert.ToDouble(fila.Cells("SERVICIO").Value)
+            total += Convert.ToDouble(fila.Cells("VENTA").Value)
         Next
 
 
