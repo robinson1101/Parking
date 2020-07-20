@@ -1444,7 +1444,7 @@ Partial Class Form1
         'OperariosToolStripMenuItem
         '
         Me.OperariosToolStripMenuItem.Name = "OperariosToolStripMenuItem"
-        Me.OperariosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.OperariosToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
         Me.OperariosToolStripMenuItem.Text = "Operarios"
         '
         'ITEMCIERRES
@@ -1457,13 +1457,13 @@ Partial Class Form1
         'RealizarCierreToolStripMenuItem
         '
         Me.RealizarCierreToolStripMenuItem.Name = "RealizarCierreToolStripMenuItem"
-        Me.RealizarCierreToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RealizarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
         Me.RealizarCierreToolStripMenuItem.Text = "Realizar cierre"
         '
         'BuscarCierreToolStripMenuItem
         '
         Me.BuscarCierreToolStripMenuItem.Name = "BuscarCierreToolStripMenuItem"
-        Me.BuscarCierreToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BuscarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
         Me.BuscarCierreToolStripMenuItem.Text = "Buscar cierre"
         '
         'ITEMREPORTES
@@ -1476,13 +1476,13 @@ Partial Class Form1
         'TotalFacturadoToolStripMenuItem
         '
         Me.TotalFacturadoToolStripMenuItem.Name = "TotalFacturadoToolStripMenuItem"
-        Me.TotalFacturadoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TotalFacturadoToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.TotalFacturadoToolStripMenuItem.Text = "Total facturado"
         '
         'AdministradorToolStripMenuItem
         '
         Me.AdministradorToolStripMenuItem.Name = "AdministradorToolStripMenuItem"
-        Me.AdministradorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AdministradorToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
         Me.AdministradorToolStripMenuItem.Text = "Administrador"
         '
         'ITEMREIMPRIMIR
@@ -1495,13 +1495,13 @@ Partial Class Form1
         'REntradaToolStripMenuItem
         '
         Me.REntradaToolStripMenuItem.Name = "REntradaToolStripMenuItem"
-        Me.REntradaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.REntradaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.REntradaToolStripMenuItem.Text = "R. &Entrada"
         '
         'RSalidaToolStripMenuItem
         '
         Me.RSalidaToolStripMenuItem.Name = "RSalidaToolStripMenuItem"
-        Me.RSalidaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RSalidaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.RSalidaToolStripMenuItem.Text = "R. &Salida"
         '
         'ITEMCONFIGURAR
