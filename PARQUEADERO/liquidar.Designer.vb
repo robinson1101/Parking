@@ -59,13 +59,13 @@ Partial Class liquidar
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.DataGridView1.Location = New System.Drawing.Point(523, 192)
+        Me.DataGridView1.Location = New System.Drawing.Point(506, 192)
         Me.DataGridView1.MultiSelect = False
         Me.DataGridView1.Name = "DataGridView1"
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle2
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(524, 373)
+        Me.DataGridView1.Size = New System.Drawing.Size(553, 373)
         Me.DataGridView1.TabIndex = 0
         '
         'DataGridView2
@@ -81,7 +81,7 @@ Partial Class liquidar
         Me.DataGridView2.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.DataGridView2.Location = New System.Drawing.Point(30, 192)
+        Me.DataGridView2.Location = New System.Drawing.Point(21, 192)
         Me.DataGridView2.MultiSelect = False
         Me.DataGridView2.Name = "DataGridView2"
         DataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
@@ -93,7 +93,7 @@ Partial Class liquidar
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(188, 160)
+        Me.TextBox1.Location = New System.Drawing.Point(179, 160)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(281, 26)
         Me.TextBox1.TabIndex = 3
@@ -102,16 +102,16 @@ Partial Class liquidar
         '
         Me.TextBox2.Enabled = False
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(689, 160)
+        Me.TextBox2.Location = New System.Drawing.Point(677, 160)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(358, 26)
+        Me.TextBox2.Size = New System.Drawing.Size(382, 26)
         Me.TextBox2.TabIndex = 5
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(520, 164)
+        Me.Label2.Location = New System.Drawing.Point(511, 164)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(163, 16)
         Me.Label2.TabIndex = 4
@@ -119,7 +119,7 @@ Partial Class liquidar
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(475, 360)
+        Me.Button1.Location = New System.Drawing.Point(462, 360)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(42, 40)
         Me.Button1.TabIndex = 6
@@ -171,9 +171,9 @@ Partial Class liquidar
         '
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(523, 576)
+        Me.Button2.Location = New System.Drawing.Point(506, 576)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(524, 40)
+        Me.Button2.Size = New System.Drawing.Size(553, 40)
         Me.Button2.TabIndex = 11
         Me.Button2.Text = "LIQUIDAR"
         Me.Button2.UseVisualStyleBackColor = False
@@ -182,7 +182,7 @@ Partial Class liquidar
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(139, 126)
+        Me.Label7.Location = New System.Drawing.Point(130, 126)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(225, 20)
         Me.Label7.TabIndex = 12
@@ -192,7 +192,7 @@ Partial Class liquidar
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(621, 126)
+        Me.Label8.Location = New System.Drawing.Point(612, 126)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(375, 20)
         Me.Label8.TabIndex = 13
@@ -202,7 +202,7 @@ Partial Class liquidar
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(27, 166)
+        Me.Label9.Location = New System.Drawing.Point(18, 166)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(155, 16)
         Me.Label9.TabIndex = 14

@@ -119,7 +119,7 @@ Module mod_consulta
     Public Sub consulta_datos3()
         Try
             conexion_global()
-            _adaptador.SelectCommand = New MySqlCommand("SELECT ingreso_vehiculos.Factura as 'FACTURA',ingreso_vehiculos.hora_ingreso as 'HORA INGRESO', ingreso_vehiculos.servicioReal as 'SERVICIO',ingreso_vehiculos.servicioRealOp as '%', ingreso_vehiculos.operario as 'OPERARIO' from ingreso_vehiculos where servicio > 0 and operario ='" & liquidar.TextBox2.Text & "'  and liquidado =0 and hora_salida <> ''", _conexion)
+            _adaptador.SelectCommand = New MySqlCommand("SELECT ingreso_vehiculos.Factura as 'FACTURA',ingreso_vehiculos.hora_ingreso as 'HORA INGRESO',ingreso_vehiculos.servicioReal as 'VENTA', ingreso_vehiculos.servicio as 'SERVICIO',ingreso_vehiculos.servicioRealOp as '%', ingreso_vehiculos.operario as 'OPERARIO' from ingreso_vehiculos where servicio > 0 and operario ='" & liquidar.TextBox2.Text & "'  and liquidado =0 and hora_salida <> ''", _conexion)
             _adaptador.Fill(_dtsliquidado)
             _dtvdatos3.Table = _dtsliquidado.Tables(0)
             _conexion.Open()

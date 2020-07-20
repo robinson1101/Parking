@@ -93,12 +93,12 @@ Module factura_cobrar
             End If
 
             'eliminamos el iva para optener el precio neto
-            enjuague = Convert.ToInt16(Val(enjuague) / (1 + (Val(iva) / 100)))
-            general = Convert.ToInt16(Val(general) / (1 + (Val(iva) / 100)))
-            tapiceria = Convert.ToInt16(Val(tapiceria) / (1 + (Val(iva) / 100)))
-            Motor = Convert.ToInt16(Val(Motor) / (1 + (Val(iva) / 100)))
-            otro = Convert.ToInt16(Val(otro) / (1 + (Val(iva) / 100)))
-            parqueadero = Convert.ToInt16(Val(parqueadero) / (1 + (Val(iva) / 100)))
+            enjuague = Convert.ToInt64(Val(enjuague) / (1 + (Val(iva) / 100)))
+            general = Convert.ToInt64(Val(general) / (1 + (Val(iva) / 100)))
+            tapiceria = Convert.ToInt64(Val(tapiceria) / (1 + (Val(iva) / 100)))
+            Motor = Convert.ToInt64(Val(Motor) / (1 + (Val(iva) / 100)))
+            otro = Convert.ToInt64(Val(otro) / (1 + (Val(iva) / 100)))
+            parqueadero = Convert.ToInt64(Val(parqueadero) / (1 + (Val(iva) / 100)))
 
         Catch ex As Exception
 
@@ -156,15 +156,15 @@ Module factura_cobrar
 
                 If aplicable = "P" Then
 
-                    desParqueadero = Convert.ToInt16(Val(parqueadero) * Val(descuento) / 100)
+                    desParqueadero = Convert.ToInt64(Val(parqueadero) * Val(descuento) / 100)
 
                 ElseIf aplicable = "S" Then
 
-                    desServicio = Convert.ToInt16(((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100)
+                    desServicio = Convert.ToInt64(((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(otro)) * Val(descuento)) / 100)
 
                 ElseIf aplicable = "P+S" Then
 
-                    desParqueaderoServicio = Convert.ToInt16((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento) / 100)
+                    desParqueaderoServicio = Convert.ToInt64((Val(enjuague) + Val(tapiceria) + Val(general) + Val(Motor) + Val(parqueadero) + Val(otro)) * Val(descuento) / 100)
 
                 End If
 
@@ -178,8 +178,8 @@ Module factura_cobrar
         Dim totalDescuento As Double = 0
         totalDescuento = desParqueadero + desServicio + desParqueaderoServicio
 
-        ivaPesos = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) * (Val(iva) / 100))
-        subtotal = Convert.ToInt16(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento)
+        ivaPesos = Convert.ToInt64(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) * (Val(iva) / 100))
+        subtotal = Convert.ToInt64(Val(Val(enjuague) + Val(general) + Val(Motor) + Val(tapiceria) + Val(parqueadero) + Val(otro)) - totalDescuento)
 
         total_factura = CStr(Math.Round((subtotal + ivaPesos) / 50) * 50)
         iva_bd = ivaPesos
@@ -528,7 +528,7 @@ Module factura_cobrar
 
             If varconex.State = ConnectionState.Open Then varconex.Close()
             Dim Query3 As String
-            Query3 = "update ingreso_vehiculos SET  servicioReal='" & conversorMoneda.ajustar_precio(Convert.ToString(((Val(enjuague) + Val(general) + Val(tapiceria) + Val(Motor) + Val(otro) + Val(ivaPesos)) - desServicio))) & "' where Factura='" & Form1.Label16.Text & "'"
+            Query3 = "update ingreso_vehiculos SET  servicioReal='" & CStr(Math.Round(((((Val(enjuague) + Val(general) + Val(tapiceria) + Val(Motor) + Val(otro) + Val(ivaPesos)) - desServicio) - ((Val(parqueadero) * Val(iva)) / 100))) / 50) * 50) & "' where Factura='" & Form1.Label16.Text & "'"
             varconex.Open()
             Dim cmd3 As MySqlCommand = New MySqlCommand(Query3, varconex)
             cmd3.ExecuteNonQuery()
@@ -607,7 +607,7 @@ Module factura_cobrar
         Try
             If varconex.State = ConnectionState.Open Then varconex.Close()
 
-            Query = "update ingreso_vehiculos SET  total='" & total_factura & "',parqueaderoReal='" & conversorMoneda.ajustar_precio(Convert.ToString((Val(parqueadero) - desParqueadero))) & "'  where Factura= " & Form1.Label16.Text & ""
+            Query = "update ingreso_vehiculos SET  total='" & total_factura & "',parqueaderoReal='" & CStr(Math.Round((Val(parqueadero) - desParqueadero) / 50) * 50) & "'  where Factura= " & Form1.Label16.Text & ""
             varconex.Open()
             Dim cmd3 As MySqlCommand = New MySqlCommand(Query, varconex)
             cmd3.ExecuteNonQuery()

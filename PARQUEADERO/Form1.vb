@@ -73,7 +73,7 @@ Public Class Form1
                 Me.PictureBoxImg.Image = Bytes_Imagen(valor)
             End If
         Catch ex As Exception
-            MsgBox("SICOVEH", ex.ToString)
+            MsgBox("SICOVEH", ex.Message)
         End Try
 
     End Sub
@@ -1693,7 +1693,7 @@ Public Class Form1
     End Sub
 
     Private Sub AdministradorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AdministradorToolStripMenuItem.Click
-        VALIDAR_REPORTE_ADMIN.Show()
+        VALIDAR_REPORTE_ADMIN.ShowDialog()
 
     End Sub
 
@@ -1716,7 +1716,7 @@ Public Class Form1
     End Sub
 
     Private Sub TotalFacturadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TotalFacturadoToolStripMenuItem.Click
-        REPORTES.Show()
+        REPORTES.ShowDialog()
     End Sub
 
     Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click
