@@ -831,110 +831,119 @@ Public Class Form1
 
 
             Dim otro As Double
-            If TextBox8.Text = "" Then
-                otro = 0
-            Else
-                otro = TextBox8.Text
-            End If
+                If TextBox8.Text = "" Then
+                    otro = 0
+                Else
+                    otro = TextBox8.Text
+                End If
 
 
-            Dim tipo_vehiculo As Integer = 1
+                Dim tipo_vehiculo As Integer = 1
 
             servicio = juagada + general + motor + tapizado + otro
             Label20.Text = servicio
-            '  TextBox10.Text = servicio
+                '  TextBox10.Text = servicio
 
-            TextBox10.Text = servicio
-
-
-            Dim promo As String
-
-            promo = TextBox11.Text
-            If promo = "1" Then
-                Label25.ForeColor = ForeColor.Red
-            End If
-            If promo = "2" Then
-                Label25.ForeColor = ForeColor.Red
-                Label29.ForeColor = ForeColor.Red
-            End If
-            If promo = "3" Then
-                Label25.ForeColor = ForeColor.Red
-                Label29.ForeColor = ForeColor.Red
-                Label30.ForeColor = ForeColor.Red
-            End If
-            If promo = "4" Then
-                Label25.ForeColor = ForeColor.Red
-                Label29.ForeColor = ForeColor.Red
-                Label30.ForeColor = ForeColor.Red
-                Label31.ForeColor = ForeColor.Red
-            End If
-
-            If promo = "5" Then
-                Label25.ForeColor = ForeColor.Red
-                Label29.ForeColor = ForeColor.Red
-                Label30.ForeColor = ForeColor.Red
-                Label31.ForeColor = ForeColor.Red
-                Label32.ForeColor = ForeColor.Red
-
-            End If
+                TextBox10.Text = servicio
 
 
-            If promo = "6" Then
-                Label25.ForeColor = ForeColor.Gold
-                Label29.ForeColor = ForeColor.Gold
-                Label30.ForeColor = ForeColor.Gold
-                Label31.ForeColor = ForeColor.Gold
-                Label32.ForeColor = ForeColor.Gold
+                Dim promo As String
 
-            End If
+                promo = TextBox11.Text
+                If promo = "1" Then
+                    Label25.ForeColor = ForeColor.Red
+                End If
+                If promo = "2" Then
+                    Label25.ForeColor = ForeColor.Red
+                    Label29.ForeColor = ForeColor.Red
+                End If
+                If promo = "3" Then
+                    Label25.ForeColor = ForeColor.Red
+                    Label29.ForeColor = ForeColor.Red
+                    Label30.ForeColor = ForeColor.Red
+                End If
+                If promo = "4" Then
+                    Label25.ForeColor = ForeColor.Red
+                    Label29.ForeColor = ForeColor.Red
+                    Label30.ForeColor = ForeColor.Red
+                    Label31.ForeColor = ForeColor.Red
+                End If
 
-            If CheckBox12.Checked = False Then
-                CheckBox12.BackColor = Color.PowderBlue
-            End If
+                If promo = "5" Then
+                    Label25.ForeColor = ForeColor.Red
+                    Label29.ForeColor = ForeColor.Red
+                    Label30.ForeColor = ForeColor.Red
+                    Label31.ForeColor = ForeColor.Red
+                    Label32.ForeColor = ForeColor.Red
+
+                End If
+
+
+                If promo = "6" Then
+                    Label25.ForeColor = ForeColor.Gold
+                    Label29.ForeColor = ForeColor.Gold
+                    Label30.ForeColor = ForeColor.Gold
+                    Label31.ForeColor = ForeColor.Gold
+                    Label32.ForeColor = ForeColor.Gold
+
+                End If
+
+                If CheckBox12.Checked = False Then
+                    CheckBox12.BackColor = Color.PowderBlue
+                End If
 
 
             If CheckBox10.Checked = False Then
-                CheckBox10.BackColor = Color.PowderBlue
-            End If
-            If CheckBox4.Checked = False Then
-                CheckBox4.BackColor = Color.PowderBlue
-            End If
+                    CheckBox10.BackColor = Color.PowderBlue
+                End If
+                If CheckBox4.Checked = False Then
+                    CheckBox4.BackColor = Color.PowderBlue
+                End If
 
             If CheckBox13.Checked = False Then
-                CheckBox13.BackColor = Color.PowderBlue
-            End If
-            If CheckBox14.Checked = False Then
-                CheckBox14.BackColor = Color.PowderBlue
-            End If
-            If CheckBox15.Checked = False Then
-                CheckBox15.BackColor = Color.PowderBlue
-            End If
-            If CheckBox16.Checked = False Then
-                CheckBox16.BackColor = Color.PowderBlue
-            End If
-            If CheckBox17.Checked = False Then
-                CheckBox17.BackColor = Color.PowderBlue
-            End If
-            If CheckBox18.Checked = False Then
-                CheckBox18.BackColor = Color.PowderBlue
-            End If
-            If CheckBox19.Checked = False Then
-                CheckBox19.BackColor = Color.PowderBlue
-            End If
-            If CheckBox20.Checked = False Then
-                CheckBox20.BackColor = Color.PowderBlue
-            End If
-            If CheckBox21.Checked = False Then
-                CheckBox21.BackColor = Color.PowderBlue
-            End If
-            If CheckBox5.Checked = False Then
-                CheckBox5.BackColor = Color.PowderBlue
-            End If
+                    CheckBox13.BackColor = Color.PowderBlue
+                End If
+                If CheckBox14.Checked = False Then
+                    CheckBox14.BackColor = Color.PowderBlue
+                End If
+                If CheckBox15.Checked = False Then
+                    CheckBox15.BackColor = Color.PowderBlue
+                End If
+                If CheckBox16.Checked = False Then
+                    CheckBox16.BackColor = Color.PowderBlue
+                End If
+                If CheckBox17.Checked = False Then
+                    CheckBox17.BackColor = Color.PowderBlue
+                End If
+                If CheckBox18.Checked = False Then
+                    CheckBox18.BackColor = Color.PowderBlue
+                End If
+                If CheckBox19.Checked = False Then
+                    CheckBox19.BackColor = Color.PowderBlue
+                End If
+                If CheckBox20.Checked = False Then
+                    CheckBox20.BackColor = Color.PowderBlue
+                End If
+                If CheckBox21.Checked = False Then
+                    CheckBox21.BackColor = Color.PowderBlue
+                End If
+                If CheckBox5.Checked = False Then
+                    CheckBox5.BackColor = Color.PowderBlue
+                End If
 
         End If
 
     End Sub
+    Private Sub Form1_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles MyBase.KeyDown
 
+        If e.KeyCode = Keys.Enter Then
+            Button2.PerformClick()
+
+            'ToolStripButton1.PerformClick()
+        End If
+
+
+    End Sub
     Private numa As Integer = 0
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
 
@@ -1620,7 +1629,7 @@ Public Class Form1
     End Sub
 
     Private Sub checkDescServicios_CheckedChanged(sender As Object, e As EventArgs) Handles checkDescServicios.CheckedChanged
-        If checkDescParqueadero.Checked = False And checkDescServicios.Checked = True Then
+        If checkDescParqueadero.Checked = false And checkDescServicios.Checked = true Then
             CheckPorcentaje.Enabled = True
             CheckPesos.Enabled = True
         ElseIf checkDescParqueadero.Checked = True And checkDescServicios.Checked = True Then
@@ -1708,13 +1717,6 @@ Public Class Form1
 
     Private Sub TotalFacturadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TotalFacturadoToolStripMenuItem.Click
         REPORTES.ShowDialog()
-    End Sub
-
-    Private Sub TextBox3_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox3.KeyDown
-        'codigo para ejecutar el evento del enter
-        If e.KeyCode = Keys.Enter Then
-            Button2_Click(sender, e)
-        End If
     End Sub
 
     Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click

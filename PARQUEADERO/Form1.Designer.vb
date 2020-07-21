@@ -28,7 +28,6 @@ Partial Class Form1
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -57,11 +56,8 @@ Partial Class Form1
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.CheckBox23 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.CheckBox22 = New System.Windows.Forms.CheckBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -72,9 +68,6 @@ Partial Class Form1
         Me.checkMas = New System.Windows.Forms.CheckBox()
         Me.checkLavado = New System.Windows.Forms.CheckBox()
         Me.checkParking = New System.Windows.Forms.CheckBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.CheckBox25 = New System.Windows.Forms.CheckBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
@@ -152,19 +145,25 @@ Partial Class Form1
         Me.ITEMUSUARIO = New System.Windows.Forms.ToolStripMenuItem()
         Me.ITEMHORA = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBoxImg = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
+        CType(Me.PictureBoxImg, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBoxImg, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -535,18 +534,6 @@ Partial Class Form1
         Me.CheckBox2.Text = "MOTO"
         Me.CheckBox2.UseVisualStyleBackColor = False
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox2.Enabled = False
-        Me.PictureBox2.Image = Global.PARQUEADERO.My.Resources.Resources.motorcycle0
-        Me.PictureBox2.Location = New System.Drawing.Point(291, 18)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(131, 100)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox2.TabIndex = 71
-        Me.PictureBox2.TabStop = False
-        '
         'CheckBox23
         '
         Me.CheckBox23.AutoSize = True
@@ -561,20 +548,6 @@ Partial Class Form1
         Me.CheckBox23.TabIndex = 55
         Me.CheckBox23.Text = "CAMIONETA"
         Me.CheckBox23.UseVisualStyleBackColor = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBox4.Enabled = False
-        Me.PictureBox4.Image = Global.PARQUEADERO.My.Resources.Resources.automobile
-        Me.PictureBox4.ImageLocation = ""
-        Me.PictureBox4.Location = New System.Drawing.Point(4, 19)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(140, 99)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox4.TabIndex = 68
-        Me.PictureBox4.TabStop = False
         '
         'CheckBox22
         '
@@ -591,20 +564,6 @@ Partial Class Form1
         Me.CheckBox22.Text = "AUTOMOVIL"
         Me.CheckBox22.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         Me.CheckBox22.UseVisualStyleBackColor = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Enabled = False
-        Me.PictureBox3.Image = Global.PARQUEADERO.My.Resources.Resources.suv
-        Me.PictureBox3.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
-        Me.PictureBox3.Location = New System.Drawing.Point(146, 18)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(142, 100)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox3.TabIndex = 67
-        Me.PictureBox3.TabStop = False
         '
         'DateTimePicker1
         '
@@ -727,48 +686,6 @@ Partial Class Form1
         Me.checkParking.Text = "parking"
         Me.checkParking.UseVisualStyleBackColor = False
         Me.checkParking.Visible = False
-        '
-        'PictureBox7
-        '
-        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBox7.Image = Global.PARQUEADERO.My.Resources.Resources.mas11
-        Me.PictureBox7.ImageLocation = ""
-        Me.PictureBox7.Location = New System.Drawing.Point(229, 43)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(151, 90)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox7.TabIndex = 81
-        Me.PictureBox7.TabStop = False
-        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox7, "PARQUEADERO Y LAVADERO")
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBox6.Image = Global.PARQUEADERO.My.Resources.Resources.lavado11
-        Me.PictureBox6.ImageLocation = ""
-        Me.PictureBox6.Location = New System.Drawing.Point(128, 43)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(96, 90)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox6.TabIndex = 77
-        Me.PictureBox6.TabStop = False
-        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox6, "LAVADERO")
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow
-        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.parquear11
-        Me.PictureBox1.ImageLocation = ""
-        Me.PictureBox1.Location = New System.Drawing.Point(30, 44)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(94, 89)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.PictureBox1.TabIndex = 76
-        Me.PictureBox1.TabStop = False
-        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox1, "PARQUEADERO")
         '
         'CheckBox25
         '
@@ -1439,7 +1356,7 @@ Partial Class Form1
         Me.ITEMLIQUIDAR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OperariosToolStripMenuItem})
         Me.ITEMLIQUIDAR.Name = "ITEMLIQUIDAR"
         Me.ITEMLIQUIDAR.Size = New System.Drawing.Size(71, 21)
-        Me.ITEMLIQUIDAR.Text = "L&IQUIDAR"
+        Me.ITEMLIQUIDAR.Text = "LIQUIDAR"
         '
         'OperariosToolStripMenuItem
         '
@@ -1452,7 +1369,7 @@ Partial Class Form1
         Me.ITEMCIERRES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RealizarCierreToolStripMenuItem, Me.BuscarCierreToolStripMenuItem})
         Me.ITEMCIERRES.Name = "ITEMCIERRES"
         Me.ITEMCIERRES.Size = New System.Drawing.Size(62, 21)
-        Me.ITEMCIERRES.Text = "&CIERRES"
+        Me.ITEMCIERRES.Text = "CIERRES"
         '
         'RealizarCierreToolStripMenuItem
         '
@@ -1471,7 +1388,7 @@ Partial Class Form1
         Me.ITEMREPORTES.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TotalFacturadoToolStripMenuItem, Me.AdministradorToolStripMenuItem})
         Me.ITEMREPORTES.Name = "ITEMREPORTES"
         Me.ITEMREPORTES.Size = New System.Drawing.Size(74, 21)
-        Me.ITEMREPORTES.Text = "&REPORTES"
+        Me.ITEMREPORTES.Text = "REPORTES"
         '
         'TotalFacturadoToolStripMenuItem
         '
@@ -1490,25 +1407,25 @@ Partial Class Form1
         Me.ITEMREIMPRIMIR.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.REntradaToolStripMenuItem, Me.RSalidaToolStripMenuItem})
         Me.ITEMREIMPRIMIR.Name = "ITEMREIMPRIMIR"
         Me.ITEMREIMPRIMIR.Size = New System.Drawing.Size(84, 21)
-        Me.ITEMREIMPRIMIR.Text = "REIM&PRIMIR"
+        Me.ITEMREIMPRIMIR.Text = "REIMPRIMIR"
         '
         'REntradaToolStripMenuItem
         '
         Me.REntradaToolStripMenuItem.Name = "REntradaToolStripMenuItem"
         Me.REntradaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
-        Me.REntradaToolStripMenuItem.Text = "R. &Entrada"
+        Me.REntradaToolStripMenuItem.Text = "R. Entrada"
         '
         'RSalidaToolStripMenuItem
         '
         Me.RSalidaToolStripMenuItem.Name = "RSalidaToolStripMenuItem"
         Me.RSalidaToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
-        Me.RSalidaToolStripMenuItem.Text = "R. &Salida"
+        Me.RSalidaToolStripMenuItem.Text = "R. Salida"
         '
         'ITEMCONFIGURAR
         '
         Me.ITEMCONFIGURAR.Name = "ITEMCONFIGURAR"
         Me.ITEMCONFIGURAR.Size = New System.Drawing.Size(92, 21)
-        Me.ITEMCONFIGURAR.Text = "CO&NFIGURAR"
+        Me.ITEMCONFIGURAR.Text = "CONFIGURAR"
         '
         'ITEMUSUARIO
         '
@@ -1538,6 +1455,88 @@ Partial Class Form1
         Me.PictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBoxImg.TabIndex = 74
         Me.PictureBoxImg.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Enabled = False
+        Me.PictureBox2.Image = Global.PARQUEADERO.My.Resources.Resources.motorcycle0
+        Me.PictureBox2.Location = New System.Drawing.Point(291, 18)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(131, 100)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox2.TabIndex = 71
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox4.Enabled = False
+        Me.PictureBox4.Image = Global.PARQUEADERO.My.Resources.Resources.automobile
+        Me.PictureBox4.ImageLocation = ""
+        Me.PictureBox4.Location = New System.Drawing.Point(4, 19)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(140, 99)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox4.TabIndex = 68
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox3.Enabled = False
+        Me.PictureBox3.Image = Global.PARQUEADERO.My.Resources.Resources.suv
+        Me.PictureBox3.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
+        Me.PictureBox3.Location = New System.Drawing.Point(146, 18)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(142, 100)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox3.TabIndex = 67
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox7.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox7.Image = Global.PARQUEADERO.My.Resources.Resources.mas11
+        Me.PictureBox7.ImageLocation = ""
+        Me.PictureBox7.Location = New System.Drawing.Point(229, 43)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(151, 90)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox7.TabIndex = 81
+        Me.PictureBox7.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox7, "PARQUEADERO Y LAVADERO")
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox6.Image = Global.PARQUEADERO.My.Resources.Resources.lavado11
+        Me.PictureBox6.ImageLocation = ""
+        Me.PictureBox6.Location = New System.Drawing.Point(128, 43)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(96, 90)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox6.TabIndex = 77
+        Me.PictureBox6.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox6, "LAVADERO")
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow
+        Me.PictureBox1.Image = Global.PARQUEADERO.My.Resources.Resources.parquear11
+        Me.PictureBox1.ImageLocation = ""
+        Me.PictureBox1.Location = New System.Drawing.Point(30, 44)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(94, 89)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox1.TabIndex = 76
+        Me.PictureBox1.TabStop = False
+        Me.ToolTipPrincipal.SetToolTip(Me.PictureBox1, "PARQUEADERO")
         '
         'Form1
         '
@@ -1602,7 +1601,6 @@ Partial Class Form1
         Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckBox10)
         Me.Controls.Add(Me.CheckBox12)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
@@ -1616,16 +1614,16 @@ Partial Class Form1
         Me.GroupBox2.PerformLayout()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBoxImg, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBoxImg, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -19,12 +19,12 @@ Public Class Form_actualizar
 
             conexion_global()
             _adaptador.InsertCommand = New MySqlCommand("update title set company_title=@empresa")
-            _adaptador.InsertCommand.Parameters.Add("@empresa", MySqlDbType.VarChar, 50).Value = LTrim(RTrim(TextBoxNombreEmpresa.Text.ToUpper))
+            _adaptador.InsertCommand.Parameters.Add("@empresa", MySqlDbType.VarChar, 50).Value = TextBoxNombreEmpresa.Text
             _conexion.Open()
             _adaptador.InsertCommand.Connection = _conexion
             _adaptador.InsertCommand.ExecuteNonQuery()
 
-            Form1.Label18.Text = TextBoxNombreEmpresa.Text.ToUpper
+            Form1.Label18.Text = TextBoxNombreEmpresa.Text
 
             MsgBox("NOMBRE MODIFICADO CORRECTAMENTE")
             Me.Close()
@@ -34,7 +34,6 @@ Public Class Form_actualizar
 
     End Sub
     Private Sub ButtonNombreEmp_Click_1(sender As Object, e As EventArgs) Handles ButtonNombreEmp.Click
-        TextBoxClave.Focus()
         PanelTarifas.Visible = False
         PanelOperarios.Visible = False
         PanelTitulo.Visible = True
@@ -427,7 +426,7 @@ Public Class Form_actualizar
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        TextBoxNombreEmpresa.Focus()
+
         If TextBoxClave.Text.Trim = "contrasena" Then
             Label1.Visible = True
             TextBoxNombreEmpresa.Visible = True
@@ -524,19 +523,5 @@ Public Class Form_actualizar
             MsgBox("SICOVEH ", ex.ToString)
         End Try
 
-    End Sub
-
-    Private Sub TextBoxNombreEmpresa_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBoxNombreEmpresa.KeyDown
-        'codigo para ejecutar el evento del enter
-        If e.KeyCode = Keys.Enter Then
-            ButtonNuevo_Click(sender, e)
-        End If
-    End Sub
-
-    Private Sub TextBoxClave_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBoxClave.KeyDown
-        'codigo para ejecutar el evento del enter
-        If e.KeyCode = Keys.Enter Then
-            Button5_Click(sender, e)
-        End If
     End Sub
 End Class

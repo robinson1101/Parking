@@ -981,4 +981,51 @@ C:\Users\ROBINSON\Desktop\ULTIMO DE PARKING\Parking\PARQUEADERO\obj\Debug\PARQUE
 C:\Users\ROBINSON\Desktop\ULTIMO DE PARKING\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.exe
 C:\Users\ROBINSON\Desktop\ULTIMO DE PARKING\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.xml
 C:\Users\ROBINSON\Desktop\ULTIMO DE PARKING\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
-C:\Users\ROBINSON\Desktop\ULTIMO DE PARKING\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.exe.config
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.exe.manifest
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.application
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.exe
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.pdb
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\PARQUEADERO.xml
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\itextsharp.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\MySql.Data.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\Google.Protobuf.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\Renci.SshNet.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\MySql.Data.xml
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.resources.dll
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.vbprojAssemblyReference.cache
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.BUSCAR_CIERRE.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.costos.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.ELIMINAR.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.ELIMINAR2.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form_actualizar.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA2.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.CIERRE_CAJA_AZ.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form1.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form2.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form3.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form4.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form5.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form6.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Form7.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.inicio.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.liquidar.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.Resources.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.RAW.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIR.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.REIMPRIMIRSALIDA.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.REPORTES.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.reportes_Admin.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.TIKETINGRESO.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_CIERRE.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_REPORTE_ADMIN.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.WELCOME.resources
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.GenerateResource.cache
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.exe.manifest
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.application
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.vbproj.CopyComplete
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.exe
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.xml
+C:\Users\DESKTOP\Nube\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
