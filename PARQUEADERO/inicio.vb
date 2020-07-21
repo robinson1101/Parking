@@ -183,5 +183,16 @@ Public Class inicio
 
 
     End Sub
+    Private Sub TextBox2_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox2.KeyDown
+        'codigo para ejecutar el evento del enter
+        If e.KeyCode = Keys.Enter Then
+            PictureBoxIngreso_Click(sender, e)
+        End If
+    End Sub
 
+    Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
+        If e.KeyCode = Keys.Enter Then
+            PictureBoxIngreso_Click(sender, e)
+        End If
+    End Sub
 End Class

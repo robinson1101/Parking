@@ -122,12 +122,14 @@ Partial Class REPORTES
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.DarkGray
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Button2.Location = New System.Drawing.Point(249, 307)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(130, 41)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "CERRAR"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label7
         '
