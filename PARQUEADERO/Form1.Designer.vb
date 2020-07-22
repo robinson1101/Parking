@@ -629,7 +629,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.MediumBlue
+        Me.Button1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button1.Location = New System.Drawing.Point(30, 351)
@@ -672,7 +672,7 @@ Partial Class Form1
         '
         'ComboBox1
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.ComboBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Enabled = False
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1181,13 +1181,13 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(1250, 276)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 47)
+        Me.Button2.Size = New System.Drawing.Size(114, 47)
         Me.Button2.TabIndex = 2
-        Me.Button2.Text = "COBRAR"
+        Me.Button2.Text = "COBRAR (f1)"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'TextBox3
@@ -1445,7 +1445,7 @@ Partial Class Form1
         '
         Me.OperariosToolStripMenuItem.Name = "OperariosToolStripMenuItem"
         Me.OperariosToolStripMenuItem.Size = New System.Drawing.Size(125, 22)
-        Me.OperariosToolStripMenuItem.Text = "Operarios"
+        Me.OperariosToolStripMenuItem.Text = "&Operarios"
         '
         'ITEMCIERRES
         '
@@ -1458,13 +1458,13 @@ Partial Class Form1
         '
         Me.RealizarCierreToolStripMenuItem.Name = "RealizarCierreToolStripMenuItem"
         Me.RealizarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
-        Me.RealizarCierreToolStripMenuItem.Text = "Realizar cierre"
+        Me.RealizarCierreToolStripMenuItem.Text = "Rea&lizar cierre"
         '
         'BuscarCierreToolStripMenuItem
         '
         Me.BuscarCierreToolStripMenuItem.Name = "BuscarCierreToolStripMenuItem"
         Me.BuscarCierreToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
-        Me.BuscarCierreToolStripMenuItem.Text = "Buscar cierre"
+        Me.BuscarCierreToolStripMenuItem.Text = "B&uscar cierre"
         '
         'ITEMREPORTES
         '
@@ -1477,13 +1477,13 @@ Partial Class Form1
         '
         Me.TotalFacturadoToolStripMenuItem.Name = "TotalFacturadoToolStripMenuItem"
         Me.TotalFacturadoToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
-        Me.TotalFacturadoToolStripMenuItem.Text = "Total facturado"
+        Me.TotalFacturadoToolStripMenuItem.Text = "&Total facturado"
         '
         'AdministradorToolStripMenuItem
         '
         Me.AdministradorToolStripMenuItem.Name = "AdministradorToolStripMenuItem"
         Me.AdministradorToolStripMenuItem.Size = New System.Drawing.Size(155, 22)
-        Me.AdministradorToolStripMenuItem.Text = "Administrador"
+        Me.AdministradorToolStripMenuItem.Text = "A&dministrador"
         '
         'ITEMREIMPRIMIR
         '

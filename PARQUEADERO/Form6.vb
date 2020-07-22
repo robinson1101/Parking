@@ -133,11 +133,49 @@ Public Class Form6
                 consulta_datos2()
                 DataGridView1.DataSource = _dtvclientes
                 MessageBox.Show("CLIENTE CREADO")
+
+                TextBox2.Text = ""
+                TextBox3.Text = ""
+                TextBox4.Text = ""
+                TextBox5.Text = ""
+                TextBox6.Text = ""
+                TextBox7.Text = ""
+
+                TextBox1.Focus()
+
             Else
                 ' MessageBox.Show("no se realizo registro")
             End If
 
         End If
 
+    End Sub
+
+    Private Sub Form6_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        'codigo para ejecutar el evento del escape
+        If e.KeyCode = Keys.Escape Then
+            Me.Hide()
+        End If
+    End Sub
+
+    Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
+        'codigo para ejecutar el evento del escape
+        If e.KeyCode = Keys.Escape Then
+            Me.Hide()
+        End If
+    End Sub
+
+    Private Sub DataGridView1_KeyDown(sender As Object, e As KeyEventArgs) Handles DataGridView1.KeyDown
+        'codigo para ejecutar el evento del esc
+        If e.KeyCode = Keys.Escape Then
+            Me.Hide()
+        End If
+    End Sub
+
+    Private Sub TextBox2_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox2.KeyDown
+        'codigo para ejecutar el evento del enter
+        If e.KeyCode = Keys.Enter Then
+            Button1_Click(sender, e)
+        End If
     End Sub
 End Class

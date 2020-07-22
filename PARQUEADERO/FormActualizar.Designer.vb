@@ -314,9 +314,9 @@ Partial Class Form_actualizar
         Me.PanelServicios.Controls.Add(Me.ComboBox2)
         Me.PanelServicios.Controls.Add(Me.ComboBox1)
         Me.PanelServicios.Controls.Add(Me.DataGridViewServicios)
-        Me.PanelServicios.Location = New System.Drawing.Point(330, 37)
+        Me.PanelServicios.Location = New System.Drawing.Point(330, 3)
         Me.PanelServicios.Name = "PanelServicios"
-        Me.PanelServicios.Size = New System.Drawing.Size(489, 327)
+        Me.PanelServicios.Size = New System.Drawing.Size(489, 361)
         Me.PanelServicios.TabIndex = 3
         Me.PanelServicios.Visible = False
         '
@@ -425,9 +425,9 @@ Partial Class Form_actualizar
         Me.PanelTarifas.Controls.Add(Me.TextBox2)
         Me.PanelTarifas.Controls.Add(Me.Button3)
         Me.PanelTarifas.Controls.Add(Me.ComboBox3)
-        Me.PanelTarifas.Location = New System.Drawing.Point(327, 37)
+        Me.PanelTarifas.Location = New System.Drawing.Point(327, 3)
         Me.PanelTarifas.Name = "PanelTarifas"
-        Me.PanelTarifas.Size = New System.Drawing.Size(492, 327)
+        Me.PanelTarifas.Size = New System.Drawing.Size(492, 361)
         Me.PanelTarifas.TabIndex = 8
         Me.PanelTarifas.Visible = False
         '
@@ -495,7 +495,7 @@ Partial Class Form_actualizar
         '
         'PanelOperarios
         '
-        Me.PanelOperarios.BackColor = System.Drawing.Color.Blue
+        Me.PanelOperarios.BackColor = System.Drawing.Color.CornflowerBlue
         Me.PanelOperarios.Controls.Add(Me.Label12)
         Me.PanelOperarios.Controls.Add(Me.TextBoxTelefono)
         Me.PanelOperarios.Controls.Add(Me.TextBoxDireccion)
@@ -507,9 +507,9 @@ Partial Class Form_actualizar
         Me.PanelOperarios.Controls.Add(Me.Label9)
         Me.PanelOperarios.Controls.Add(Me.TextBoxNombre)
         Me.PanelOperarios.Controls.Add(Me.ButtonGuardar)
-        Me.PanelOperarios.Location = New System.Drawing.Point(325, 43)
+        Me.PanelOperarios.Location = New System.Drawing.Point(325, 3)
         Me.PanelOperarios.Name = "PanelOperarios"
-        Me.PanelOperarios.Size = New System.Drawing.Size(491, 321)
+        Me.PanelOperarios.Size = New System.Drawing.Size(491, 361)
         Me.PanelOperarios.TabIndex = 9
         Me.PanelOperarios.Visible = False
         '
@@ -618,7 +618,7 @@ Partial Class Form_actualizar
         '
         'PanelDescuento
         '
-        Me.PanelDescuento.BackColor = System.Drawing.Color.Red
+        Me.PanelDescuento.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.PanelDescuento.Controls.Add(Me.checkHabilitar)
         Me.PanelDescuento.Controls.Add(Me.checkServicios)
         Me.PanelDescuento.Controls.Add(Me.checkParqueadero)
@@ -626,9 +626,9 @@ Partial Class Form_actualizar
         Me.PanelDescuento.Controls.Add(Me.Label13)
         Me.PanelDescuento.Controls.Add(Me.DataGridViewDescuento)
         Me.PanelDescuento.Controls.Add(Me.btnGuradarDto)
-        Me.PanelDescuento.Location = New System.Drawing.Point(320, 37)
+        Me.PanelDescuento.Location = New System.Drawing.Point(320, 3)
         Me.PanelDescuento.Name = "PanelDescuento"
-        Me.PanelDescuento.Size = New System.Drawing.Size(491, 327)
+        Me.PanelDescuento.Size = New System.Drawing.Size(491, 361)
         Me.PanelDescuento.TabIndex = 14
         Me.PanelDescuento.Visible = False
         '

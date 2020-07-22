@@ -41,6 +41,7 @@ Partial Class Form6
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.MySqlDecimalBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -107,12 +108,14 @@ Partial Class Form6
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(471, 19)
+        Me.Button1.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(471, 37)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 83)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "CREAR"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Size = New System.Drawing.Size(75, 65)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "CREAR CLIENTE"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label7
         '
@@ -180,7 +183,7 @@ Partial Class Form6
         Me.TextBox7.Location = New System.Drawing.Point(182, 37)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox7.TabIndex = 5
+        Me.TextBox7.TabIndex = 3
         Me.TextBox7.Tag = ""
         '
         'TextBox6
@@ -190,7 +193,7 @@ Partial Class Form6
         Me.TextBox6.Location = New System.Drawing.Point(356, 82)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox6.TabIndex = 4
+        Me.TextBox6.TabIndex = 7
         Me.TextBox6.Tag = ""
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -200,7 +203,7 @@ Partial Class Form6
         Me.TextBox5.Location = New System.Drawing.Point(23, 82)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 3
+        Me.TextBox5.TabIndex = 5
         Me.TextBox5.Tag = ""
         '
         'TextBox4
@@ -209,7 +212,7 @@ Partial Class Form6
         Me.TextBox4.Location = New System.Drawing.Point(356, 37)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 2
+        Me.TextBox4.TabIndex = 4
         Me.TextBox4.Tag = ""
         '
         'TextBox3
@@ -218,7 +221,7 @@ Partial Class Form6
         Me.TextBox3.Location = New System.Drawing.Point(182, 82)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 1
+        Me.TextBox3.TabIndex = 6
         Me.TextBox3.Tag = ""
         '
         'TextBox2
@@ -227,8 +230,18 @@ Partial Class Form6
         Me.TextBox2.Location = New System.Drawing.Point(23, 37)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 0
+        Me.TextBox2.TabIndex = 2
         Me.TextBox2.Tag = ""
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.Color.Tomato
+        Me.Label8.Location = New System.Drawing.Point(12, 9)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(112, 13)
+        Me.Label8.TabIndex = 55
+        Me.Label8.Text = "Oprima (Esc) para salir"
         '
         'Form6
         '
@@ -237,6 +250,7 @@ Partial Class Form6
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(886, 534)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBox1)
@@ -274,4 +288,5 @@ Partial Class Form6
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Label8 As Label
 End Class
