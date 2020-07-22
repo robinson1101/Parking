@@ -49,7 +49,7 @@ Public Class BUSCAR_CIERRE
         Try
 
             conexion_global()
-            _adaptadorA.SelectCommand = New MySqlCommand("SELECT id_fecha as 'ID',`fechaCierre` as 'FECHA_CIERRE' FROM `fecha_cierre`", _conexion)
+            _adaptadorA.SelectCommand = New MySqlCommand("SELECT id_fecha as 'ID',`fechaCierre` as 'FECHA_CIERRE' FROM `fecha_cierre` ORDER BY id_fecha DESC", _conexion)
             _adaptadorA.Fill(_dtsdatoscierreA)
             DataGridView1.DataSource = _dtsdatoscierreA.Tables(0)
             _conexion.Open()
