@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PARQUEADERO.exe" size="16417792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PARQUEADERO.exe" size="16416768">
       <assemblyIdentity name="PARQUEADERO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DvlqPkXQS4oRX+o490sUYrxx9A+wlV0oddOiSzmWcDI=</dsig:DigestValue>
+        <dsig:DigestValue>ULqFJRuGstYbZvZyc30zk8JPTc/GeZaniJDH/QTEVec=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
