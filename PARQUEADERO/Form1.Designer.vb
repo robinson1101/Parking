@@ -32,6 +32,9 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.checkDescServicios = New System.Windows.Forms.CheckBox()
         Me.lblVehiculo = New System.Windows.Forms.Label()
         Me.checkDescParqueadero = New System.Windows.Forms.CheckBox()
@@ -189,6 +192,9 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.White
+        Me.GroupBox1.Controls.Add(Me.Label42)
+        Me.GroupBox1.Controls.Add(Me.Label22)
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.checkDescServicios)
         Me.GroupBox1.Controls.Add(Me.lblVehiculo)
         Me.GroupBox1.Controls.Add(Me.checkDescParqueadero)
@@ -225,6 +231,39 @@ Partial Class Form1
         Me.GroupBox1.Size = New System.Drawing.Size(1027, 409)
         Me.GroupBox1.TabIndex = 4
         Me.GroupBox1.TabStop = False
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.Color.Red
+        Me.Label42.Location = New System.Drawing.Point(274, 133)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(36, 13)
+        Me.Label42.TabIndex = 84
+        Me.Label42.Text = "(F12)"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.Red
+        Me.Label22.Location = New System.Drawing.Point(157, 133)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(36, 13)
+        Me.Label22.TabIndex = 83
+        Me.Label22.Text = "(F11)"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Red
+        Me.Label3.Location = New System.Drawing.Point(60, 133)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(36, 13)
+        Me.Label3.TabIndex = 82
+        Me.Label3.Text = "(F10)"
         '
         'checkDescServicios
         '
@@ -1222,6 +1261,7 @@ Partial Class Form1
         DataGridViewCellStyle1.BackColor = System.Drawing.Color.Gray
         DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
         Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.Black
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
@@ -1524,9 +1564,9 @@ Partial Class Form1
         Me.ITEMHORA.CheckState = System.Windows.Forms.CheckState.Indeterminate
         Me.ITEMHORA.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text
         Me.ITEMHORA.Enabled = False
-        Me.ITEMHORA.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ITEMHORA.Font = New System.Drawing.Font("Segoe UI Black", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ITEMHORA.Name = "ITEMHORA"
-        Me.ITEMHORA.Size = New System.Drawing.Size(57, 21)
+        Me.ITEMHORA.Size = New System.Drawing.Size(59, 21)
         Me.ITEMHORA.Text = "HORA"
         '
         'PictureBoxImg
@@ -1754,4 +1794,7 @@ Partial Class Form1
     Friend WithEvents ITEMCONFIGURAR As ToolStripMenuItem
     Friend WithEvents ITEMUSUARIO As ToolStripMenuItem
     Friend WithEvents PictureBoxImg As PictureBox
+    Friend WithEvents Label42 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label3 As Label
 End Class

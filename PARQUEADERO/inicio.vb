@@ -40,6 +40,7 @@ Public Class inicio
     End Sub
 
     Private Sub PictureBoxIngreso_Click(sender As Object, e As EventArgs) Handles PictureBoxIngreso.Click
+
         Dim usuario As String
         Dim contraseña As String
         usuario = ""
@@ -51,7 +52,7 @@ Public Class inicio
             conexion.Open()
             lectura2 = cmd2.ExecuteReader
             If lectura2.Read() Then
-                Form1.ITEMUSUARIO.Text = lectura2(2)
+                Form1.ITEMUSUARIO.Text = "Usuario activo: " & lectura2(2)
                 usuario = lectura2(0)
                 contraseña = lectura2(1)
             End If

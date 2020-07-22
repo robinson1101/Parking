@@ -78,6 +78,7 @@ Public Class Form1
 
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         cargarImagen()
         TimerHora.Enabled = True
 
@@ -681,6 +682,7 @@ Public Class Form1
     End Sub
 
     Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
+        TextBox3.Focus()
         Dim cam As Integer
         TextBox3.Text = UCase(TextBox3.Text)
         cam = Len(TextBox3.Text)
@@ -1711,15 +1713,38 @@ Public Class Form1
     End Sub
 
     Private Sub TextBox3_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox3.KeyDown
-        'codigo para ejecutar el evento del enter
+        'codigo para ejecutar el evento a desancadenar
         If e.KeyCode = Keys.Enter Then
             Button2_Click(sender, e)
+        ElseIf e.KeyCode = Keys.F10 Then
+            PictureBox1_Click(sender, e)
+        ElseIf e.KeyCode = Keys.F11 Then
+            PictureBox6_Click(sender, e)
+        ElseIf e.KeyCode = Keys.F12 Then
+            PictureBox7_Click(sender, e)
         End If
     End Sub
 
-    Private Sub SALIRToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITEMUSUARIO.Click
-
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles MyBase.KeyDown
+        'codigo para ejecutar el evento del enter
+        If e.KeyCode = Keys.P Then
+            PictureBox1_Click(sender, e)
+        End If
     End Sub
+
+
+
+    Private Sub DataGridView1_KeyDown(sender As Object, e As KeyEventArgs) Handles DataGridView1.KeyDown
+        If e.KeyCode = Keys.F10 Then
+            PictureBox1_Click(sender, e)
+        ElseIf e.KeyCode = Keys.F11 Then
+            PictureBox6_Click(sender, e)
+        ElseIf e.KeyCode = Keys.F12 Then
+            PictureBox7_Click(sender, e)
+        End If
+    End Sub
+
+
 
     Private Sub REntradaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles REntradaToolStripMenuItem.Click
         REIMPRIMIR.ShowDialog()
