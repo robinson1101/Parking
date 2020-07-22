@@ -46,41 +46,41 @@ Public Class ELIMINAR2
         Dim yPos12 As Single = textFont12.GetHeight(e.Graphics)
         Dim yPosPred1 As Single = textFontPred1.GetHeight(e.Graphics)
         Dim yPosPred2 As Single = textFontPred2.GetHeight(e.Graphics)
-        Dim yIncrement As Single = 20
+        Dim yIncrement As Single = 0
 
         ' imprimimos la cadena
         If ELIMINAR.TextBox1.Text.Trim <> "" Then
-
-            e.Graphics.DrawString(ELIMINAR.TextBox1.Text, textFont1, Brushes.Black, 156, yPos1 + yIncrement, textFormat)
+            yIncrement += yPos1 + yIncrement
+            e.Graphics.DrawString(ELIMINAR.TextBox1.Text, textFont1, Brushes.Black, 156, yIncrement, textFormat)
 
         End If
 
         If ELIMINAR.TextBox2.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox2.Text, textFont2, Brushes.Black, 156, yPos2 + yIncrement, textFormat)
+            yIncrement += yPos2 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox2.Text, textFont2, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox3.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox3.Text, textFont3, Brushes.Black, 156, yPos3 + yIncrement, textFormat)
+            yIncrement += yPos3 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox3.Text, textFont3, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox4.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox4.Text, textFont4, Brushes.Black, 156, yPos4 + yIncrement, textFormat)
+            yIncrement += yPos4 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox4.Text, textFont4, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox5.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox5.Text, textFont5, Brushes.Black, 156, yPos5 + yIncrement, textFormat)
+            yIncrement += yPos5 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox5.Text, textFont5, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox6.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox6.Text, textFont6, Brushes.Black, 156, yPos6 + yIncrement, textFormat)
+            yIncrement += yPos6 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox6.Text, textFont6, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
-        yIncrement += 20
+        yIncrement += 8
         e.Graphics.DrawString("**********************************************************************", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
         yIncrement += 20
         e.Graphics.DrawString("FACTURA No:  200", textFontPred1, Brushes.Black, 40, yPosPred1 + yIncrement)
@@ -130,34 +130,34 @@ Public Class ELIMINAR2
         e.Graphics.DrawString("**********************************************************************", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
 
         If ELIMINAR.TextBox7.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox7.Text, textFont7, Brushes.Black, 156, yPos7 + yIncrement, textFormat)
+            yIncrement += 20 + yPos7
+            e.Graphics.DrawString(ELIMINAR.TextBox7.Text, textFont7, Brushes.Black, 156, yIncrement, textFormat)
 
         End If
 
         If ELIMINAR.TextBox8.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox8.Text, textFont8, Brushes.Black, 156, yPos8 + yIncrement, textFormat)
+            yIncrement += yPos8 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox8.Text, textFont8, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox9.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox9.Text, textFont9, Brushes.Black, 156, yPos9 + yIncrement, textFormat)
+            yIncrement += yPos9 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox9.Text, textFont9, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox10.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox10.Text, textFont10, Brushes.Black, 156, yPos10 + yIncrement, textFormat)
+            yIncrement += yPos10 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox10.Text, textFont10, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox11.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox11.Text, textFont11, Brushes.Black, 156, yPos11 + yIncrement, textFormat)
+            yIncrement += yPos11 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox11.Text, textFont11, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If ELIMINAR.TextBox12.Text.Trim <> "" Then
-            yIncrement += 20
-            e.Graphics.DrawString(ELIMINAR.TextBox12.Text, textFont12, Brushes.Black, 156, yPos12 + yIncrement, textFormat)
+            yIncrement += yPos12 + 3
+            e.Graphics.DrawString(ELIMINAR.TextBox12.Text, textFont12, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
 

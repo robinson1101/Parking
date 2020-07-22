@@ -145,41 +145,41 @@ Module factura_liquidar
         Dim yPos6 As Single = textFont6.GetHeight(e.Graphics)
         Dim yPosPred1 As Single = textFontPred1.GetHeight(e.Graphics)
         Dim yPosPred2 As Single = textFontPred2.GetHeight(e.Graphics)
-        Dim yIncrement As Single = 15
+        Dim yIncrement As Single = 0
 
         ' imprimimos la cadena
         If texto1 <> "" Then
-
-            e.Graphics.DrawString(texto1, textFont1, Brushes.Black, 156, yPos1 + yIncrement, textFormat)
+            yIncrement += yPos1 + yIncrement
+            e.Graphics.DrawString(texto1, textFont1, Brushes.Black, 156, yIncrement, textFormat)
 
         End If
 
         If texto2 <> "" Then
-            yIncrement += 15
-            e.Graphics.DrawString(texto2, textFont2, Brushes.Black, 156, yPos2 + yIncrement, textFormat)
+            yIncrement += yPos2 + 3
+            e.Graphics.DrawString(texto2, textFont2, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If texto3 <> "" Then
-            yIncrement += 15
-            e.Graphics.DrawString(texto3, textFont3, Brushes.Black, 156, yPos3 + yIncrement, textFormat)
+            yIncrement += yPos3 + 3
+            e.Graphics.DrawString(texto3, textFont3, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If texto4 <> "" Then
-            yIncrement += 15
-            e.Graphics.DrawString(texto4, textFont4, Brushes.Black, 156, yPos4 + yIncrement, textFormat)
+            yIncrement += yPos4 + 3
+            e.Graphics.DrawString(texto4, textFont4, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If texto5 <> "" Then
-            yIncrement += 15
-            e.Graphics.DrawString(texto5, textFont5, Brushes.Black, 156, yPos5 + yIncrement, textFormat)
+            yIncrement += yPos5 + 3
+            e.Graphics.DrawString(texto5, textFont5, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
         If texto6 <> "" Then
-            yIncrement += 15
-            e.Graphics.DrawString(texto6, textFont6, Brushes.Black, 156, yPos6 + yIncrement, textFormat)
+            yIncrement += yPos6 + 3
+            e.Graphics.DrawString(texto6, textFont6, Brushes.Black, 156, yIncrement, textFormat)
         End If
 
-        yIncrement += 15
+        yIncrement += 8
         e.Graphics.DrawString("**********************************************************************", textFontPred1, Brushes.Black, 156, yPosPred1 + yIncrement, textFormat)
         yIncrement += 15
         e.Graphics.DrawString("PAGO NOMINA", textFontPred2, Brushes.Black, 156, yPosPred2 + yIncrement, textFormat)
