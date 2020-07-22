@@ -28,6 +28,7 @@ Public Class VALIDAR_REPORTE_ADMIN
                 TextBox1.Text = ""
                 TextBox2.Text = ""
                 reportes_Admin.ShowDialog()
+                Me.Close()
 
             Else
                 MsgBox("DATOS DE SESION INCORRECTOS", MessageBoxIcon.Exclamation, "ACCESO DENEGADO")
