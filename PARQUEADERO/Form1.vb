@@ -57,7 +57,7 @@ Public Class Form1
         ComboBox1.DataSource = _dtsoperario.Tables("operarios")
         ComboBox1.DisplayMember = "nombre"
         Try
-            conexion1.ConnectionString = "server =localhost; user=root;password =cielito;database=parqueadero"
+            conexion1.ConnectionString = "server =localhost; user=root;password =cielito1;database=parqueadero"
             conexion1.Open()
 
 
@@ -237,7 +237,6 @@ Public Class Form1
 
         ' calculo de precios por tarifa de motos
         ' si label 13 es si tipo de vehiculo es 1 es carro 2 es moto y tres cicla
-
 
         Dim totalfact As Double
         Dim tarifa As Integer
@@ -792,7 +791,7 @@ Public Class Form1
 
     Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
 
-        Form_actualizar.Show()
+        Form_actualizar.ShowDialog()
 
     End Sub
 

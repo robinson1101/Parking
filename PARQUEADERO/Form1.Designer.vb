@@ -23,11 +23,11 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -157,13 +157,7 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.PowderBlue
-        Me.GroupBox1.Controls.Add(Me.CheckBox2)
-        Me.GroupBox1.Controls.Add(Me.PictureBox2)
-        Me.GroupBox1.Controls.Add(Me.CheckBox22)
-        Me.GroupBox1.Controls.Add(Me.CheckBox23)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
-        Me.GroupBox1.Controls.Add(Me.PictureBox4)
-        Me.GroupBox1.Controls.Add(Me.PictureBox3)
         Me.GroupBox1.Controls.Add(Me.Button8)
         Me.GroupBox1.Controls.Add(Me.Label24)
         Me.GroupBox1.Controls.Add(Me.CheckBox25)
@@ -180,7 +174,6 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.ComboBox1)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Location = New System.Drawing.Point(1, 51)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1027, 410)
@@ -193,7 +186,7 @@ Partial Class Form1
         Me.CheckBox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CheckBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox2.ForeColor = System.Drawing.Color.White
-        Me.CheckBox2.Location = New System.Drawing.Point(883, 109)
+        Me.CheckBox2.Location = New System.Drawing.Point(382, 208)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(131, 27)
         Me.CheckBox2.TabIndex = 10
@@ -204,7 +197,7 @@ Partial Class Form1
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox2.Image = Global.PARQUEADERO.My.Resources.Resources.motorcycle0
-        Me.PictureBox2.Location = New System.Drawing.Point(883, 9)
+        Me.PictureBox2.Location = New System.Drawing.Point(382, 108)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(131, 100)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -218,7 +211,7 @@ Partial Class Form1
         Me.CheckBox22.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CheckBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox22.ForeColor = System.Drawing.Color.White
-        Me.CheckBox22.Location = New System.Drawing.Point(502, 109)
+        Me.CheckBox22.Location = New System.Drawing.Point(1, 208)
         Me.CheckBox22.Name = "CheckBox22"
         Me.CheckBox22.Size = New System.Drawing.Size(140, 28)
         Me.CheckBox22.TabIndex = 54
@@ -233,7 +226,7 @@ Partial Class Form1
         Me.CheckBox23.Cursor = System.Windows.Forms.Cursors.Hand
         Me.CheckBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox23.ForeColor = System.Drawing.Color.White
-        Me.CheckBox23.Location = New System.Drawing.Point(692, 109)
+        Me.CheckBox23.Location = New System.Drawing.Point(191, 208)
         Me.CheckBox23.Name = "CheckBox23"
         Me.CheckBox23.Size = New System.Drawing.Size(142, 28)
         Me.CheckBox23.TabIndex = 55
@@ -270,7 +263,7 @@ Partial Class Form1
         Me.PictureBox4.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.PictureBox4.Image = Global.PARQUEADERO.My.Resources.Resources.automobile
         Me.PictureBox4.ImageLocation = ""
-        Me.PictureBox4.Location = New System.Drawing.Point(503, 10)
+        Me.PictureBox4.Location = New System.Drawing.Point(2, 109)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(140, 99)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -283,7 +276,7 @@ Partial Class Form1
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox3.Image = Global.PARQUEADERO.My.Resources.Resources.suv
         Me.PictureBox3.InitialImage = Global.PARQUEADERO.My.Resources.Resources.LOGO_SKYNET
-        Me.PictureBox3.Location = New System.Drawing.Point(692, 9)
+        Me.PictureBox3.Location = New System.Drawing.Point(191, 108)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(142, 100)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
@@ -292,7 +285,7 @@ Partial Class Form1
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(56, 262)
+        Me.Button8.Location = New System.Drawing.Point(56, 226)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(105, 63)
         Me.Button8.TabIndex = 62
@@ -312,7 +305,7 @@ Partial Class Form1
         '
         Me.CheckBox25.AutoSize = True
         Me.CheckBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox25.Location = New System.Drawing.Point(163, 76)
+        Me.CheckBox25.Location = New System.Drawing.Point(56, 350)
         Me.CheckBox25.Name = "CheckBox25"
         Me.CheckBox25.Size = New System.Drawing.Size(200, 33)
         Me.CheckBox25.TabIndex = 59
@@ -325,26 +318,31 @@ Partial Class Form1
         Me.CheckBox24.Checked = True
         Me.CheckBox24.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox24.Location = New System.Drawing.Point(811, 380)
+        Me.CheckBox24.Location = New System.Drawing.Point(56, 311)
         Me.CheckBox24.Name = "CheckBox24"
         Me.CheckBox24.Size = New System.Drawing.Size(216, 33)
         Me.CheckBox24.TabIndex = 56
         Me.CheckBox24.Text = "PARQUEADERO"
         Me.CheckBox24.UseVisualStyleBackColor = True
-        Me.CheckBox24.Visible = False
         '
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.Transparent
+        Me.GroupBox4.Controls.Add(Me.CheckBox2)
         Me.GroupBox4.Controls.Add(Me.CheckBox8)
         Me.GroupBox4.Controls.Add(Me.CheckBox7)
+        Me.GroupBox4.Controls.Add(Me.PictureBox2)
         Me.GroupBox4.Controls.Add(Me.CheckBox9)
         Me.GroupBox4.Controls.Add(Me.CheckBox11)
+        Me.GroupBox4.Controls.Add(Me.CheckBox22)
+        Me.GroupBox4.Controls.Add(Me.PictureBox3)
+        Me.GroupBox4.Controls.Add(Me.PictureBox4)
+        Me.GroupBox4.Controls.Add(Me.CheckBox23)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.ForeColor = System.Drawing.Color.Navy
-        Me.GroupBox4.Location = New System.Drawing.Point(502, 150)
+        Me.GroupBox4.Location = New System.Drawing.Point(502, 7)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(516, 99)
+        Me.GroupBox4.Size = New System.Drawing.Size(516, 242)
         Me.GroupBox4.TabIndex = 57
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "SERVICIOS"
@@ -389,9 +387,9 @@ Partial Class Form1
         Me.CheckBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox11.Location = New System.Drawing.Point(321, 58)
         Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(135, 29)
+        Me.CheckBox11.Size = New System.Drawing.Size(140, 29)
         Me.CheckBox11.TabIndex = 17
-        Me.CheckBox11.Text = "TAPIZADO"
+        Me.CheckBox11.Text = "TAPICERIA"
         Me.CheckBox11.UseVisualStyleBackColor = True
         '
         'Label27
@@ -437,7 +435,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(287, 113)
+        Me.Button6.Location = New System.Drawing.Point(287, 79)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(134, 64)
         Me.Button6.TabIndex = 8
@@ -449,7 +447,7 @@ Partial Class Form1
         Me.Button1.BackColor = System.Drawing.Color.MediumBlue
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button1.Location = New System.Drawing.Point(164, 262)
+        Me.Button1.Location = New System.Drawing.Point(164, 226)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(257, 63)
         Me.Button1.TabIndex = 23
@@ -460,7 +458,7 @@ Partial Class Form1
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(52, 182)
+        Me.Label23.Location = New System.Drawing.Point(52, 146)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(122, 24)
         Me.Label23.TabIndex = 33
@@ -469,7 +467,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(163, 113)
+        Me.Button5.Location = New System.Drawing.Point(162, 79)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(117, 64)
         Me.Button5.TabIndex = 34
@@ -482,7 +480,7 @@ Partial Class Form1
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(56, 208)
+        Me.ComboBox1.Location = New System.Drawing.Point(56, 172)
         Me.ComboBox1.MaxDropDownItems = 50
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(365, 40)
@@ -492,7 +490,7 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(948, -10)
+        Me.Label6.Location = New System.Drawing.Point(701, -1)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(30, 42)
         Me.Label6.TabIndex = 6
@@ -928,43 +926,43 @@ Partial Class Form1
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToResizeColumns = False
         Me.DataGridView1.AllowUserToResizeRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Gray
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle6.BackColor = System.Drawing.Color.Gray
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle6
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkGray
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Lime
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkGray
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.Lime
+        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle7
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle8
         Me.DataGridView1.GridColor = System.Drawing.Color.White
         Me.DataGridView1.Location = New System.Drawing.Point(1, 467)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle4
-        DataGridViewCellStyle5.BackColor = System.Drawing.Color.DimGray
-        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.White
-        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle9.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Microsoft Sans Serif", 3.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle9
+        DataGridViewCellStyle10.BackColor = System.Drawing.Color.DimGray
+        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.White
+        Me.DataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle10
         Me.DataGridView1.Size = New System.Drawing.Size(1361, 326)
         Me.DataGridView1.TabIndex = 12
         '
@@ -1229,6 +1227,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Label17)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label37)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label5)

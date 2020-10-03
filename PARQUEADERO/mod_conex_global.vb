@@ -10,7 +10,7 @@ Module mod_conex_global
 
         Dim estado As Boolean = True
         Try
-            _cadena = ("Server=localhost;user id=root;password=;database=Parqueadero;")
+            _cadena = ("Server=localhost;user id=root;password=cielito1;database=Parqueadero;")
             _conexion = New MySqlConnection(_cadena)
             '  _conexion.Open()
 

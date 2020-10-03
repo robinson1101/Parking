@@ -43,30 +43,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BouncyCastle.Crypto.dll" size="2453504">
-      <assemblyIdentity name="BouncyCastle.Crypto" version="1.8.3.0" publicKeyToken="0E99375E54769942" language="neutral" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SikSNsUBe/37MPrUw9tNBhTDYsS1NAnGELEtSD17JuY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Google.Protobuf.dll" size="298496">
-      <assemblyIdentity name="Google.Protobuf" version="3.6.1.0" publicKeyToken="A7D26565BAC4D604" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tmCHIa/sZfxfbRML4V98ONw3aJn73tQolsd5EaiejRM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="4091904">
       <assemblyIdentity name="itextsharp" version="5.5.6.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -103,38 +79,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="770048">
-      <assemblyIdentity name="MySql.Data" version="8.0.18.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="382976">
+      <assemblyIdentity name="MySql.Data" version="6.6.4.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>p2W1N/jvKtfTtkCJwl7oqYenqusuYafmei73Wtm/3lg=</dsig:DigestValue>
+        <dsig:DigestValue>sgoMXDOT5lkrgO09EJLwPij2ZLUchINTSGlrAPPtD/4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PARQUEADERO.exe" size="15843328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PARQUEADERO.exe" size="15848448">
       <assemblyIdentity name="PARQUEADERO" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>obBxtyuvHC5FzWSyyCxrqcCfhT1sHIPXWVReF/2eDRs=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Renci.SshNet.dll" size="422912">
-      <assemblyIdentity name="Renci.SshNet" version="2016.1.0.0" publicKeyToken="1CEE9F8BDE3DB106" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>9jFe0UZDj3cCAzaBBD+P6WkO05oqvJoZIkZCSUSjono=</dsig:DigestValue>
+        <dsig:DigestValue>A3HaTsBqcJdJne925K2n7tgDsg4nj7qujsH5cWSE40s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -147,13 +111,13 @@
       <dsig:DigestValue>wqt4DW6wcAiChoAApA33IFECLgqDh3xnGJjJiD6yVsI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="PARQUEADERO.exe.config" size="2930">
+  <file name="PARQUEADERO.exe.config" size="2946">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>d4aJcLajUuA4BK4Eq0c/VmSQo6f8yWXvwMiflk9kaQ4=</dsig:DigestValue>
+      <dsig:DigestValue>RhlYWEw/RHzK+MluUkaJMtw3KzEJ0+pwmFtcS8btYx8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\boton_inicio.png" size="63032">
