@@ -10,11 +10,16 @@ Imports System.Runtime.InteropServices
 
 Public Class reportes_Admin
     Dim cadena As String = ConfigurationManager.ConnectionStrings("cadenaMysql").ToString
-    Dim varconex, conexion2 As New MySqlConnection(cadena)
+    Dim varconex, conexion2, conexion3 As New MySqlConnection(cadena)
     Dim datos, datos2, codata, codata3 As New DataSet 'los datos que estan en la base de datos son clases 
     Dim fila As Integer
+    Dim conversorMoneda As New conversorMoneda
     Public sql, cmd, sql2 As New MySqlCommand
 
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Me.Close()
+    End Sub
     Private Sub reportes_Admin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -32,19 +37,39 @@ Public Class reportes_Admin
 
         consultar_admin()
         consultar_admin2()
-        Dim parqueo As String
-        parqueo = Val(Label6.Text) - Val(Label8.Text)
-        Label10.Text = parqueo
-        Dim PORCENTAJE As Decimal
-        PORCENTAJE = Val(Label8.Text) * 60 / 100
-        Dim utilidad As String
-        utilidad = Val(Label10.Text) + PORCENTAJE
-        Label13.Text = PORCENTAJE
-        Label14.Text = utilidad
+        Dim parqueo As String = "0"
+        Dim PORCENTAJE As String = "0"
+
+        Dim cmd1 As New MySqlCommand("SELECT SUM(`ingreso_vehiculos`.`parqueaderoReal`) as total, SUM(`servicioReal`-((`servicio`*`servicioRealOp`)/100)) as SUMA  FROM ingreso_vehiculos WHERE ingreso_vehiculos.hora_salida BETWEEN '" & Label1.Text & "' AND '" & Label2.Text & "' and hora_salida != '' ", conexion3)
+        Try
+            Dim lectura2 As MySqlDataReader
+            If Not conexion3 Is Nothing Then conexion3.Close()
+            conexion3.Open()
+            lectura2 = cmd1.ExecuteReader()
+            If lectura2.Read() Then
+
+                parqueo = lectura2(0)
+                PORCENTAJE = lectura2(1)
+
+            End If
+            conexion3.Close()
+        Catch ex As Exception
+
+        End Try
+
+        Label10.Text = conversorMoneda.ajustar_precio(parqueo)
+
+
+        PORCENTAJE = conversorMoneda.ajustar_precio(Math.Round(Convert.ToDouble(PORCENTAJE)))
+
+        Dim utilidad As String = "0"
+        utilidad = Val(Label10.Text) + Val(PORCENTAJE)
+        Label13.Text = conversorMoneda.ajustar_precio(PORCENTAJE)
+        Label14.Text = conversorMoneda.ajustar_precio(utilidad)
 
     End Sub
     Sub consultar_admin()
-        Dim NoCaja As String = "SELECT SUM(`ingreso_vehiculos`.`total`)as total  FROM ingreso_vehiculos WHERE ingreso_vehiculos.hora_salida BETWEEN '" & Label1.Text & "' AND '" & Label2.Text & "' "
+        Dim NoCaja As String = "SELECT SUM(`ingreso_vehiculos`.`total`)as total  FROM ingreso_vehiculos WHERE ingreso_vehiculos.hora_salida BETWEEN '" & Label1.Text & "' AND '" & Label2.Text & "' and hora_salida != '' "
         If varconex.State = ConnectionState.Closed Then varconex.Open()
         Dim da2 As New MySqlDataAdapter(NoCaja, varconex)
 
@@ -52,7 +77,7 @@ Public Class reportes_Admin
 
 
         nomb_caja = ""
-
+        Label6.Text = "0"
 
         sql.CommandText = NoCaja
         Sql.Connection = varconex
@@ -65,22 +90,27 @@ Public Class reportes_Admin
                 'id_caja = codata.Tables(0).Rows(0).Item("id_caja")
 
             End If
-            Label6.Text = nomb_caja
+            Label6.Text = conversorMoneda.ajustar_precio(nomb_caja)
         Catch ex As Exception
-            MessageBox.Show(" No hay facturas de ese lapso de tiempo, en el siguiente mensaje de click en continuar")
+            Label6.Text = "0"
+            Label8.Text = "0"
+            Label10.Text = "0"
+            Label13.Text = "0"
+            Label14.Text = "0"
+            MessageBox.Show(" No hay facturas en ese lapso de tiempo")
             Me.Show()
         End Try
 
     End Sub
     Sub consultar_admin2()
-        Dim NoCaja As String = "SELECT SUM(`ingreso_vehiculos`.`servicio`)as total  FROM ingreso_vehiculos WHERE ingreso_vehiculos.hora_salida BETWEEN '" & Label1.Text & "' AND '" & Label2.Text & "' "
+        Dim NoCaja As String = "SELECT SUM(`ingreso_vehiculos`.`servicioReal`) as total  FROM ingreso_vehiculos WHERE ingreso_vehiculos.hora_salida BETWEEN '" & Label1.Text & "' AND '" & Label2.Text & "' and hora_salida != '' "
         If varconex.State = ConnectionState.Closed Then varconex.Open()
         Dim da2 As New MySqlDataAdapter(NoCaja, varconex)
 
         Dim nomb_caja As String
         Dim id_caja As String
 
-        nomb_caja = ""
+        nomb_caja = "0"
 
 
         sql.CommandText = NoCaja
@@ -89,11 +119,13 @@ Public Class reportes_Admin
         codata.Clear()
         da2.Fill(codata)
         If codata.Tables(0).Rows.Count > 0 Then
-            nomb_caja = codata.Tables(0).Rows(0).Item("total")
+            nomb_caja = Convert.ToString(codata.Tables(0).Rows(0).Item("total"))
             'id_caja = codata.Tables(0).Rows(0).Item("id_caja")
-
         End If
-        Label8.Text = nomb_caja
+        If nomb_caja = "" Then
+            nomb_caja = "0"
+        End If
+        Label8.Text = conversorMoneda.ajustar_precio(nomb_caja)
     End Sub
 
     Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
