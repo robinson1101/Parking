@@ -880,3 +880,9 @@ C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\
 C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.exe
 C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.xml
 C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.pdb
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.BUSCAR_CIERRE.resources
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.costos.resources
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.ELIMINAR.resources
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.ELIMINAR2.resources
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.VALIDAR_REPORTE_ADMIN.resources
+C:\Users\cielo\Documents\ferney\ROBIN\proyecto parking\proyecto parking\Parking\PARQUEADERO\obj\Debug\PARQUEADERO.WELCOME.resources
